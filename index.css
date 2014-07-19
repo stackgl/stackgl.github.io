@@ -14,7 +14,11 @@ body, html {
   padding: 0;
   background: #fff;
   line-height: 1.5em;
-  font-family: 'Inconsolata', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Ubuntu Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4A4F5E;
+}
+
+strong {
   color: #4A4F5E;
 }
 
@@ -108,12 +112,13 @@ h1 .lighter {
   border-radius: 3px;
   background-size: cover;
   background-color: #DEE7FF;
+  border: 1px solid #DEE7FF;
   background-position: 50% 50%;
 }
 
 .featured .thumb-image {
-  height: 383px;
-  height: 422px;
+  height: 385px;
+  height: 424px;
 }
 
 .thumb {
@@ -143,6 +148,12 @@ h1 .lighter {
 
 .thumb-filter > li:after {
   content: ' / ';
+  color: #DEE7FF;
+}
+
+.thumb-filter > li.selected a {
+  color: #FF6F5C;
+  border-bottom-color: #FF6F5C;
 }
 
 .thumb-filter > li:last-child:after {
