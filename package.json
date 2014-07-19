@@ -25,23 +25,24 @@
     "splash-grid"
   ],
   "scripts": {
+    "prestart": "node data/regenerate",
     "start": "beefy index.js:bundle.js --open",
     "postinstall": "npm install node_modules/splash-grid"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/hughsk/gl-modules.github.io.git"
+    "url": "https://github.com/gl-modules/gl-modules.github.io.git"
   },
   "contributors": [
-    "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+    "Hugh Kennedy <hughskennedy@gmail.com>",
     "Mikola Lysenko <mikolalysenko@gmail.com>",
     "Chris Dickinson <chris@neversaw.us>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/hughsk/gl-modules.github.io/issues"
+    "url": "https://github.com/gl-modules/gl-modules.github.io/issues"
   },
-  "homepage": "https://github.com/hughsk/gl-modules.github.io",
+  "homepage": "https://github.com/gl-modules/gl-modules.github.io",
   "devDependencies": {
     "beefy": "^2.0.3"
   }
