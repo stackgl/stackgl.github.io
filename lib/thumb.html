@@ -1,0 +1,17 @@
+<li class="thumb {{#featured}}featured{{/featured}}">
+    <figure>
+      <a href="{{link}}" title="{{name}}" target="_blank">
+        <div class="thumb-image" style="background-image:url({{thumb}})"></div>
+      </a>
+      <figcaption>
+        <a href="{{link}}" title="{{name}}" target="_blank">
+          <h1>{{name}}</h1>
+        </a>
+        <div class="desc">
+          {{#featured}}
+            {{!desc}}
+          {{/featured}}
+        </div>
+      </figcaption>
+    </figure>
+</li>
