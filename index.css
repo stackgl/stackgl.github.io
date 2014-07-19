@@ -1,0 +1,72 @@
+abbr,address,article,aside,audio,b,blockquote,body,canvas,caption,cite,code,dd,del,details,dfn,div,dl,dt,em,fieldset,figcaption,figure,footer,form,h1,h2,h3,h4,h5,h6,header,hgroup,html,i,iframe,img,ins,kbd,label,legend,li,mark,menu,nav,object,ol,p,pre,q,samp,section,small,span,strong,sub,summary,sup,table,tbody,td,tfoot,th,thead,time,tr,ul,var,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:0 0}body{line-height:1}article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}nav
+ul{list-style:none}blockquote,q{quotes:none}blockquote:after,blockquote:before,q:after,q:before{content:'';content:none}a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:0
+0}ins{background-color:#ff9;color:#000;text-decoration:none}mark{background-color:#ff9;color:#000;font-style:italic;font-weight:700}del{text-decoration:line-through}abbr[title],dfn[title]{border-bottom:1px
+dotted;cursor:help}table{border-collapse:collapse;border-spacing:0}hr{display:block;height:1px;border:0;border-top:1px
+solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
+
+/**
+ * General
+ */
+body, html {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  line-height: 1.5em;
+  font-family: 'Inconsolata', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  color: #4A4F5E;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px solid #66C4FF;
+  color: #66C4FF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 100;
+  line-height: 1em;
+  color: #34363B;
+}
+
+h1 { font-size: 2.5em; }
+h1 .lighter {
+  color: #A9B0C2;
+}
+
+/**
+ * Splash/Intro
+ */
+#intro {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background: rgba(255,255,255,0.75);
+  padding: 2em;
+}
+
+#intro h1 {
+  margin-bottom: 0.3em;
+}
+
+#intro aside {
+  max-width: 400px;
+  color: #4A4F5E;
+  font-size: 0.9em;
+}
+
+#intro ul {
+  color: #DEE7FF;
+  list-style-type: none;
+  white-space: pre;
+  margin-bottom: 2em;
+}
+
+#intro ul > li {
+  display: inline-block;
+}
+
+#splash canvas {
+  z-index: 1;
+}

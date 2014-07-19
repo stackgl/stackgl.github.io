@@ -1,0 +1,35 @@
+{
+  "name": "stack.gl",
+  "version": "0.0.0",
+  "description": "stack.gl's site",
+  "main": "index.js",
+  "private": true,
+  "dependencies": {
+    "frame-debounce": "0.0.0",
+    "sliced": "0.0.5"
+  },
+  "bundledDependencies": [
+    "splash-grid"
+  ],
+  "scripts": {
+    "start": "beefy index.js:bundle.js --open",
+    "postinstall": "npm install node_modules/splash-grid"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hughsk/gl-modules.github.io.git"
+  },
+  "contributors": [
+    "Hugh Kennedy <hughskennedy@gmail.com> (http://hughsk.io/)",
+    "Mikola Lysenko <mikolalysenko@gmail.com>",
+    "Chris Dickinson <chris@neversaw.us>"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hughsk/gl-modules.github.io/issues"
+  },
+  "homepage": "https://github.com/hughsk/gl-modules.github.io",
+  "devDependencies": {
+    "beefy": "^2.0.3"
+  }
+}
