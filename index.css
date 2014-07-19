@@ -107,6 +107,7 @@ h1 .lighter {
   height: 175px;
   border-radius: 3px;
   background-size: cover;
+  background-color: #DEE7FF;
   background-position: 50% 50%;
 }
 
@@ -128,4 +129,22 @@ h1 .lighter {
 .thumb.featured .desc {
   font-size: 0.8em;
   line-height: 1.5em;
+}
+
+.thumb-filter {
+  list-style-type: none;
+  margin-bottom: 1em;
+}
+
+.thumb-filter > li {
+  display: inline-block;
+  text-transform: lowercase;
+}
+
+.thumb-filter > li:after {
+  content: ' / ';
+}
+
+.thumb-filter > li:last-child:after {
+  content: '';
 }
