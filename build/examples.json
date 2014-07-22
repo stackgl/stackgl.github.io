@@ -1,0 +1,66 @@
+[
+  {
+    "name": "shader-school",
+    "link": "http://github.com/gl-modules/shader-school",
+    "desc": "<p>An introduction to GLSL shaders and graphics programming that runs in your\nbrowser. <strong>shader-school</strong> is a <a href=\"http://nodeschool.io/\">NodeSchool workshop</a>\noriginally created for <a href=\"http://nodeconf.com/\">NodeConf 2014</a>. Everything is\npowered by browserify, glslify and modules from the stackgl ecosystem under\nthe hood.</p>",
+    "thumb": "http://imgur.com/hegi9dZ.png",
+    "featured": true,
+    "i": 0
+  },
+  {
+    "name": "glsl.io",
+    "link": "http://glsl.io/",
+    "desc": "",
+    "thumb": "http://imgur.com/56SPiLL.png",
+    "featured": false,
+    "i": 1
+  },
+  {
+    "name": "run.south.im",
+    "link": "http://run.south.im/",
+    "desc": "",
+    "thumb": "http://imgur.com/kZjW5QD.png",
+    "featured": false,
+    "i": 2
+  },
+  {
+    "name": "nodesource.com",
+    "link": "http://nodesource.com/",
+    "desc": "",
+    "thumb": "http://imgur.com/tCKuJfx.png",
+    "featured": false,
+    "i": 3
+  },
+  {
+    "name": "voxel-mipmap-demo",
+    "link": "https://github.com/mikolalysenko/voxel-mipmap-demo/",
+    "desc": "",
+    "thumb": "http://imgur.com/9eUBmfB.png",
+    "featured": false,
+    "i": 4
+  },
+  {
+    "name": "raymarch",
+    "link": "https://github.com/mikolalysenko/raymarch/",
+    "desc": "",
+    "thumb": "http://imgur.com/NpvsXIH.png",
+    "featured": false,
+    "i": 5
+  },
+  {
+    "name": "particle-excess-demo",
+    "link": "https://github.com/hughsk/particle-excess-demo/",
+    "desc": "",
+    "thumb": "http://imgur.com/YyrtLqM.png",
+    "featured": false,
+    "i": 6
+  },
+  {
+    "name": "web-audio-analyser",
+    "link": "https://github.com/hughsk/web-audio-analyser/",
+    "desc": "",
+    "thumb": "http://imgur.com/xhPfMFP.png",
+    "featured": false,
+    "i": 7
+  }
+]
