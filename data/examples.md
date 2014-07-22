@@ -20,6 +20,10 @@ originally created for [NodeConf 2014](http://nodeconf.com/). Everything is
 powered by browserify, glslify and modules from the stackgl ecosystem under
 the hood.
 
+## [glsl.io](http://glsl.io/)
+
+![glsl.io](http://imgur.com/56SPiLL.png)
+
 ## [run.south.im](http://run.south.im/)
 
 ![run.south.im](http://imgur.com/kZjW5QD.png)
