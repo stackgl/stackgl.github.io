@@ -27,7 +27,8 @@
   "scripts": {
     "prestart": "node data/regenerate",
     "start": "beefy index.js:bundle.js --open",
-    "postinstall": "npm install node_modules/splash-grid"
+    "postinstall": "npm install node_modules/splash-grid",
+    "bundle": "npm run prestart && browserify index.js -o bundle.js"
   },
   "repository": {
     "type": "git",
