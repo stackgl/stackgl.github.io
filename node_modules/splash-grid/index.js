@@ -67,6 +67,8 @@ module.exports = function(canvas) {
   function render() {
     var width  = canvas.width
     var height = canvas.height
+    if (window.scrollY > height) return
+
     var now    = getTime() * TIMESCALE
 
     heightmap.bind()
