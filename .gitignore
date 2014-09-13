@@ -4,4 +4,3 @@ node_modules/splash-*/node_modules
 node_modules/splash-*/.gitignore
 node_modules/splash-*/.npmignore
 build/*.json
-bundle.js
