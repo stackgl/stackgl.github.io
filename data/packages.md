@@ -82,12 +82,14 @@ To add a new package:
 ## Shader Transforms
 
 ### glslify-hex
+![glslify-hex](http://imgur.com/Dh8CPE9.png)
 ### glslify-import
+![glslify-import](http://imgur.com/7trTmBF.png)
 
-## File Parsers
 ## Visualisation
 
 ### gl-compare
+![gl-compare](http://imgur.com/z8BkmZl.jpg)
 
 ## Internals
 

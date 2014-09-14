@@ -340,28 +340,27 @@ module.exports={
   "Shader Transforms": [
     {
       "name": "glslify-hex",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/glslify-hex",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/Dh8CPE9.png",
       "featured": false,
       "i": 0
     },
     {
       "name": "glslify-import",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/glslify-import",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/7trTmBF.png",
       "featured": false,
       "i": 1
     }
   ],
-  "File Parsers": [],
   "Visualisation": [
     {
       "name": "gl-compare",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/gl-compare",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/z8BkmZl.jpg",
       "featured": false,
       "i": 0
     }
