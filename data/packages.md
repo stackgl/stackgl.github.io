@@ -21,8 +21,11 @@ To add a new package:
 ## Tools
 
 ### glslify
+![glslify](http://imgur.com/ThMYeUx.png)
 ### glslify-live
+![glslify-live](http://imgur.com/9mmysos.png)
 ### glslify-optimize
+![glslify-optimize](http://imgur.com/pF9tmNg.png)
 
 ## Math
 
@@ -33,9 +36,14 @@ To add a new package:
 
 ## Camera Controls
 
+### turntable-camera
+![turntable-camera](http://imgur.com/3wiGD3K.png)
 ### orbit-camera
+![orbit-camera](http://imgur.com/BPkl0Yh.png)
 ### game-shell-orbit-camera
+![game-shell-orbit-camera](http://imgur.com/BPkl0Yh.png)
 ### canvas-orbit-camera
+![canvas-orbit-camera](http://imgur.com/BPkl0Yh.png)
 
 ## Initialization
 

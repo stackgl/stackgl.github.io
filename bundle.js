@@ -94,9 +94,9 @@ module.exports={
   "WebGL Core": [
     {
       "name": "gl-vao",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/gl-vao",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/iv3pOSh.png",
       "featured": false,
       "i": 0
     },
@@ -110,17 +110,17 @@ module.exports={
     },
     {
       "name": "gl-texture2d",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/gl-texture2d",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/ZkcCvzx.jpg",
       "featured": false,
       "i": 2
     },
     {
       "name": "gl-buffer",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/gl-buffer",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/JFZGJBx.png",
       "featured": false,
       "i": 3
     }
@@ -128,69 +128,37 @@ module.exports={
   "Tools": [
     {
       "name": "glslify",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/glslify",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/ThMYeUx.png",
       "featured": false,
       "i": 0
     },
     {
       "name": "glslify-live",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/glslify-live",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/9mmysos.png",
       "featured": false,
       "i": 1
     },
     {
       "name": "glslify-optimize",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/glslify-optimize",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/pF9tmNg.png",
       "featured": false,
       "i": 2
     }
   ],
   "Math": [
     {
-      "name": "gl-vec2",
-      "desc": "",
-      "link": "http://ghub.io/gl-vec2",
-      "thumb": "default.jpg",
-      "featured": false,
-      "i": 0
-    },
-    {
-      "name": "gl-vec3",
-      "desc": "",
-      "link": "http://ghub.io/gl-vec3",
-      "thumb": "default.jpg",
-      "featured": false,
-      "i": 1
-    },
-    {
-      "name": "gl-vec4",
-      "desc": "",
-      "link": "http://ghub.io/gl-vec4",
-      "thumb": "default.jpg",
-      "featured": false,
-      "i": 2
-    },
-    {
-      "name": "gl-quat",
-      "desc": "",
-      "link": "http://ghub.io/gl-quat",
-      "thumb": "default.jpg",
-      "featured": false,
-      "i": 3
-    },
-    {
       "name": "gl-mat2",
       "desc": "",
       "link": "http://ghub.io/gl-mat2",
       "thumb": "default.jpg",
       "featured": false,
-      "i": 4
+      "i": 0
     },
     {
       "name": "gl-mat3",
@@ -198,7 +166,7 @@ module.exports={
       "link": "http://ghub.io/gl-mat3",
       "thumb": "default.jpg",
       "featured": false,
-      "i": 5
+      "i": 1
     },
     {
       "name": "gl-mat4",
@@ -206,33 +174,49 @@ module.exports={
       "link": "http://ghub.io/gl-mat4",
       "thumb": "default.jpg",
       "featured": false,
-      "i": 6
+      "i": 2
+    },
+    {
+      "name": "gl-matrix",
+      "desc": "",
+      "link": "http://ghub.io/gl-matrix",
+      "thumb": "default.jpg",
+      "featured": false,
+      "i": 3
     }
   ],
   "Camera Controls": [
     {
-      "name": "orbit-camera",
-      "desc": "",
-      "link": "http://ghub.io/orbit-camera",
-      "thumb": "default.jpg",
+      "name": "turntable-camera",
+      "desc": "\n",
+      "link": "http://ghub.io/turntable-camera",
+      "thumb": "http://imgur.com/3wiGD3K.png",
       "featured": false,
       "i": 0
     },
     {
-      "name": "game-shell-orbit-camera",
-      "desc": "",
-      "link": "http://ghub.io/game-shell-orbit-camera",
-      "thumb": "default.jpg",
+      "name": "orbit-camera",
+      "desc": "\n",
+      "link": "http://ghub.io/orbit-camera",
+      "thumb": "http://imgur.com/BPkl0Yh.png",
       "featured": false,
       "i": 1
     },
     {
-      "name": "canvas-orbit-camera",
-      "desc": "",
-      "link": "http://ghub.io/canvas-orbit-camera",
-      "thumb": "default.jpg",
+      "name": "game-shell-orbit-camera",
+      "desc": "\n",
+      "link": "http://ghub.io/game-shell-orbit-camera",
+      "thumb": "http://imgur.com/BPkl0Yh.png",
       "featured": false,
       "i": 2
+    },
+    {
+      "name": "canvas-orbit-camera",
+      "desc": "\n",
+      "link": "http://ghub.io/canvas-orbit-camera",
+      "thumb": "http://imgur.com/BPkl0Yh.png",
+      "featured": false,
+      "i": 3
     }
   ],
   "Initialization": [
