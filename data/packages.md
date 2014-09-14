@@ -10,11 +10,13 @@ To add a new package:
 ## WebGL Core
 
 ### gl-vao
+![gl-vao](http://imgur.com/iv3pOSh.png)
 ### gl-fbo
 ![gl-fbo](http://imgur.com/xiXCQGN.png)
-
 ### gl-texture2d
+![gl-texture2d](http://imgur.com/ZkcCvzx.jpg)
 ### gl-buffer
+![gl-buffer](http://imgur.com/JFZGJBx.png)
 
 ## Tools
 
@@ -24,13 +26,10 @@ To add a new package:
 
 ## Math
 
-### gl-vec2
-### gl-vec3
-### gl-vec4
-### gl-quat
 ### gl-mat2
 ### gl-mat3
 ### gl-mat4
+### gl-matrix
 
 ## Camera Controls
 
