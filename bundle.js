@@ -306,11 +306,19 @@ module.exports={
     },
     {
       "name": "glsl-noise",
-      "desc": "",
+      "desc": "\n",
       "link": "http://ghub.io/glsl-noise",
-      "thumb": "default.jpg",
+      "thumb": "http://imgur.com/BFITCvl.jpg",
       "featured": false,
       "i": 2
+    },
+    {
+      "name": "glsl-curl-noise",
+      "desc": "\n",
+      "link": "http://ghub.io/glsl-curl-noise",
+      "thumb": "http://imgur.com/ABlBkoE.png",
+      "featured": false,
+      "i": 3
     },
     {
       "name": "glsl-random",
@@ -318,7 +326,7 @@ module.exports={
       "link": "http://ghub.io/glsl-random",
       "thumb": "http://imgur.com/9EOo2or.png",
       "featured": false,
-      "i": 3
+      "i": 4
     },
     {
       "name": "glsl-fog",
@@ -326,7 +334,7 @@ module.exports={
       "link": "http://ghub.io/glsl-fog",
       "thumb": "http://imgur.com/8l0otem.png",
       "featured": false,
-      "i": 4
+      "i": 5
     }
   ],
   "Shader Transforms": [

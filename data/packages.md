@@ -68,6 +68,11 @@ To add a new package:
 ![glsl-dither](http://imgur.com/D4ccYiJ.png)
 
 ### glsl-noise
+![glsl-noise](http://imgur.com/BFITCvl.jpg)
+
+### glsl-curl-noise
+![glsl-curl-noise](http://imgur.com/ABlBkoE.png)
+
 ### glsl-random
 ![glsl-random](http://imgur.com/9EOo2or.png)
 
