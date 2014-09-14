@@ -44,6 +44,14 @@ the hood.
 
 ![raymarch](http://imgur.com/NpvsXIH.png)
 
+## [moire #1](http://hughsk.io/moire-1)
+
+![moire-1](http://imgur.com/9tbJfnF.png)
+
+## [campjs.com](http://campjs.com/)
+
+![campjs](http://imgur.com/d47Vesp.png)
+
 ## [particle-excess-demo](https://github.com/hughsk/particle-excess-demo/)
 
 ![particle-excess-demo](http://imgur.com/YyrtLqM.png)
