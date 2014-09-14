@@ -16,12 +16,20 @@
     "i": 1
   },
   {
+    "name": "kami",
+    "link": "https://github.com/mattdesl/kami",
+    "desc": "",
+    "thumb": "http://imgur.com/j5W3Tuw.png",
+    "featured": false,
+    "i": 2
+  },
+  {
     "name": "run.south.im",
     "link": "http://run.south.im/",
     "desc": "",
     "thumb": "http://imgur.com/kZjW5QD.png",
     "featured": false,
-    "i": 2
+    "i": 3
   },
   {
     "name": "nodesource.com",
@@ -29,7 +37,7 @@
     "desc": "",
     "thumb": "http://imgur.com/tCKuJfx.png",
     "featured": false,
-    "i": 3
+    "i": 4
   },
   {
     "name": "voxel-mipmap-demo",
@@ -37,7 +45,7 @@
     "desc": "",
     "thumb": "http://imgur.com/9eUBmfB.png",
     "featured": false,
-    "i": 4
+    "i": 5
   },
   {
     "name": "raymarch",
@@ -45,7 +53,23 @@
     "desc": "",
     "thumb": "http://imgur.com/NpvsXIH.png",
     "featured": false,
-    "i": 5
+    "i": 6
+  },
+  {
+    "name": "moire #1",
+    "link": "http://hughsk.io/moire-1",
+    "desc": "",
+    "thumb": "http://imgur.com/9tbJfnF.png",
+    "featured": false,
+    "i": 7
+  },
+  {
+    "name": "campjs.com",
+    "link": "http://campjs.com/",
+    "desc": "",
+    "thumb": "http://imgur.com/d47Vesp.png",
+    "featured": false,
+    "i": 8
   },
   {
     "name": "particle-excess-demo",
@@ -53,7 +77,7 @@
     "desc": "",
     "thumb": "http://imgur.com/YyrtLqM.png",
     "featured": false,
-    "i": 6
+    "i": 9
   },
   {
     "name": "web-audio-analyser",
@@ -61,6 +85,6 @@
     "desc": "",
     "thumb": "http://imgur.com/xhPfMFP.png",
     "featured": false,
-    "i": 7
+    "i": 10
   }
 ]

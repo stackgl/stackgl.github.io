@@ -24,6 +24,10 @@ the hood.
 
 ![glsl.io](http://imgur.com/56SPiLL.png)
 
+## [kami](https://github.com/mattdesl/kami)
+
+![kami](http://imgur.com/j5W3Tuw.png)
+
 ## [run.south.im](http://run.south.im/)
 
 ![run.south.im](http://imgur.com/kZjW5QD.png)
@@ -39,6 +43,14 @@ the hood.
 ## [raymarch](https://github.com/mikolalysenko/raymarch/)
 
 ![raymarch](http://imgur.com/NpvsXIH.png)
+
+## [moire #1](http://hughsk.io/moire-1)
+
+![moire-1](http://imgur.com/9tbJfnF.png)
+
+## [campjs.com](http://campjs.com/)
+
+![campjs](http://imgur.com/d47Vesp.png)
 
 ## [particle-excess-demo](https://github.com/hughsk/particle-excess-demo/)
 

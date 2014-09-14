@@ -7,7 +7,7 @@ var slice     = require('sliced')
 var fs        = require('fs')
 
 require('./lib/fill')(document.querySelectorAll('[data-fill]'))
-require('splash-grid')(canvas)
+require('@stackgl/splash-grid')(canvas)
 
 var thumb = minstache.compile(fs.readFileSync(
   __dirname + '/lib/thumb.html'

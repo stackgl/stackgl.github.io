@@ -1,5 +1,2 @@
-node_modules/*
-!node_modules/splash-*
-node_modules/splash-*/node_modules
-node_modules/splash-*/.gitignore
-node_modules/splash-*/.npmignore
+node_modules
+build/*.json
