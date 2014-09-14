@@ -57,12 +57,28 @@ module.exports=[
     "i": 6
   },
   {
+    "name": "moire #1",
+    "link": "http://hughsk.io/moire-1",
+    "desc": "",
+    "thumb": "http://imgur.com/9tbJfnF.png",
+    "featured": false,
+    "i": 7
+  },
+  {
+    "name": "campjs.com",
+    "link": "http://campjs.com/",
+    "desc": "",
+    "thumb": "http://imgur.com/d47Vesp.png",
+    "featured": false,
+    "i": 8
+  },
+  {
     "name": "particle-excess-demo",
     "link": "https://github.com/hughsk/particle-excess-demo/",
     "desc": "",
     "thumb": "http://imgur.com/YyrtLqM.png",
     "featured": false,
-    "i": 7
+    "i": 9
   },
   {
     "name": "web-audio-analyser",
@@ -70,7 +86,7 @@ module.exports=[
     "desc": "",
     "thumb": "http://imgur.com/xhPfMFP.png",
     "featured": false,
-    "i": 8
+    "i": 10
   }
 ]
 },{}],2:[function(require,module,exports){
@@ -459,7 +475,7 @@ var minstache = require('minstache')
 var domify    = require('domify')
 var slice     = require('sliced')
 require('./lib/fill')(document.querySelectorAll('[data-fill]'))
-require('splash-grid')(canvas)
+require('@stackgl/splash-grid')(canvas)
 
 var thumb = minstache.compile("<li {{#group}}data-filter=\"{{group}}\"{{/group}} class=\"thumb {{#featured}}featured{{/featured}}\">\n    <figure>\n      <a href=\"{{link}}\" title=\"{{name}}\" target=\"_blank\">\n        <div class=\"thumb-image\" style=\"background-image:url({{thumb}})\"></div>\n      </a>\n      <figcaption>\n        <a href=\"{{link}}\" title=\"{{name}}\" target=\"_blank\">\n          <h1>{{name}}</h1>\n        </a>\n        <div class=\"desc\">\n          {{#featured}}\n            {{!desc}}\n          {{/featured}}\n        </div>\n      </figcaption>\n    </figure>\n</li>\n")
 
@@ -493,7 +509,7 @@ pkgEl
   .querySelector('ul.thumb-filter')
   .appendChild(filter(pkgEl))
 
-},{"./build/examples.json":1,"./build/packages.json":2,"./lib/fill":4,"./lib/filter":5,"domify":6,"minstache":10,"sliced":11,"splash-grid":14}],4:[function(require,module,exports){
+},{"./build/examples.json":1,"./build/packages.json":2,"./lib/fill":4,"./lib/filter":5,"@stackgl/splash-grid":7,"domify":99,"minstache":103,"sliced":104}],4:[function(require,module,exports){
 var debounce = require('frame-debounce')
 
 module.exports = fill
@@ -517,7 +533,7 @@ function fill(elements) {
   }
 }
 
-},{"frame-debounce":8}],5:[function(require,module,exports){
+},{"frame-debounce":101}],5:[function(require,module,exports){
 var findup    = require('findup-element')
 var minstache = require('minstache')
 var domify    = require('domify')
@@ -570,401 +586,10 @@ module.exports = function(thumbs) {
   return list
 }
 
-},{"domify":6,"findup-element":7,"minstache":10,"sliced":11}],6:[function(require,module,exports){
-
-/**
- * Expose `parse`.
- */
-
-module.exports = parse;
-
-/**
- * Wrap map from jquery.
- */
-
-var map = {
-  legend: [1, '<fieldset>', '</fieldset>'],
-  tr: [2, '<table><tbody>', '</tbody></table>'],
-  col: [2, '<table><tbody></tbody><colgroup>', '</colgroup></table>'],
-  _default: [0, '', '']
-};
-
-map.td =
-map.th = [3, '<table><tbody><tr>', '</tr></tbody></table>'];
-
-map.option =
-map.optgroup = [1, '<select multiple="multiple">', '</select>'];
-
-map.thead =
-map.tbody =
-map.colgroup =
-map.caption =
-map.tfoot = [1, '<table>', '</table>'];
-
-map.text =
-map.circle =
-map.ellipse =
-map.line =
-map.path =
-map.polygon =
-map.polyline =
-map.rect = [1, '<svg xmlns="http://www.w3.org/2000/svg" version="1.1">','</svg>'];
-
-/**
- * Parse `html` and return a DOM Node instance, which could be a TextNode,
- * HTML DOM Node of some kind (<div> for example), or a DocumentFragment
- * instance, depending on the contents of the `html` string.
- *
- * @param {String} html - HTML string to "domify"
- * @param {Document} doc - The `document` instance to create the Node for
- * @return {DOMNode} the TextNode, DOM Node, or DocumentFragment instance
- * @api private
- */
-
-function parse(html, doc) {
-  if ('string' != typeof html) throw new TypeError('String expected');
-
-  // default to the global `document` object
-  if (!doc) doc = document;
-
-  // tag name
-  var m = /<([\w:]+)/.exec(html);
-  if (!m) return doc.createTextNode(html);
-
-  html = html.replace(/^\s+|\s+$/g, ''); // Remove leading/trailing whitespace
-
-  var tag = m[1];
-
-  // body support
-  if (tag == 'body') {
-    var el = doc.createElement('html');
-    el.innerHTML = html;
-    return el.removeChild(el.lastChild);
-  }
-
-  // wrap map
-  var wrap = map[tag] || map._default;
-  var depth = wrap[0];
-  var prefix = wrap[1];
-  var suffix = wrap[2];
-  var el = doc.createElement('div');
-  el.innerHTML = prefix + html + suffix;
-  while (depth--) el = el.lastChild;
-
-  // one element
-  if (el.firstChild == el.lastChild) {
-    return el.removeChild(el.firstChild);
-  }
-
-  // several elements
-  var fragment = doc.createDocumentFragment();
-  while (el.firstChild) {
-    fragment.appendChild(el.removeChild(el.firstChild));
-  }
-
-  return fragment;
-}
-
-},{}],7:[function(require,module,exports){
-module.exports = findup
-
-function findup(child, check) {
-  if (typeof check === 'string')   check = byName(check)
-  if (typeof check !== 'function') check = byExact(check)
-
-  while (
-    child &&
-   !check(child)
-  ) child = child.parentNode
-
-
-  return child || null
-}
-
-function byName(name) {
-  name = String(name).toUpperCase()
-
-  return function(element) {
-    return name === element.nodeName
-  }
-}
-
-function byExact(el) {
-  return function(element) {
-    return el === element
-  }
-}
-
-},{}],8:[function(require,module,exports){
-(function (process){
-var slice = require('sliced')
-
-if (process.browser) {
-  var raf = require('raf-component')
-} else {
-  var raf = typeof setImmediate !== 'undefined'
-    ? setImmediate
-    : process.nextTick
-}
-
-module.exports = debounce
-
-function debounce(fn, now) {
-  var args = null
-  var ctx = null
-
-  return debounced
-
-  function debounced() {
-    if (args !== null) return
-    args = slice(arguments)
-    ctx = this
-    if (now) fn.apply(ctx, args)
-    raf(next)
-  }
-
-  function next() {
-    if (!now) fn.apply(ctx, args)
-    args = null
-    ctx = null
-  }
-}
-
-}).call(this,require('_process'))
-},{"_process":109,"raf-component":9,"sliced":11}],9:[function(require,module,exports){
-/**
- * Expose `requestAnimationFrame()`.
- */
-
-exports = module.exports = window.requestAnimationFrame
-  || window.webkitRequestAnimationFrame
-  || window.mozRequestAnimationFrame
-  || window.oRequestAnimationFrame
-  || window.msRequestAnimationFrame
-  || fallback;
-
-/**
- * Fallback implementation.
- */
-
-var prev = new Date().getTime();
-function fallback(fn) {
-  var curr = new Date().getTime();
-  var ms = Math.max(0, 16 - (curr - prev));
-  var req = setTimeout(fn, ms);
-  prev = curr;
-  return req;
-}
-
-/**
- * Cancel.
- */
-
-var cancel = window.cancelAnimationFrame
-  || window.webkitCancelAnimationFrame
-  || window.mozCancelAnimationFrame
-  || window.oCancelAnimationFrame
-  || window.msCancelAnimationFrame
-  || window.clearTimeout;
-
-exports.cancel = function(id){
-  cancel.call(window, id);
-};
-
-},{}],10:[function(require,module,exports){
-
-/**
- * Expose `render()`.`
- */
-
-exports = module.exports = render;
-
-/**
- * Expose `compile()`.
- */
-
-exports.compile = compile;
-
-/**
- * Render the given mustache `str` with `obj`.
- *
- * @param {String} str
- * @param {Object} obj
- * @return {String}
- * @api public
- */
-
-function render(str, obj) {
-  obj = obj || {};
-  var fn = compile(str);
-  return fn(obj);
-}
-
-/**
- * Compile the given `str` to a `Function`.
- *
- * @param {String} str
- * @return {Function}
- * @api public
- */
-
-function compile(str) {
-  var js = [];
-  var toks = parse(str);
-  var tok;
-
-  for (var i = 0; i < toks.length; ++i) {
-    tok = toks[i];
-    if (i % 2 == 0) {
-      js.push('"' + tok.replace(/"/g, '\\"') + '"');
-    } else {
-      switch (tok[0]) {
-        case '/':
-          tok = tok.slice(1);
-          js.push(' }) + ');
-          break;
-        case '^':
-          tok = tok.slice(1);
-          assertProperty(tok);
-          js.push(' + section(obj, "' + tok + '", true, function(obj){ return ');
-          break;
-        case '#':
-          tok = tok.slice(1);
-          assertProperty(tok);
-          js.push(' + section(obj, "' + tok + '", false, function(obj){ return ');
-          break;
-        case '!':
-          tok = tok.slice(1);
-          assertProperty(tok);
-          js.push(' + obj.' + tok + ' + ');
-          break;
-        default:
-          assertProperty(tok);
-          js.push(' + escape(obj.' + tok + ') + ');
-      }
-    }
-  }
-
-  js = '\n'
-    + indent(escape.toString()) + ';\n\n'
-    + indent(section.toString()) + ';\n\n'
-    + '  return ' + js.join('').replace(/\n/g, '\\n');
-
-  return new Function('obj', js);
-}
-
-/**
- * Assert that `prop` is a valid property.
- *
- * @param {String} prop
- * @api private
- */
-
-function assertProperty(prop) {
-  if (!prop.match(/^[\w.]+$/)) throw new Error('invalid property "' + prop + '"');
-}
-
-/**
- * Parse `str`.
- *
- * @param {String} str
- * @return {Array}
- * @api private
- */
-
-function parse(str) {
-  return str.split(/\{\{|\}\}/);
-}
-
-/**
- * Indent `str`.
- *
- * @param {String} str
- * @return {String}
- * @api private
- */
-
-function indent(str) {
-  return str.replace(/^/gm, '  ');
-}
-
-/**
- * Section handler.
- *
- * @param {Object} context obj
- * @param {String} prop
- * @param {Function} thunk
- * @param {Boolean} negate
- * @api private
- */
-
-function section(obj, prop, negate, thunk) {
-  var val = obj[prop];
-  if (Array.isArray(val)) return val.map(thunk).join('');
-  if ('function' == typeof val) return val.call(obj, thunk(obj));
-  if (negate) val = !val;
-  if (val) return thunk(obj);
-  return '';
-}
-
-/**
- * Escape the given `html`.
- *
- * @param {String} html
- * @return {String}
- * @api private
- */
-
-function escape(html) {
-  return String(html)
-    .replace(/&/g, '&amp;')
-    .replace(/"/g, '&quot;')
-    .replace(/</g, '&lt;')
-    .replace(/>/g, '&gt;');
-}
-
-},{}],11:[function(require,module,exports){
-module.exports = exports = require('./lib/sliced');
-
-},{"./lib/sliced":12}],12:[function(require,module,exports){
-
-/**
- * An Array.prototype.slice.call(arguments) alternative
- *
- * @param {Object} args something with a length
- * @param {Number} slice
- * @param {Number} sliceEnd
- * @api public
- */
-
-module.exports = function (args, slice, sliceEnd) {
-  var ret = [];
-  var len = args.length;
-
-  if (0 === len) return ret;
-
-  var start = slice < 0
-    ? Math.max(0, slice + len)
-    : slice || 0;
-
-  if (sliceEnd !== undefined) {
-    len = sliceEnd < 0
-      ? sliceEnd + len
-      : sliceEnd
-  }
-
-  while (len-- > start) {
-    ret[len - start] = args[len];
-  }
-
-  return ret;
-}
-
-
-},{}],13:[function(require,module,exports){
+},{"domify":99,"findup-element":100,"minstache":103,"sliced":104}],6:[function(require,module,exports){
 module.exports=require('ndpack-image')(1,256,4,"iVBORw0KGgoAAAANSUhEUgAAAQAAAAABCAYAAAAxWXB3AAAAAklEQVR4AewaftIAAADsSURBVCXBgXEEIQADsZW5/lv+DERS/dBDF3roQlkXeoj1EOshVnSxItZjoSzWQyzWb2JFF6e2WBGrLVbEaosV2YpYka0sZCti/SZWZMpClIQQ2oROQhRC6BBCUwiNRmhEobM1oqTRmdCIGp1JGlGzvokaoW9Cq9C3Yk1R3xY1QseaQqMzjajR6BCaGp0JjaizRY3QmUaq0ZnQCI02nUSh0aYRoqSzRSGEDiGKYlGsqU0IoRHLtC2EkImFItTEykIRshWhiPUjFKEs1ISyUIQi1kMoMqHoQhGKLlYkPYSiC0UXii70KPRPF3ro+gNf1gb72t6EvgAAAABJRU5ErkJggg==")
 
-},{"ndpack-image":101}],14:[function(require,module,exports){
+},{"ndpack-image":94}],7:[function(require,module,exports){
 var createCamera = require("orbit-camera");
 var createTex2d = require("gl-texture2d");
 var createGeom = require("gl-geometry");
@@ -1097,7 +722,7 @@ function getEdges(meshes) {
         return mesh;
     });
 }
-},{"./gradient-map":13,"a-big-triangle":31,"canvas-fit":32,"clone":34,"cube-cube":35,"face-normals":38,"frame-debounce":39,"gl-clear":44,"gl-context":45,"gl-fbo":47,"gl-geometry":50,"gl-matrix":75,"gl-texture2d":88,"glslify":90,"glslify/adapter.js":89,"mesh-combine":96,"orbit-camera":103,"right-now":104,"unindex-mesh":105}],15:[function(require,module,exports){
+},{"./gradient-map":6,"a-big-triangle":24,"canvas-fit":25,"clone":27,"cube-cube":28,"face-normals":31,"frame-debounce":32,"gl-clear":37,"gl-context":38,"gl-fbo":40,"gl-geometry":43,"gl-matrix":68,"gl-texture2d":81,"glslify":83,"glslify/adapter.js":82,"mesh-combine":89,"orbit-camera":96,"right-now":97,"unindex-mesh":98}],8:[function(require,module,exports){
 "use strict"
 
 var pool = require("typedarray-pool")
@@ -1262,7 +887,7 @@ function createBuffer(gl, type, data, usage) {
 }
 
 module.exports = createBuffer
-},{"ndarray":21,"ndarray-ops":16,"typedarray-pool":25}],16:[function(require,module,exports){
+},{"ndarray":14,"ndarray-ops":9,"typedarray-pool":18}],9:[function(require,module,exports){
 "use strict"
 
 var compile = require("cwise-compiler")
@@ -1725,7 +1350,7 @@ exports.equals = compile({
 
 
 
-},{"cwise-compiler":17}],17:[function(require,module,exports){
+},{"cwise-compiler":10}],10:[function(require,module,exports){
 "use strict"
 
 var createThunk = require("./lib/thunk.js")
@@ -1833,7 +1458,7 @@ function compileCwise(user_args) {
 
 module.exports = compileCwise
 
-},{"./lib/thunk.js":19}],18:[function(require,module,exports){
+},{"./lib/thunk.js":12}],11:[function(require,module,exports){
 "use strict"
 
 var uniq = require("uniq")
@@ -2121,7 +1746,7 @@ function generateCWiseOp(proc, typesig) {
   return f()
 }
 module.exports = generateCWiseOp
-},{"uniq":20}],19:[function(require,module,exports){
+},{"uniq":13}],12:[function(require,module,exports){
 "use strict"
 
 var compile = require("./compile.js")
@@ -2170,7 +1795,7 @@ function createThunk(proc) {
 
 module.exports = createThunk
 
-},{"./compile.js":18}],20:[function(require,module,exports){
+},{"./compile.js":11}],13:[function(require,module,exports){
 "use strict"
 
 function unique_pred(list, compare) {
@@ -2229,7 +1854,7 @@ function unique(list, compare, sorted) {
 
 module.exports = unique
 
-},{}],21:[function(require,module,exports){
+},{}],14:[function(require,module,exports){
 (function (Buffer){
 var iota = require("iota-array")
 
@@ -2629,7 +2254,7 @@ function wrappedNDArrayCtor(data, shape, stride, offset) {
 
 module.exports = wrappedNDArrayCtor
 }).call(this,require("buffer").Buffer)
-},{"buffer":106,"iota-array":22}],22:[function(require,module,exports){
+},{"buffer":106,"iota-array":15}],15:[function(require,module,exports){
 "use strict"
 
 function iota(n) {
@@ -2641,7 +2266,7 @@ function iota(n) {
 }
 
 module.exports = iota
-},{}],23:[function(require,module,exports){
+},{}],16:[function(require,module,exports){
 /**
  * Bit twiddling hacks for JavaScript.
  *
@@ -2847,7 +2472,7 @@ exports.nextCombination = function(v) {
 }
 
 
-},{}],24:[function(require,module,exports){
+},{}],17:[function(require,module,exports){
 "use strict"
 
 function dupe_array(count, value, i) {
@@ -2897,7 +2522,7 @@ function dupe(count, value) {
 }
 
 module.exports = dupe
-},{}],25:[function(require,module,exports){
+},{}],18:[function(require,module,exports){
 (function (global){
 "use strict"
 
@@ -3182,7 +2807,7 @@ exports.clearCache = function clearCache() {
 }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{"bit-twiddle":23,"dup":24}],26:[function(require,module,exports){
+},{"bit-twiddle":16,"dup":17}],19:[function(require,module,exports){
 "use strict"
 
 function doBind(gl, elements, attributes) {
@@ -3237,7 +2862,7 @@ function doBind(gl, elements, attributes) {
 }
 
 module.exports = doBind
-},{}],27:[function(require,module,exports){
+},{}],20:[function(require,module,exports){
 "use strict"
 
 var bindAttribs = require("./do-bind.js")
@@ -3265,7 +2890,7 @@ function createVAOEmulated(gl) {
 }
 
 module.exports = createVAOEmulated
-},{"./do-bind.js":26}],28:[function(require,module,exports){
+},{"./do-bind.js":19}],21:[function(require,module,exports){
 "use strict"
 
 var bindAttribs = require("./do-bind.js")
@@ -3299,7 +2924,7 @@ function createVAONative(gl, ext) {
 }
 
 module.exports = createVAONative
-},{"./do-bind.js":26}],29:[function(require,module,exports){
+},{"./do-bind.js":19}],22:[function(require,module,exports){
 "use strict";
 
 var VENDOR_PREFIX = [
@@ -3335,7 +2960,7 @@ function initWebGLEW(gl) {
   return extensions;
 }
 module.exports = initWebGLEW;
-},{}],30:[function(require,module,exports){
+},{}],23:[function(require,module,exports){
 "use strict"
 
 var webglew = require("webglew")
@@ -3355,7 +2980,7 @@ function createVAO(gl, elements, attributes) {
 }
 
 module.exports = createVAO
-},{"./lib/vao-emulated.js":27,"./lib/vao-native.js":28,"webglew":29}],31:[function(require,module,exports){
+},{"./lib/vao-emulated.js":20,"./lib/vao-native.js":21,"webglew":22}],24:[function(require,module,exports){
 "use strict"
 
 var createBuffer = require("gl-buffer")
@@ -3385,7 +3010,7 @@ function createABigTriangle(gl) {
 }
 
 module.exports = createABigTriangle
-},{"gl-buffer":15,"gl-vao":30}],32:[function(require,module,exports){
+},{"gl-buffer":8,"gl-vao":23}],25:[function(require,module,exports){
 var size = require('element-size')
 
 module.exports = fit
@@ -3416,7 +3041,7 @@ function fit(canvas) {
   }
 }
 
-},{"element-size":33}],33:[function(require,module,exports){
+},{"element-size":26}],26:[function(require,module,exports){
 module.exports = getSize
 
 function getSize(element) {
@@ -3448,7 +3073,7 @@ function parse(prop) {
   return parseFloat(prop) || 0
 }
 
-},{}],34:[function(require,module,exports){
+},{}],27:[function(require,module,exports){
 (function (Buffer){
 'use strict';
 
@@ -3581,7 +3206,7 @@ clone.clonePrototype = function(parent) {
 };
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":106}],35:[function(require,module,exports){
+},{"buffer":106}],28:[function(require,module,exports){
 var prism  = require('rectangular-prism')
 var truthy = function() { return true }
 
@@ -3608,7 +3233,7 @@ function cubecube(w, h, d, filter) {
   return cubes
 }
 
-},{"rectangular-prism":37}],36:[function(require,module,exports){
+},{"rectangular-prism":30}],29:[function(require,module,exports){
 module.exports = {
   cells: [
     [1, 0, 2],
@@ -3636,7 +3261,7 @@ module.exports = {
   ]
 }
 
-},{}],37:[function(require,module,exports){
+},{}],30:[function(require,module,exports){
 var prism = require('./cube')
 
 module.exports = createPrism
@@ -3674,7 +3299,7 @@ function clonePrism() {
   }
 }
 
-},{"./cube":36}],38:[function(require,module,exports){
+},{"./cube":29}],31:[function(require,module,exports){
 module.exports = faceNormals
 
 function faceNormals(verts, output) {
@@ -3729,15 +3354,121 @@ function faceNormals(verts, output) {
   return output
 }
 
-},{}],39:[function(require,module,exports){
-arguments[4][8][0].apply(exports,arguments)
-},{"_process":109,"raf-component":40,"sliced":41}],40:[function(require,module,exports){
-module.exports=require(9)
-},{}],41:[function(require,module,exports){
-arguments[4][11][0].apply(exports,arguments)
-},{"./lib/sliced":42}],42:[function(require,module,exports){
-module.exports=require(12)
-},{}],43:[function(require,module,exports){
+},{}],32:[function(require,module,exports){
+(function (process){
+var slice = require('sliced')
+
+if (process.browser) {
+  var raf = require('raf-component')
+} else {
+  var raf = typeof setImmediate !== 'undefined'
+    ? setImmediate
+    : process.nextTick
+}
+
+module.exports = debounce
+
+function debounce(fn, now) {
+  var args = null
+  var ctx = null
+
+  return debounced
+
+  function debounced() {
+    if (args !== null) return
+    args = slice(arguments)
+    ctx = this
+    if (now) fn.apply(ctx, args)
+    raf(next)
+  }
+
+  function next() {
+    if (!now) fn.apply(ctx, args)
+    args = null
+    ctx = null
+  }
+}
+
+}).call(this,require('_process'))
+},{"_process":109,"raf-component":33,"sliced":34}],33:[function(require,module,exports){
+/**
+ * Expose `requestAnimationFrame()`.
+ */
+
+exports = module.exports = window.requestAnimationFrame
+  || window.webkitRequestAnimationFrame
+  || window.mozRequestAnimationFrame
+  || window.oRequestAnimationFrame
+  || window.msRequestAnimationFrame
+  || fallback;
+
+/**
+ * Fallback implementation.
+ */
+
+var prev = new Date().getTime();
+function fallback(fn) {
+  var curr = new Date().getTime();
+  var ms = Math.max(0, 16 - (curr - prev));
+  var req = setTimeout(fn, ms);
+  prev = curr;
+  return req;
+}
+
+/**
+ * Cancel.
+ */
+
+var cancel = window.cancelAnimationFrame
+  || window.webkitCancelAnimationFrame
+  || window.mozCancelAnimationFrame
+  || window.oCancelAnimationFrame
+  || window.msCancelAnimationFrame
+  || window.clearTimeout;
+
+exports.cancel = function(id){
+  cancel.call(window, id);
+};
+
+},{}],34:[function(require,module,exports){
+module.exports = exports = require('./lib/sliced');
+
+},{"./lib/sliced":35}],35:[function(require,module,exports){
+
+/**
+ * An Array.prototype.slice.call(arguments) alternative
+ *
+ * @param {Object} args something with a length
+ * @param {Number} slice
+ * @param {Number} sliceEnd
+ * @api public
+ */
+
+module.exports = function (args, slice, sliceEnd) {
+  var ret = [];
+  var len = args.length;
+
+  if (0 === len) return ret;
+
+  var start = slice < 0
+    ? Math.max(0, slice + len)
+    : slice || 0;
+
+  if (sliceEnd !== undefined) {
+    len = sliceEnd < 0
+      ? sliceEnd + len
+      : sliceEnd
+  }
+
+  while (len-- > start) {
+    ret[len - start] = args[len];
+  }
+
+  return ret;
+}
+
+
+},{}],36:[function(require,module,exports){
 module.exports = defaults
 
 function defaults(opts) {
@@ -3764,7 +3495,7 @@ function array(a, def) {
     : def
 }
 
-},{}],44:[function(require,module,exports){
+},{}],37:[function(require,module,exports){
 var defaults = require('./defaults')
 
 module.exports = clear
@@ -3798,7 +3529,7 @@ function clear(opts) {
   }
 }
 
-},{"./defaults":43}],45:[function(require,module,exports){
+},{"./defaults":36}],38:[function(require,module,exports){
 var raf = require('raf-component')
 
 module.exports = createContext
@@ -3830,9 +3561,9 @@ function createContext(canvas, opts, render) {
   }
 }
 
-},{"raf-component":46}],46:[function(require,module,exports){
-module.exports=require(9)
-},{}],47:[function(require,module,exports){
+},{"raf-component":39}],39:[function(require,module,exports){
+module.exports=require(33)
+},{}],40:[function(require,module,exports){
 "use strict";
 
 var webglew = require("webglew")
@@ -4211,7 +3942,7 @@ function createFBO(gl, width, height, options) {
     useStencil, 
     extensions.WEBGL_draw_buffers)
 }
-},{"gl-texture2d":88,"webglew":49}],48:[function(require,module,exports){
+},{"gl-texture2d":81,"webglew":42}],41:[function(require,module,exports){
 /* (The MIT License)
  *
  * Copyright (c) 2012 Brandon Benvie <http://bbenvie.com>
@@ -4453,7 +4184,7 @@ void function(global, undefined_, undefined){
     global.WeakMap.createStorage = createStorage;
 }((0, eval)('this'));
 
-},{}],49:[function(require,module,exports){
+},{}],42:[function(require,module,exports){
 "use strict";
 
 var weakMap = typeof WeakMap === "undefined" ? require("weakmap") : WeakMap
@@ -4490,7 +4221,7 @@ function initWebGLEW(gl) {
   return extensions
 }
 module.exports = initWebGLEW
-},{"weakmap":48}],50:[function(require,module,exports){
+},{"weakmap":41}],43:[function(require,module,exports){
 var normalize = require('./normalize')
 var createVAO = require('gl-vao')
 
@@ -4600,7 +4331,7 @@ GLGeometry.prototype.update = function update() {
   )
 }
 
-},{"./normalize":74,"gl-vao":71}],51:[function(require,module,exports){
+},{"./normalize":67,"gl-vao":64}],44:[function(require,module,exports){
 var dtype = require('dtype')
 
 module.exports = pack
@@ -4628,7 +4359,7 @@ function pack(arr, type) {
   return out
 }
 
-},{"dtype":52}],52:[function(require,module,exports){
+},{"dtype":45}],45:[function(require,module,exports){
 module.exports = function(dtype) {
   switch (dtype) {
     case 'int8':
@@ -4651,7 +4382,7 @@ module.exports = function(dtype) {
       return Array
   }
 }
-},{}],53:[function(require,module,exports){
+},{}],46:[function(require,module,exports){
 "use strict"
 
 var pool = require("typedarray-pool")
@@ -4803,25 +4534,25 @@ function createBuffer(gl, data, type, usage) {
 }
 
 module.exports = createBuffer
-},{"ndarray":59,"ndarray-ops":54,"typedarray-pool":63,"webglew":65}],54:[function(require,module,exports){
-arguments[4][16][0].apply(exports,arguments)
-},{"cwise-compiler":55}],55:[function(require,module,exports){
-arguments[4][17][0].apply(exports,arguments)
-},{"./lib/thunk.js":57}],56:[function(require,module,exports){
-arguments[4][18][0].apply(exports,arguments)
-},{"uniq":58}],57:[function(require,module,exports){
-arguments[4][19][0].apply(exports,arguments)
-},{"./compile.js":56}],58:[function(require,module,exports){
-module.exports=require(20)
-},{}],59:[function(require,module,exports){
-arguments[4][21][0].apply(exports,arguments)
-},{"buffer":106,"iota-array":60}],60:[function(require,module,exports){
-module.exports=require(22)
-},{}],61:[function(require,module,exports){
-module.exports=require(23)
-},{}],62:[function(require,module,exports){
-module.exports=require(24)
-},{}],63:[function(require,module,exports){
+},{"ndarray":52,"ndarray-ops":47,"typedarray-pool":56,"webglew":58}],47:[function(require,module,exports){
+arguments[4][9][0].apply(exports,arguments)
+},{"cwise-compiler":48}],48:[function(require,module,exports){
+arguments[4][10][0].apply(exports,arguments)
+},{"./lib/thunk.js":50}],49:[function(require,module,exports){
+arguments[4][11][0].apply(exports,arguments)
+},{"uniq":51}],50:[function(require,module,exports){
+arguments[4][12][0].apply(exports,arguments)
+},{"./compile.js":49}],51:[function(require,module,exports){
+module.exports=require(13)
+},{}],52:[function(require,module,exports){
+arguments[4][14][0].apply(exports,arguments)
+},{"buffer":106,"iota-array":53}],53:[function(require,module,exports){
+module.exports=require(15)
+},{}],54:[function(require,module,exports){
+module.exports=require(16)
+},{}],55:[function(require,module,exports){
+module.exports=require(17)
+},{}],56:[function(require,module,exports){
 (function (global,Buffer){
 var bits = require("bit-twiddle")
 var dup = require("dup")
@@ -5191,11 +4922,11 @@ exports.clearCache = function clearCache() {
   }
 }
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"bit-twiddle":61,"buffer":106,"dup":62}],64:[function(require,module,exports){
-module.exports=require(48)
-},{}],65:[function(require,module,exports){
-module.exports=require(49)
-},{"weakmap":64}],66:[function(require,module,exports){
+},{"bit-twiddle":54,"buffer":106,"dup":55}],57:[function(require,module,exports){
+module.exports=require(41)
+},{}],58:[function(require,module,exports){
+module.exports=require(42)
+},{"weakmap":57}],59:[function(require,module,exports){
 "use strict"
 
 function doBind(gl, elements, attributes) {
@@ -5250,7 +4981,7 @@ function doBind(gl, elements, attributes) {
 }
 
 module.exports = doBind
-},{}],67:[function(require,module,exports){
+},{}],60:[function(require,module,exports){
 "use strict"
 
 var bindAttribs = require("./do-bind.js")
@@ -5288,7 +5019,7 @@ function createVAOEmulated(gl) {
 }
 
 module.exports = createVAOEmulated
-},{"./do-bind.js":66}],68:[function(require,module,exports){
+},{"./do-bind.js":59}],61:[function(require,module,exports){
 "use strict"
 
 var bindAttribs = require("./do-bind.js")
@@ -5374,11 +5105,11 @@ function createVAONative(gl, ext) {
 }
 
 module.exports = createVAONative
-},{"./do-bind.js":66}],69:[function(require,module,exports){
-module.exports=require(48)
-},{}],70:[function(require,module,exports){
-module.exports=require(49)
-},{"weakmap":69}],71:[function(require,module,exports){
+},{"./do-bind.js":59}],62:[function(require,module,exports){
+module.exports=require(41)
+},{}],63:[function(require,module,exports){
+module.exports=require(42)
+},{"weakmap":62}],64:[function(require,module,exports){
 "use strict"
 
 var webglew = require("webglew")
@@ -5398,7 +5129,7 @@ function createVAO(gl, attributes, elements) {
 }
 
 module.exports = createVAO
-},{"./lib/vao-emulated.js":67,"./lib/vao-native.js":68,"webglew":70}],72:[function(require,module,exports){
+},{"./lib/vao-emulated.js":60,"./lib/vao-native.js":61,"webglew":63}],65:[function(require,module,exports){
 module.exports      = isTypedArray
 isTypedArray.strict = isStrictTypedArray
 isTypedArray.loose  = isLooseTypedArray
@@ -5439,7 +5170,7 @@ function isLooseTypedArray(arr) {
   return names[toString.call(arr)]
 }
 
-},{}],73:[function(require,module,exports){
+},{}],66:[function(require,module,exports){
 module.exports = function(arr) {
   if (!arr) return false
   if (!arr.dtype) return false
@@ -5447,7 +5178,7 @@ module.exports = function(arr) {
   return re.test(String(arr.constructor))
 }
 
-},{}],74:[function(require,module,exports){
+},{}],67:[function(require,module,exports){
 var pack         = require('array-pack-2d')
 var ista         = require('is-typedarray')
 var createBuffer = require('gl-buffer')
@@ -5528,7 +5259,7 @@ function convert(a, b) {
   return b
 }
 
-},{"array-pack-2d":51,"dtype":52,"gl-buffer":53,"is-typedarray":72,"isndarray":73}],75:[function(require,module,exports){
+},{"array-pack-2d":44,"dtype":45,"gl-buffer":46,"is-typedarray":65,"isndarray":66}],68:[function(require,module,exports){
 /**
  * @fileoverview gl-matrix - High performance matrix and vector operations
  * @author Brandon Jones
@@ -9401,31 +9132,31 @@ if(typeof(exports) !== 'undefined') {
   })(shim.exports);
 })();
 
+},{}],69:[function(require,module,exports){
+arguments[4][9][0].apply(exports,arguments)
+},{"cwise-compiler":70}],70:[function(require,module,exports){
+arguments[4][10][0].apply(exports,arguments)
+},{"./lib/thunk.js":72}],71:[function(require,module,exports){
+arguments[4][11][0].apply(exports,arguments)
+},{"uniq":73}],72:[function(require,module,exports){
+arguments[4][12][0].apply(exports,arguments)
+},{"./compile.js":71}],73:[function(require,module,exports){
+module.exports=require(13)
+},{}],74:[function(require,module,exports){
+arguments[4][14][0].apply(exports,arguments)
+},{"buffer":106,"iota-array":75}],75:[function(require,module,exports){
+module.exports=require(15)
 },{}],76:[function(require,module,exports){
-arguments[4][16][0].apply(exports,arguments)
-},{"cwise-compiler":77}],77:[function(require,module,exports){
-arguments[4][17][0].apply(exports,arguments)
-},{"./lib/thunk.js":79}],78:[function(require,module,exports){
-arguments[4][18][0].apply(exports,arguments)
-},{"uniq":80}],79:[function(require,module,exports){
-arguments[4][19][0].apply(exports,arguments)
-},{"./compile.js":78}],80:[function(require,module,exports){
-module.exports=require(20)
-},{}],81:[function(require,module,exports){
-arguments[4][21][0].apply(exports,arguments)
-},{"buffer":106,"iota-array":82}],82:[function(require,module,exports){
-module.exports=require(22)
-},{}],83:[function(require,module,exports){
-module.exports=require(23)
-},{}],84:[function(require,module,exports){
-module.exports=require(24)
-},{}],85:[function(require,module,exports){
-module.exports=require(63)
-},{"bit-twiddle":83,"buffer":106,"dup":84}],86:[function(require,module,exports){
-module.exports=require(48)
-},{}],87:[function(require,module,exports){
-module.exports=require(49)
-},{"weakmap":86}],88:[function(require,module,exports){
+module.exports=require(16)
+},{}],77:[function(require,module,exports){
+module.exports=require(17)
+},{}],78:[function(require,module,exports){
+module.exports=require(56)
+},{"bit-twiddle":76,"buffer":106,"dup":77}],79:[function(require,module,exports){
+module.exports=require(41)
+},{}],80:[function(require,module,exports){
+module.exports=require(42)
+},{"weakmap":79}],81:[function(require,module,exports){
 "use strict"
 
 var ndarray = require("ndarray")
@@ -9920,7 +9651,7 @@ function createTexture2D(gl) {
 }
 module.exports = createTexture2D
 
-},{"ndarray":81,"ndarray-ops":76,"typedarray-pool":85,"webglew":87}],89:[function(require,module,exports){
+},{"ndarray":74,"ndarray-ops":69,"typedarray-pool":78,"webglew":80}],82:[function(require,module,exports){
 module.exports = programify
 
 var shader = require('gl-shader-core')
@@ -9931,7 +9662,7 @@ function programify(vertex, fragment, uniforms, attributes) {
   }
 }
 
-},{"gl-shader-core":95}],90:[function(require,module,exports){
+},{"gl-shader-core":88}],83:[function(require,module,exports){
 module.exports = noop
 
 function noop() {
@@ -9941,7 +9672,7 @@ function noop() {
   )
 }
 
-},{}],91:[function(require,module,exports){
+},{}],84:[function(require,module,exports){
 "use strict"
 
 module.exports = createAttributeWrapper
@@ -10038,7 +9769,7 @@ function createAttributeWrapper(gl, program, attributes, doLink) {
   return obj
 }
 
-},{}],92:[function(require,module,exports){
+},{}],85:[function(require,module,exports){
 "use strict"
 
 var dup = require("dup")
@@ -10220,7 +9951,7 @@ function createUniformWrapper(gl, program, uniforms, locations) {
   }
 }
 
-},{"./reflect.js":93,"dup":94}],93:[function(require,module,exports){
+},{"./reflect.js":86,"dup":87}],86:[function(require,module,exports){
 "use strict"
 
 module.exports = makeReflectTypes
@@ -10278,9 +10009,9 @@ function makeReflectTypes(uniforms, useIndex) {
   }
   return obj
 }
-},{}],94:[function(require,module,exports){
-module.exports=require(24)
-},{}],95:[function(require,module,exports){
+},{}],87:[function(require,module,exports){
+module.exports=require(17)
+},{}],88:[function(require,module,exports){
 "use strict"
 
 var createUniformWrapper = require("./lib/create-uniforms.js")
@@ -10404,7 +10135,7 @@ function createShader(
 
 module.exports = createShader
 
-},{"./lib/create-attributes.js":91,"./lib/create-uniforms.js":92,"./lib/reflect.js":93}],96:[function(require,module,exports){
+},{"./lib/create-attributes.js":84,"./lib/create-uniforms.js":85,"./lib/reflect.js":86}],89:[function(require,module,exports){
 var slice = require('sliced')
 
 module.exports = combine
@@ -10441,15 +10172,15 @@ function combine(meshes) {
   }
 }
 
-},{"sliced":97}],97:[function(require,module,exports){
-arguments[4][11][0].apply(exports,arguments)
-},{"./lib/sliced":98}],98:[function(require,module,exports){
-module.exports=require(12)
-},{}],99:[function(require,module,exports){
-arguments[4][21][0].apply(exports,arguments)
-},{"buffer":106,"iota-array":100}],100:[function(require,module,exports){
-module.exports=require(22)
-},{}],101:[function(require,module,exports){
+},{"sliced":90}],90:[function(require,module,exports){
+arguments[4][34][0].apply(exports,arguments)
+},{"./lib/sliced":91}],91:[function(require,module,exports){
+module.exports=require(35)
+},{}],92:[function(require,module,exports){
+arguments[4][14][0].apply(exports,arguments)
+},{"buffer":106,"iota-array":93}],93:[function(require,module,exports){
+module.exports=require(15)
+},{}],94:[function(require,module,exports){
 "use strict"
 
 module.exports = unpackPNG
@@ -10467,7 +10198,7 @@ function unpackPNG(w, h, c, str) {
   var pixels = context.getImageData(0, 0, h, w)
   return ndarray(pixels.data, [h, w, c], [4*w, 4, 1], 0)
 }
-},{"ndarray":99}],102:[function(require,module,exports){
+},{"ndarray":92}],95:[function(require,module,exports){
 /**
  * @fileoverview gl-matrix - High performance matrix and vector operations
  * @author Brandon Jones
@@ -14717,7 +14448,7 @@ if(typeof(exports) !== 'undefined') {
   })(shim.exports);
 })(this);
 
-},{}],103:[function(require,module,exports){
+},{}],96:[function(require,module,exports){
 "use strict"
 
 var glm = require("gl-matrix")
@@ -14812,7 +14543,7 @@ function createOrbitCamera(eye, target, up) {
 
 module.exports = createOrbitCamera
 
-},{"gl-matrix":102}],104:[function(require,module,exports){
+},{"gl-matrix":95}],97:[function(require,module,exports){
 (function (global){
 module.exports =
   global.performance &&
@@ -14823,7 +14554,7 @@ module.exports =
   }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],105:[function(require,module,exports){
+},{}],98:[function(require,module,exports){
 module.exports = unindex
 
 function unindex(positions, cells, out) {
@@ -14849,6 +14580,291 @@ function unindex(positions, cells, out) {
   return out
 }
 
+},{}],99:[function(require,module,exports){
+
+/**
+ * Expose `parse`.
+ */
+
+module.exports = parse;
+
+/**
+ * Wrap map from jquery.
+ */
+
+var map = {
+  legend: [1, '<fieldset>', '</fieldset>'],
+  tr: [2, '<table><tbody>', '</tbody></table>'],
+  col: [2, '<table><tbody></tbody><colgroup>', '</colgroup></table>'],
+  _default: [0, '', '']
+};
+
+map.td =
+map.th = [3, '<table><tbody><tr>', '</tr></tbody></table>'];
+
+map.option =
+map.optgroup = [1, '<select multiple="multiple">', '</select>'];
+
+map.thead =
+map.tbody =
+map.colgroup =
+map.caption =
+map.tfoot = [1, '<table>', '</table>'];
+
+map.text =
+map.circle =
+map.ellipse =
+map.line =
+map.path =
+map.polygon =
+map.polyline =
+map.rect = [1, '<svg xmlns="http://www.w3.org/2000/svg" version="1.1">','</svg>'];
+
+/**
+ * Parse `html` and return a DOM Node instance, which could be a TextNode,
+ * HTML DOM Node of some kind (<div> for example), or a DocumentFragment
+ * instance, depending on the contents of the `html` string.
+ *
+ * @param {String} html - HTML string to "domify"
+ * @param {Document} doc - The `document` instance to create the Node for
+ * @return {DOMNode} the TextNode, DOM Node, or DocumentFragment instance
+ * @api private
+ */
+
+function parse(html, doc) {
+  if ('string' != typeof html) throw new TypeError('String expected');
+
+  // default to the global `document` object
+  if (!doc) doc = document;
+
+  // tag name
+  var m = /<([\w:]+)/.exec(html);
+  if (!m) return doc.createTextNode(html);
+
+  html = html.replace(/^\s+|\s+$/g, ''); // Remove leading/trailing whitespace
+
+  var tag = m[1];
+
+  // body support
+  if (tag == 'body') {
+    var el = doc.createElement('html');
+    el.innerHTML = html;
+    return el.removeChild(el.lastChild);
+  }
+
+  // wrap map
+  var wrap = map[tag] || map._default;
+  var depth = wrap[0];
+  var prefix = wrap[1];
+  var suffix = wrap[2];
+  var el = doc.createElement('div');
+  el.innerHTML = prefix + html + suffix;
+  while (depth--) el = el.lastChild;
+
+  // one element
+  if (el.firstChild == el.lastChild) {
+    return el.removeChild(el.firstChild);
+  }
+
+  // several elements
+  var fragment = doc.createDocumentFragment();
+  while (el.firstChild) {
+    fragment.appendChild(el.removeChild(el.firstChild));
+  }
+
+  return fragment;
+}
+
+},{}],100:[function(require,module,exports){
+module.exports = findup
+
+function findup(child, check) {
+  if (typeof check === 'string')   check = byName(check)
+  if (typeof check !== 'function') check = byExact(check)
+
+  while (
+    child &&
+   !check(child)
+  ) child = child.parentNode
+
+
+  return child || null
+}
+
+function byName(name) {
+  name = String(name).toUpperCase()
+
+  return function(element) {
+    return name === element.nodeName
+  }
+}
+
+function byExact(el) {
+  return function(element) {
+    return el === element
+  }
+}
+
+},{}],101:[function(require,module,exports){
+arguments[4][32][0].apply(exports,arguments)
+},{"_process":109,"raf-component":102,"sliced":104}],102:[function(require,module,exports){
+module.exports=require(33)
+},{}],103:[function(require,module,exports){
+
+/**
+ * Expose `render()`.`
+ */
+
+exports = module.exports = render;
+
+/**
+ * Expose `compile()`.
+ */
+
+exports.compile = compile;
+
+/**
+ * Render the given mustache `str` with `obj`.
+ *
+ * @param {String} str
+ * @param {Object} obj
+ * @return {String}
+ * @api public
+ */
+
+function render(str, obj) {
+  obj = obj || {};
+  var fn = compile(str);
+  return fn(obj);
+}
+
+/**
+ * Compile the given `str` to a `Function`.
+ *
+ * @param {String} str
+ * @return {Function}
+ * @api public
+ */
+
+function compile(str) {
+  var js = [];
+  var toks = parse(str);
+  var tok;
+
+  for (var i = 0; i < toks.length; ++i) {
+    tok = toks[i];
+    if (i % 2 == 0) {
+      js.push('"' + tok.replace(/"/g, '\\"') + '"');
+    } else {
+      switch (tok[0]) {
+        case '/':
+          tok = tok.slice(1);
+          js.push(' }) + ');
+          break;
+        case '^':
+          tok = tok.slice(1);
+          assertProperty(tok);
+          js.push(' + section(obj, "' + tok + '", true, function(obj){ return ');
+          break;
+        case '#':
+          tok = tok.slice(1);
+          assertProperty(tok);
+          js.push(' + section(obj, "' + tok + '", false, function(obj){ return ');
+          break;
+        case '!':
+          tok = tok.slice(1);
+          assertProperty(tok);
+          js.push(' + obj.' + tok + ' + ');
+          break;
+        default:
+          assertProperty(tok);
+          js.push(' + escape(obj.' + tok + ') + ');
+      }
+    }
+  }
+
+  js = '\n'
+    + indent(escape.toString()) + ';\n\n'
+    + indent(section.toString()) + ';\n\n'
+    + '  return ' + js.join('').replace(/\n/g, '\\n');
+
+  return new Function('obj', js);
+}
+
+/**
+ * Assert that `prop` is a valid property.
+ *
+ * @param {String} prop
+ * @api private
+ */
+
+function assertProperty(prop) {
+  if (!prop.match(/^[\w.]+$/)) throw new Error('invalid property "' + prop + '"');
+}
+
+/**
+ * Parse `str`.
+ *
+ * @param {String} str
+ * @return {Array}
+ * @api private
+ */
+
+function parse(str) {
+  return str.split(/\{\{|\}\}/);
+}
+
+/**
+ * Indent `str`.
+ *
+ * @param {String} str
+ * @return {String}
+ * @api private
+ */
+
+function indent(str) {
+  return str.replace(/^/gm, '  ');
+}
+
+/**
+ * Section handler.
+ *
+ * @param {Object} context obj
+ * @param {String} prop
+ * @param {Function} thunk
+ * @param {Boolean} negate
+ * @api private
+ */
+
+function section(obj, prop, negate, thunk) {
+  var val = obj[prop];
+  if (Array.isArray(val)) return val.map(thunk).join('');
+  if ('function' == typeof val) return val.call(obj, thunk(obj));
+  if (negate) val = !val;
+  if (val) return thunk(obj);
+  return '';
+}
+
+/**
+ * Escape the given `html`.
+ *
+ * @param {String} html
+ * @return {String}
+ * @api private
+ */
+
+function escape(html) {
+  return String(html)
+    .replace(/&/g, '&amp;')
+    .replace(/"/g, '&quot;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;');
+}
+
+},{}],104:[function(require,module,exports){
+arguments[4][34][0].apply(exports,arguments)
+},{"./lib/sliced":105}],105:[function(require,module,exports){
+module.exports=require(35)
 },{}],106:[function(require,module,exports){
 /*!
  * The buffer module from node.js, for the browser.
