@@ -1,8 +1,11 @@
 {
   "scripts": {
     "start": "npm start glslify-live & npm run serve",
-    "serve": "beefy demo.js:bundle.js --open -- -t glslify-live -t glslify",
+    "serve": "beefy demo.js:bundle.js --open",
     "image": "ndpack-image boid.png > boid.js"
+  },
+  "browserify": {
+    "transform": ["glslify"]
   },
   "dependencies": {
     "a-big-triangle": "0.0.0",

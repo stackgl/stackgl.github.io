@@ -78,6 +78,19 @@ h1 .lighter {
   z-index: 1;
 }
 
+#community {
+  position: relative;
+}
+
+#community-content {
+  position: relative;
+  z-index: 2;
+}
+
+#community-canvas {
+  z-index: 1;
+}
+
 /**
  * Section Layout
  */

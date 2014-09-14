@@ -1,13 +1,15 @@
-var splash    = document.getElementById('splash')
-var canvas    = splash.querySelector('canvas')
 var filter    = require('./lib/filter')
 var minstache = require('minstache')
 var domify    = require('domify')
 var slice     = require('sliced')
 var fs        = require('fs')
 
+var grid  = document.getElementById('grid').querySelector('canvas')
+var flock = document.getElementById('community').querySelector('canvas')
+
 require('./lib/fill')(document.querySelectorAll('[data-fill]'))
-require('@stackgl/splash-grid')(canvas)
+require('@stackgl/splash-grid')(grid)
+require('@stackgl/splash-flock')(flock)
 
 var thumb = minstache.compile(fs.readFileSync(
   __dirname + '/lib/thumb.html'

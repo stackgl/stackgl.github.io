@@ -16,7 +16,7 @@ var examples = tree(
    var tokens = example.tokens.slice()
    tokens.links = {}
 
-   var thumb = null
+   var thumb = 'default.jpg'
    var $     = cheerio.load(
      marked.Parser.parse(tokens)
    )
@@ -69,7 +69,7 @@ var packages = tree(
 
       var name = unhtml(pkg.text)
       var html = marked.Parser.parse(pkg.tokens)
-      var thumb
+      var thumb = 'default.jpg'
 
       var $ = cheerio.load(html)
 

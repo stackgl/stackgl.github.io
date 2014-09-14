@@ -96,7 +96,7 @@ module.exports={
       "name": "gl-vao",
       "desc": "",
       "link": "http://ghub.io/gl-vao",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     },
@@ -112,7 +112,7 @@ module.exports={
       "name": "gl-texture2d",
       "desc": "",
       "link": "http://ghub.io/gl-texture2d",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 2
     },
@@ -120,7 +120,7 @@ module.exports={
       "name": "gl-buffer",
       "desc": "",
       "link": "http://ghub.io/gl-buffer",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 3
     }
@@ -130,7 +130,7 @@ module.exports={
       "name": "glslify",
       "desc": "",
       "link": "http://ghub.io/glslify",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     },
@@ -138,7 +138,7 @@ module.exports={
       "name": "glslify-live",
       "desc": "",
       "link": "http://ghub.io/glslify-live",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 1
     },
@@ -146,7 +146,7 @@ module.exports={
       "name": "glslify-optimize",
       "desc": "",
       "link": "http://ghub.io/glslify-optimize",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 2
     }
@@ -156,7 +156,7 @@ module.exports={
       "name": "gl-vec2",
       "desc": "",
       "link": "http://ghub.io/gl-vec2",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     },
@@ -164,7 +164,7 @@ module.exports={
       "name": "gl-vec3",
       "desc": "",
       "link": "http://ghub.io/gl-vec3",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 1
     },
@@ -172,7 +172,7 @@ module.exports={
       "name": "gl-vec4",
       "desc": "",
       "link": "http://ghub.io/gl-vec4",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 2
     },
@@ -180,7 +180,7 @@ module.exports={
       "name": "gl-quat",
       "desc": "",
       "link": "http://ghub.io/gl-quat",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 3
     },
@@ -188,7 +188,7 @@ module.exports={
       "name": "gl-mat2",
       "desc": "",
       "link": "http://ghub.io/gl-mat2",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 4
     },
@@ -196,7 +196,7 @@ module.exports={
       "name": "gl-mat3",
       "desc": "",
       "link": "http://ghub.io/gl-mat3",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 5
     },
@@ -204,7 +204,7 @@ module.exports={
       "name": "gl-mat4",
       "desc": "",
       "link": "http://ghub.io/gl-mat4",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 6
     }
@@ -214,7 +214,7 @@ module.exports={
       "name": "orbit-camera",
       "desc": "",
       "link": "http://ghub.io/orbit-camera",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     },
@@ -222,7 +222,7 @@ module.exports={
       "name": "game-shell-orbit-camera",
       "desc": "",
       "link": "http://ghub.io/game-shell-orbit-camera",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 1
     },
@@ -230,7 +230,7 @@ module.exports={
       "name": "canvas-orbit-camera",
       "desc": "",
       "link": "http://ghub.io/canvas-orbit-camera",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 2
     }
@@ -240,7 +240,7 @@ module.exports={
       "name": "gl-now",
       "desc": "",
       "link": "http://ghub.io/gl-now",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     },
@@ -248,7 +248,7 @@ module.exports={
       "name": "gl-context",
       "desc": "",
       "link": "http://ghub.io/gl-context",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 1
     }
@@ -258,7 +258,7 @@ module.exports={
       "name": "key-pressed",
       "desc": "",
       "link": "http://ghub.io/key-pressed",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     },
@@ -266,7 +266,7 @@ module.exports={
       "name": "mouse-pressed",
       "desc": "",
       "link": "http://ghub.io/mouse-pressed",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 1
     },
@@ -274,7 +274,7 @@ module.exports={
       "name": "mouse-speed",
       "desc": "",
       "link": "http://ghub.io/mouse-speed",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 2
     },
@@ -282,7 +282,7 @@ module.exports={
       "name": "scroll-speed",
       "desc": "",
       "link": "http://ghub.io/scroll-speed",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 3
     },
@@ -290,7 +290,7 @@ module.exports={
       "name": "canvas-fit",
       "desc": "",
       "link": "http://ghub.io/canvas-fit",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 4
     },
@@ -298,7 +298,7 @@ module.exports={
       "name": "vkey",
       "desc": "",
       "link": "http://ghub.io/vkey",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 5
     }
@@ -324,7 +324,7 @@ module.exports={
       "name": "glsl-noise",
       "desc": "",
       "link": "http://ghub.io/glsl-noise",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 2
     },
@@ -350,7 +350,7 @@ module.exports={
       "name": "glslify-hex",
       "desc": "",
       "link": "http://ghub.io/glslify-hex",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     },
@@ -358,7 +358,7 @@ module.exports={
       "name": "glslify-import",
       "desc": "",
       "link": "http://ghub.io/glslify-import",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 1
     }
@@ -369,7 +369,7 @@ module.exports={
       "name": "gl-compare",
       "desc": "",
       "link": "http://ghub.io/gl-compare",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     }
@@ -379,7 +379,7 @@ module.exports={
       "name": "glsl-parser",
       "desc": "",
       "link": "http://ghub.io/glsl-parser",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 0
     },
@@ -387,7 +387,7 @@ module.exports={
       "name": "glsl-tokenizer",
       "desc": "",
       "link": "http://ghub.io/glsl-tokenizer",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 1
     },
@@ -395,7 +395,7 @@ module.exports={
       "name": "glsl-deparser",
       "desc": "",
       "link": "http://ghub.io/glsl-deparser",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 2
     },
@@ -403,7 +403,7 @@ module.exports={
       "name": "glsl-extract",
       "desc": "",
       "link": "http://ghub.io/glsl-extract",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 3
     },
@@ -411,7 +411,7 @@ module.exports={
       "name": "glslify-stream",
       "desc": "",
       "link": "http://ghub.io/glslify-stream",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 4
     },
@@ -419,7 +419,7 @@ module.exports={
       "name": "gl-shader-core",
       "desc": "",
       "link": "http://ghub.io/gl-shader-core",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 5
     }
@@ -453,7 +453,7 @@ module.exports={
       "name": "teapot",
       "desc": "",
       "link": "http://ghub.io/teapot",
-      "thumb": "",
+      "thumb": "default.jpg",
       "featured": false,
       "i": 3
     },
@@ -468,14 +468,16 @@ module.exports={
   ]
 }
 },{}],3:[function(require,module,exports){
-var splash    = document.getElementById('splash')
-var canvas    = splash.querySelector('canvas')
 var filter    = require('./lib/filter')
 var minstache = require('minstache')
 var domify    = require('domify')
 var slice     = require('sliced')
+var grid  = document.getElementById('grid').querySelector('canvas')
+var flock = document.getElementById('community').querySelector('canvas')
+
 require('./lib/fill')(document.querySelectorAll('[data-fill]'))
-require('@stackgl/splash-grid')(canvas)
+require('@stackgl/splash-grid')(grid)
+require('@stackgl/splash-flock')(flock)
 
 var thumb = minstache.compile("<li {{#group}}data-filter=\"{{group}}\"{{/group}} class=\"thumb {{#featured}}featured{{/featured}}\">\n    <figure>\n      <a href=\"{{link}}\" title=\"{{name}}\" target=\"_blank\">\n        <div class=\"thumb-image\" style=\"background-image:url({{thumb}})\"></div>\n      </a>\n      <figcaption>\n        <a href=\"{{link}}\" title=\"{{name}}\" target=\"_blank\">\n          <h1>{{name}}</h1>\n        </a>\n        <div class=\"desc\">\n          {{#featured}}\n            {{!desc}}\n          {{/featured}}\n        </div>\n      </figcaption>\n    </figure>\n</li>\n")
 
@@ -509,7 +511,7 @@ pkgEl
   .querySelector('ul.thumb-filter')
   .appendChild(filter(pkgEl))
 
-},{"./build/examples.json":1,"./build/packages.json":2,"./lib/fill":4,"./lib/filter":5,"@stackgl/splash-grid":7,"domify":99,"minstache":103,"sliced":104}],4:[function(require,module,exports){
+},{"./build/examples.json":1,"./build/packages.json":2,"./lib/fill":4,"./lib/filter":5,"@stackgl/splash-flock":7,"@stackgl/splash-grid":90,"domify":182,"minstache":186,"sliced":187}],4:[function(require,module,exports){
 var debounce = require('frame-debounce')
 
 module.exports = fill
@@ -533,7 +535,7 @@ function fill(elements) {
   }
 }
 
-},{"frame-debounce":101}],5:[function(require,module,exports){
+},{"frame-debounce":184}],5:[function(require,module,exports){
 var findup    = require('findup-element')
 var minstache = require('minstache')
 var domify    = require('domify')
@@ -586,143 +588,111 @@ module.exports = function(thumbs) {
   return list
 }
 
-},{"domify":99,"findup-element":100,"minstache":103,"sliced":104}],6:[function(require,module,exports){
-module.exports=require('ndpack-image')(1,256,4,"iVBORw0KGgoAAAANSUhEUgAAAQAAAAABCAYAAAAxWXB3AAAAAklEQVR4AewaftIAAADsSURBVCXBgXEEIQADsZW5/lv+DERS/dBDF3roQlkXeoj1EOshVnSxItZjoSzWQyzWb2JFF6e2WBGrLVbEaosV2YpYka0sZCti/SZWZMpClIQQ2oROQhRC6BBCUwiNRmhEobM1oqTRmdCIGp1JGlGzvokaoW9Cq9C3Yk1R3xY1QseaQqMzjajR6BCaGp0JjaizRY3QmUaq0ZnQCI02nUSh0aYRoqSzRSGEDiGKYlGsqU0IoRHLtC2EkImFItTEykIRshWhiPUjFKEs1ISyUIQi1kMoMqHoQhGKLlYkPYSiC0UXii70KPRPF3ro+gNf1gb72t6EvgAAAABJRU5ErkJggg==")
+},{"domify":182,"findup-element":183,"minstache":186,"sliced":187}],6:[function(require,module,exports){
+module.exports=require('ndpack-image')(16,16,4,"iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAklEQVR4AewaftIAAAHfSURBVKXBcW+aQBjA4R94vsBR72Cl1Jr1+3+qJjYuuDo3hQnIiXYjoYlpmvSPPo/3+h9f4PNFig8452ialq7ruFx6fH9CEIRoHSEiXFO887eq+LPbsS/3NHXNqT+jlCKONYlN+JamzIzhjeJKVVW8bF5YFz/ZbF4oyz3OnRARrLXk+T3OOV7xMGbGQDFyzrHb7VkXa5bLJavVit/bLceuIwgDsts7mqbB4xURIQwDRATFqGlbynLPZrNh9WPF09MTRVHQNi2RjlgsSgZaa4y1WGsRERSj7njkcDhQliXbX1uKomD5/ExVlhhjwANrLfP5PXVd4zrHQDG6XC705x7nHF3X0bYtVVmyXq8Bj7Zp6I4dzp3o+zPny5mBYjTxfdREMZUpQRAQRRHWGPDAmhlaxwRRgMgUpSZMfJ+BYiRhyM1NTGITsixjsViAB23donXEw8MDd7cZ1lriOEbCgIFipKMIaxPyPKdpGjw8rLV03ZEgCMmyjO+Pj+T5PWmSoiPNQDESEdI0xbkT4KG1Jp/nnNyJqUxJbEKe5ywWc5I0RUQYKK4YYxiITEms4VDX9H2PUlPiWJMkCWmaYsyMN4p3jDGEYUhiLUfnuJzP+L5PGIZEUYSIcE3xARFBRLB87h/fHcFMratoHAAAAABJRU5ErkJggg==")
 
-},{"ndpack-image":94}],7:[function(require,module,exports){
-var createCamera = require("orbit-camera");
-var createTex2d = require("gl-texture2d");
-var createGeom = require("gl-geometry");
-var createFBO = require("gl-fbo");
-var createShader = require("glslify");
-
+},{"ndpack-image":88}],7:[function(require,module,exports){
 var clear = require("gl-clear")({
     color: [1, 1, 1, 1]
 });
 
-var mat4 = require("gl-matrix").mat4;
-var quat = require("gl-matrix").quat;
 var triangle = require("a-big-triangle");
 var debounce = require("frame-debounce");
-var unindex = require("unindex-mesh");
-var normals = require("face-normals");
-var combine = require("mesh-combine");
 var fit = require("canvas-fit");
-var qbqb = require("cube-cube");
-var getTime = require("right-now");
-var clone = require("clone");
-var TIMESCALE = 0.5;
-var SIZE = 16;
-var RES = [1 / SIZE, 1 / SIZE];
+var createBuffer = require("gl-buffer");
+var ndarray = require("ndarray");
+var Shader = require("glslify");
+var FBO = require("gl-fbo");
+var VAO = require("gl-vao");
+var SIZE = 32;
+var STEPS = 2;
+module.exports = init;
 
-module.exports = function(canvas) {
+function init(canvas) {
     var gl = require("gl-context")(canvas, render);
+    var boid = require("gl-texture2d")(gl, require("./boid"));
+    var vao = createParticleVAO(gl, SIZE);
+    var shaders = {};
+    var pdata = [];
+    var starter = createStartPositions(SIZE);
 
-    var heightmap = createFBO(gl, [SIZE, SIZE], {
-        float: true
-    });
+    for (var i = 0; i < STEPS; i++) {
+        pdata[i] = FBO(gl, [SIZE, SIZE], {
+            float: true
+        });
 
-    var gradient = createTex2d(gl, require("./gradient-map"));
-    var voxels = createMesh();
-    var projection = mat4.create();
-    var viewrot = mat4.create();
-    var view = mat4.create();
-    var model = mat4.create();
-    var camera = createCamera([0, 10, 30], [0, 0, 0], [0, 1, 0]);
-    var shader = require("glslify/adapter.js")("\n#define GLSLIFY 1\n\nprecision mediump float;\nattribute vec3 aPosition;\nattribute vec3 aCentroid;\nattribute vec3 aNormal;\nattribute vec3 aEdge;\nvarying vec4 vNeighbours;\nvarying vec3 vNormal;\nvarying vec2 vEdge;\nuniform sampler2D tHeightmap;\nuniform vec2 uResolution;\nuniform mat4 uProjection;\nuniform mat4 uModel;\nuniform mat4 uView;\nconst float threshold = 1.0 / 0.01;\nvoid main() {\n  vec3 position = aPosition;\n  vec2 coord = aCentroid.xz;\n  float height = texture2D(tHeightmap, aCentroid.xz).r;\n  float nht = texture2D(tHeightmap, coord + uResolution * vec2(+0.0, -1.0)).r;\n  float nhb = texture2D(tHeightmap, coord + uResolution * vec2(+0.0, +1.0)).r;\n  float nhl = texture2D(tHeightmap, coord + uResolution * vec2(-1.0, +0.0)).r;\n  float nhr = texture2D(tHeightmap, coord + uResolution * vec2(+1.0, +0.0)).r;\n  position.y = mix(position.y, height, position.y);\n  gl_Position = (uProjection * uView * uModel * vec4(position, 1.0)) + vec4(0.35, -0.2, 0.0, 0.0);\n  vNormal = aNormal;\n  vEdge = aEdge.xz;\n  vNeighbours = vec4(clamp((nht - height) * threshold, -1.0, 1.0), clamp((nhb - height) * threshold, -1.0, 1.0), clamp((nhl - height) * threshold, -1.0, 1.0), clamp((nhr - height) * threshold, -1.0, 1.0));\n}", "\n#define GLSLIFY 1\n\nprecision mediump float;\nuniform sampler2D tGradient;\nuniform mat4 uViewRotation;\nvarying vec4 vNeighbours;\nvarying vec3 vNormal;\nvarying vec2 vEdge;\n#define EDGE_SHARPNESS 1.8\n\n#define EDGE_SHADOW 0.2\n\n#define BLOCK_COLOR 1.1\n\nvoid main() {\n  vec4 lightDirection = vec4(normalize(vec3(-0.2, 1.2, 0.8)), 1.0);\n  lightDirection = uViewRotation * lightDirection;\n  float nhr = max(0.0, vNeighbours.x);\n  float nhl = max(0.0, vNeighbours.y);\n  float nhb = max(0.0, vNeighbours.z);\n  float nht = max(0.0, vNeighbours.w);\n  float top = abs(vNormal.y);\n  vec2 de = vec2(max(0.0, nht * vEdge.x) - min(0.0, nhb * vEdge.x), max(0.0, nhl * vEdge.y) - min(0.0, nhr * vEdge.y));\n  float d1 = smoothstep(0.0, 1.0, abs(de.x));\n  float d2 = smoothstep(0.0, 1.0, abs(de.y));\n  float d = (pow(d1, EDGE_SHARPNESS) + pow(d2, EDGE_SHARPNESS));\n  vec3 diffuse = vec3(1.0 - min(d, 1.0) * top * EDGE_SHADOW) * BLOCK_COLOR;\n  vec3 ambient = vec3(0.1);\n  float lambert = max(0.0, dot(vNormal, normalize(lightDirection.xyz)));\n  vec3 color = diffuse * lambert + ambient;\n  gl_FragColor.rgb = texture2D(tGradient, vec2(0.0, color.r)).rgb;\n  gl_FragColor.a = 1.0;\n}", [{"name":"tHeightmap","type":"sampler2D"},{"name":"uResolution","type":"vec2"},{"name":"uProjection","type":"mat4"},{"name":"uModel","type":"mat4"},{"name":"uView","type":"mat4"},{"name":"tGradient","type":"sampler2D"},{"name":"uViewRotation","type":"mat4"}], [{"name":"aPosition","type":"vec3"},{"name":"aCentroid","type":"vec3"},{"name":"aNormal","type":"vec3"},{"name":"aEdge","type":"vec3"}])(gl);
-    var heightShader = require("glslify/adapter.js")("\n#define GLSLIFY 1\n\nprecision mediump float;\nattribute vec2 position;\nvoid main() {\n  gl_Position = vec4(position.xy, 1.0, 1.0);\n}", "\n#define GLSLIFY 1\n\nprecision mediump float;\nuniform vec2 uResolution;\nuniform float uTime;\nvoid main() {\n  vec2 coord = (gl_FragCoord.xy * uResolution - 0.5) * 2.0;\n  float height = 0.0;\n  height += sin(uTime * 0.00062 + coord.y * 2.5) * 0.4;\n  height += cos(uTime * 0.00048 + coord.x * 1.8) * 0.6;\n  height += sin(uTime * 0.0048 + coord.x * 7.9) * 0.2;\n  height += cos(uTime * 0.0038 + coord.y * 6.8) * 0.1;\n  height += sin(uTime * 0.0028 + coord.y * 2.8 + 0.5) * 0.3;\n  height -= clamp(1.0 - uTime * 0.0005, 0.0, 1.0) * 2.0;\n  height = max(0.0, height * 0.2);\n  height *= max(0.0, 0.85 - max(0.0, coord.x * coord.x + coord.y * coord.y));\n  gl_FragColor.r = height;\n  gl_FragColor.gba = vec3(1.0);\n}", [{"name":"uResolution","type":"vec2"},{"name":"uTime","type":"float"}], [{"name":"position","type":"vec2"}])(gl);
-    var geom = createGeom(gl).attr("aPosition", voxels.positions).attr("aCentroid", voxels.centroids).attr("aNormal", voxels.normals).attr("aEdge", voxels.edges);
-    camera.distance = 1.5;
-    heightmap.color[0].wrap = gl.CLAMP_TO_EDGE;
-    heightmap.color[0].minFilter = gl.NEAREST;
-    heightmap.color[0].maxFilter = gl.NEAREST;
-    mat4.translate(model, model, [-0.5, 0, -0.5]);
-    window.addEventListener("resize", debounce(fit(canvas)), false);
+        pdata[i].color[0].setPixels(starter);
+    }
+
+    window.addEventListener("resize", debounce(fit(canvas, window)));
+    shaders.logic = require("glslify/adapter.js")("\n#define GLSLIFY 1\n\nprecision mediump float;\nattribute vec2 position;\nvarying vec2 vuv;\nvoid main() {\n  vuv = (position + 1.0) * 0.5;\n  gl_Position = vec4(position.xy, 1.0, 1.0);\n}", "\n#define GLSLIFY 1\n\nprecision mediump float;\nvarying vec2 vuv;\nuniform sampler2D positions;\nvec3 b_x_mod289(vec3 x) {\n  return x - floor(x * (1.0 / 289.0)) * 289.0;\n}\nvec4 b_x_mod289(vec4 x) {\n  return x - floor(x * (1.0 / 289.0)) * 289.0;\n}\nvec4 b_x_permute(vec4 x) {\n  return b_x_mod289(((x * 34.0) + 1.0) * x);\n}\nvec4 b_x_taylorInvSqrt(vec4 r) {\n  return 1.79284291400159 - 0.85373472095314 * r;\n}\nfloat b_x_snoise(vec3 v) {\n  const vec2 C = vec2(1.0 / 6.0, 1.0 / 3.0);\n  const vec4 D = vec4(0.0, 0.5, 1.0, 2.0);\n  vec3 i = floor(v + dot(v, C.yyy));\n  vec3 x0 = v - i + dot(i, C.xxx);\n  vec3 g = step(x0.yzx, x0.xyz);\n  vec3 l = 1.0 - g;\n  vec3 i1 = min(g.xyz, l.zxy);\n  vec3 i2 = max(g.xyz, l.zxy);\n  vec3 x1 = x0 - i1 + C.xxx;\n  vec3 x2 = x0 - i2 + C.yyy;\n  vec3 x3 = x0 - D.yyy;\n  i = b_x_mod289(i);\n  vec4 p = b_x_permute(b_x_permute(b_x_permute(i.z + vec4(0.0, i1.z, i2.z, 1.0)) + i.y + vec4(0.0, i1.y, i2.y, 1.0)) + i.x + vec4(0.0, i1.x, i2.x, 1.0));\n  float n_ = 0.142857142857;\n  vec3 ns = n_ * D.wyz - D.xzx;\n  vec4 j = p - 49.0 * floor(p * ns.z * ns.z);\n  vec4 x_ = floor(j * ns.z);\n  vec4 y_ = floor(j - 7.0 * x_);\n  vec4 x = x_ * ns.x + ns.yyyy;\n  vec4 y = y_ * ns.x + ns.yyyy;\n  vec4 h = 1.0 - abs(x) - abs(y);\n  vec4 b0 = vec4(x.xy, y.xy);\n  vec4 b1 = vec4(x.zw, y.zw);\n  vec4 s0 = floor(b0) * 2.0 + 1.0;\n  vec4 s1 = floor(b1) * 2.0 + 1.0;\n  vec4 sh = -step(h, vec4(0.0));\n  vec4 a0 = b0.xzyw + s0.xzyw * sh.xxyy;\n  vec4 a1 = b1.xzyw + s1.xzyw * sh.zzww;\n  vec3 p0 = vec3(a0.xy, h.x);\n  vec3 p1 = vec3(a0.zw, h.y);\n  vec3 p2 = vec3(a1.xy, h.z);\n  vec3 p3 = vec3(a1.zw, h.w);\n  vec4 norm = b_x_taylorInvSqrt(vec4(dot(p0, p0), dot(p1, p1), dot(p2, p2), dot(p3, p3)));\n  p0 *= norm.x;\n  p1 *= norm.y;\n  p2 *= norm.z;\n  p3 *= norm.w;\n  vec4 m = max(0.6 - vec4(dot(x0, x0), dot(x1, x1), dot(x2, x2), dot(x3, x3)), 0.0);\n  m = m * m;\n  return 42.0 * dot(m * m, vec4(dot(p0, x0), dot(p1, x1), dot(p2, x2), dot(p3, x3)));\n}\nvec3 a_x_snoiseVec3(vec3 x) {\n  float s = b_x_snoise(vec3(x));\n  float s1 = b_x_snoise(vec3(x.y - 19.1, x.z + 33.4, x.x + 47.2));\n  float s2 = b_x_snoise(vec3(x.z + 74.2, x.x - 124.5, x.y + 99.4));\n  vec3 c = vec3(s, s1, s2);\n  return c;\n}\nvec3 a_x_curlNoise(vec3 p) {\n  const float e = .1;\n  vec3 dx = vec3(e, 0.0, 0.0);\n  vec3 dy = vec3(0.0, e, 0.0);\n  vec3 dz = vec3(0.0, 0.0, e);\n  vec3 p_x0 = a_x_snoiseVec3(p - dx);\n  vec3 p_x1 = a_x_snoiseVec3(p + dx);\n  vec3 p_y0 = a_x_snoiseVec3(p - dy);\n  vec3 p_y1 = a_x_snoiseVec3(p + dy);\n  vec3 p_z0 = a_x_snoiseVec3(p - dz);\n  vec3 p_z1 = a_x_snoiseVec3(p + dz);\n  float x = p_y1.z - p_y0.z - p_z1.y + p_z0.y;\n  float y = p_z1.x - p_z0.x - p_x1.z + p_x0.z;\n  float z = p_x1.y - p_x0.y - p_y1.x + p_y0.x;\n  const float divisor = 1.0 / (2.0 * e);\n  return normalize(vec3(x, y, z) * divisor);\n}\n#define CENTER_ATTRACTION 0.0045\n\n#define SPEED_LIMIT 0.065\n\n#define SEPARATION 0.0035\n\n#define ALIGNMENT 0.00125\n\n#define COHESION 0.0007\n\n#define WANDER 0.00035\n\n#define SIZE 32.0\n\nvec2 alignment(vec2 speed) {\n  vec2 influence = vec2(0.0);\n  for(float x = 0.0; x < 1.0; x += 1.0 / SIZE)\n    for(float y = 0.0; y < 1.0; y += 1.0 / SIZE) {\n      vec2 uv = vec2(x, y);\n      vec2 speed = texture2D(positions, uv).zw;\n      influence += speed;\n    }\n  return influence;\n}\nvec2 cohesion(vec2 position) {\n  vec2 influence = vec2(0.0);\n  for(float x = 0.0; x < 1.0; x += 1.0 / SIZE)\n    for(float y = 0.0; y < 1.0; y += 1.0 / SIZE) {\n      vec2 uv = vec2(x, y);\n      vec2 pos = texture2D(positions, uv).xy;\n      influence += pos / SIZE / SIZE;\n    }\n  return influence - position;\n}\nvec2 separation(vec2 position, vec2 maxDistance, vec2 index) {\n  vec2 influence = vec2(0.0);\n  for(float x = 0.0; x < 1.0; x += 1.0 / SIZE)\n    for(float y = 0.0; y < 1.0; y += 1.0 / SIZE) {\n      vec2 uv = vec2(x, y);\n      vec2 pos = texture2D(positions, uv).xy;\n      float self = (x == index.x && y == index.y) ? 0.0 : 1.0;\n      float close = all(greaterThanEqual(abs(position - pos), maxDistance)) ? 1.0 : 0.0;\n      influence -= self * close * (position - pos);\n    }\n  return position - influence;\n}\nvoid main() {\n  vec2 uv = gl_FragCoord.xy / vec2(SIZE);\n  vec2 position = texture2D(positions, uv).xy;\n  vec2 speed = texture2D(positions, uv).zw;\n  speed += normalize(alignment(speed)) * ALIGNMENT;\n  speed += normalize(cohesion(position)) * COHESION;\n  speed += normalize(separation(position, vec2(0.5), uv)) * SEPARATION;\n  speed += normalize(vec2(0.5) - position) * CENTER_ATTRACTION;\n  speed += a_x_curlNoise(vec3(uv * 10.2920, 1.290393)).xy * WANDER;\n  speed = clamp(speed, -SPEED_LIMIT, +SPEED_LIMIT);\n  position += speed;\n  gl_FragColor.xy = position;\n  gl_FragColor.zw = speed;\n}", [{"name":"positions","type":"sampler2D"}], [{"name":"position","type":"vec2"}])(gl);
+    shaders.render = require("glslify/adapter.js")("\n#define GLSLIFY 1\n\nprecision mediump float;\nattribute vec2 uv;\nuniform sampler2D positions;\nuniform vec2 screenSize;\nvoid main() {\n  vec2 position = texture2D(positions, uv).xy;\n  position.x += 15.0;\n  position *= screenSize.x / screenSize.y / screenSize.xy;\n  gl_PointSize = 8.0;\n  gl_Position = vec4((position) * 25.0, 1.0, 1.0);\n}", "\n#define GLSLIFY 1\n\nprecision mediump float;\nuniform sampler2D tex;\nvoid main() {\n  vec4 color = vec4(0.0);\n  color += texture2D(tex, gl_PointCoord.xy);\n  color *= vec4(1.2, 1.15, 1.21, 1.0);\n  color += vec4(0.3, 0.3, 0.3, 0.0);\n  color.a = 1.0;\n  gl_FragColor = color;\n}", [{"name":"positions","type":"sampler2D"},{"name":"screenSize","type":"vec2"},{"name":"tex","type":"sampler2D"}], [{"name":"uv","type":"vec2"}])(gl);
 
     function render() {
         var width = canvas.width;
         var height = canvas.height;
-
-        if (window.scrollY > height)
-            return;
-
-        var now = getTime() * TIMESCALE;
-        heightmap.bind();
-        gl.viewport(0, 0, SIZE, SIZE);
         gl.disable(gl.DEPTH_TEST);
         gl.disable(gl.CULL_FACE);
-        heightShader.bind();
-        heightShader.uniforms.uTime = now;
-        heightShader.uniforms.uResolution = RES;
+        gl.disable(gl.BLEND);
+        pdata[0].bind();
+        gl.viewport(0, 0, width, height);
+        shaders.logic.bind();
+        shaders.logic.uniforms.positions = pdata[1].color[0].bind(0);
         triangle(gl);
         gl.bindFramebuffer(gl.FRAMEBUFFER, null);
         gl.viewport(0, 0, width, height);
-        gl.enable(gl.DEPTH_TEST);
-        gl.enable(gl.CULL_FACE);
         clear(gl);
-        mat4.perspective(projection, Math.PI / 4, width / height, 0.001, 100);
-        quat.identity(camera.rotation);
-        quat.rotateY(camera.rotation, camera.rotation, now * 0.0002);
-        quat.rotateX(camera.rotation, camera.rotation, -0.5);
-        camera.view(view);
-        quat.identity(camera.rotation);
-        quat.rotateY(camera.rotation, camera.rotation, now * 0.0002);
-        geom.bind(shader);
-        shader.uniforms.uResolution = RES;
-        shader.uniforms.uViewRotation = mat4.fromQuat(viewrot, camera.rotation);
-        shader.uniforms.uProjection = projection;
-        shader.uniforms.uModel = model;
-        shader.uniforms.uView = view;
-        shader.uniforms.tHeightmap = heightmap.color[0].bind(0);
-        shader.uniforms.tGradient = gradient.bind(1);
-        geom.draw();
-        geom.unbind();
+        gl.enable(gl.BLEND);
+        gl.blendFunc(gl.DST_COLOR, gl.ZERO);
+        shaders.render.bind();
+        shaders.render.uniforms.positions = pdata[0].color[0].bind(0);
+        shaders.render.uniforms.tex = boid.bind(1);
+        shaders.render.uniforms.screenSize = [width, height];
+        vao.bind();
+        vao.draw(gl.POINTS, vao.length);
+        switchFrames(pdata);
     }
-};
-
-function createMesh() {
-    var voxels = qbqb(SIZE, 1, SIZE);
-    var positions = unindex(combine(voxels));
-    var edges = unindex(combine(getEdges(voxels)));
-    var centroids = unindex(combine(getCentroids(voxels)));
-
-    return {
-        positions: positions,
-        centroids: centroids,
-        normals: normals(positions),
-        edges: edges
-    };
 }
 
-function getCentroids(meshes) {
-    return meshes.map(function(mesh) {
-        mesh = clone(mesh);
-
-        for (var i = 0; i < mesh.positions.length; i++) {
-            mesh.positions[i] = mesh.centroid;
-        }
-
-        return mesh;
-    });
+function switchFrames(data) {
+    data.push(data.shift());
+    return data;
 }
 
-function getEdges(meshes) {
-    return meshes.map(function(mesh) {
-        mesh = clone(mesh);
-        var idx = mesh.index;
+function createParticleVAO(gl, size) {
+    var data = new Float32Array(size * size);
+    var n = 0;
 
-        for (var i = 0; i < mesh.positions.length; i++) {
-            var pos = mesh.positions[i];
-            mesh.positions[i] = mesh.positions[i].slice();
-            mesh.positions[i][0] = (pos[0] * SIZE - idx[0] - 0.5) * 2;
-            mesh.positions[i][2] = (pos[2] * SIZE - idx[2] - 0.5) * 2;
-            mesh.positions[i][1] = (pos[1] - idx[1] - 0.5) * 2;
-        }
+    for (var x = 0; x < size; x++) for (var y = 0; y < size; y++) {
+        data[n++] = x / size;
+        data[n++] = y / size;
+    }
 
-        return mesh;
-    });
+    var buffer = createBuffer(gl, data);
+
+    var vao = VAO(gl, [{
+        buffer: buffer,
+        type: gl.FLOAT,
+        size: 2
+    }]);
+
+    vao.length = data.length / 2;
+    return vao;
 }
-},{"./gradient-map":6,"a-big-triangle":24,"canvas-fit":25,"clone":27,"cube-cube":28,"face-normals":31,"frame-debounce":32,"gl-clear":37,"gl-context":38,"gl-fbo":40,"gl-geometry":43,"gl-matrix":68,"gl-texture2d":81,"glslify":83,"glslify/adapter.js":82,"mesh-combine":89,"orbit-camera":96,"right-now":97,"unindex-mesh":98}],8:[function(require,module,exports){
+
+function createStartPositions(size) {
+    var data = new Float32Array(size * size * 4);
+
+    for (var i = 0; i < data.length; ) {
+        data[i++] = Math.random() - 0.5;
+        data[i++] = Math.random() - 0.5;
+        data[i++] = Math.random() * 0.1 - 0.05;
+        data[i++] = Math.random() * 0.1 - 0.05;
+    }
+
+    return ndarray(data, [size, size, 4]);
+}
+},{"./boid":6,"a-big-triangle":24,"canvas-fit":25,"frame-debounce":27,"gl-buffer":31,"gl-clear":45,"gl-context":46,"gl-fbo":48,"gl-texture2d":72,"gl-vao":78,"glslify":80,"glslify/adapter.js":79,"ndarray":86}],8:[function(require,module,exports){
 "use strict"
 
 var pool = require("typedarray-pool")
@@ -2254,7 +2224,7 @@ function wrappedNDArrayCtor(data, shape, stride, offset) {
 
 module.exports = wrappedNDArrayCtor
 }).call(this,require("buffer").Buffer)
-},{"buffer":106,"iota-array":15}],15:[function(require,module,exports){
+},{"buffer":189,"iota-array":15}],15:[function(require,module,exports){
 "use strict"
 
 function iota(n) {
@@ -3015,6 +2985,3058 @@ var size = require('element-size')
 
 module.exports = fit
 
+function fit(canvas, parent, scale) {
+  canvas.style.position = canvas.style.position || 'absolute'
+  canvas.style.top = 0
+  canvas.style.left = 0
+
+  scale = parseFloat(scale || 1)
+
+  return resize()
+
+  function resize() {
+    var p = parent || canvas.parentNode
+    if (p && p !== document.body) {
+      var psize  = size(p)
+      var width  = psize[0]|0
+      var height = psize[1]|0
+    } else {
+      var width  = window.innerWidth
+      var height = window.innerHeight
+    }
+
+    canvas.width = width * scale
+    canvas.height = height * scale
+    canvas.style.width = width + 'px'
+    canvas.style.height = height + 'px'
+
+    return resize
+  }
+}
+
+},{"element-size":26}],26:[function(require,module,exports){
+module.exports = getSize
+
+function getSize(element) {
+  // Handle cases where the element is not already
+  // attached to the DOM by briefly appending it
+  // to document.body, and removing it again later.
+  if (element === window || element === document.body) {
+    return [window.innerWidth, window.innerHeight]
+  }
+
+  if (!element.parentNode) {
+    var temporary = true
+    document.body.appendChild(element)
+  }
+
+  var bounds = element.getBoundingClientRect()
+  var styles = getComputedStyle(element)
+  var height = (bounds.height|0)
+    + parse(styles.getPropertyValue('margin-top'))
+    + parse(styles.getPropertyValue('margin-bottom'))
+  var width  = (bounds.width|0)
+    + parse(styles.getPropertyValue('margin-left'))
+    + parse(styles.getPropertyValue('margin-right'))
+
+  if (temporary) {
+    document.body.removeChild(element)
+  }
+
+  return [width, height]
+}
+
+function parse(prop) {
+  return parseFloat(prop) || 0
+}
+
+},{}],27:[function(require,module,exports){
+(function (process){
+var slice = require('sliced')
+
+if (process.browser) {
+  var raf = require('raf-component')
+} else {
+  var raf = typeof setImmediate !== 'undefined'
+    ? setImmediate
+    : process.nextTick
+}
+
+module.exports = debounce
+
+function debounce(fn, now) {
+  var args = null
+  var ctx = null
+
+  return debounced
+
+  function debounced() {
+    if (args !== null) return
+    args = slice(arguments)
+    ctx = this
+    if (now) fn.apply(ctx, args)
+    raf(next)
+  }
+
+  function next() {
+    if (!now) fn.apply(ctx, args)
+    args = null
+    ctx = null
+  }
+}
+
+}).call(this,require('_process'))
+},{"_process":192,"raf-component":28,"sliced":29}],28:[function(require,module,exports){
+/**
+ * Expose `requestAnimationFrame()`.
+ */
+
+exports = module.exports = window.requestAnimationFrame
+  || window.webkitRequestAnimationFrame
+  || window.mozRequestAnimationFrame
+  || window.oRequestAnimationFrame
+  || window.msRequestAnimationFrame
+  || fallback;
+
+/**
+ * Fallback implementation.
+ */
+
+var prev = new Date().getTime();
+function fallback(fn) {
+  var curr = new Date().getTime();
+  var ms = Math.max(0, 16 - (curr - prev));
+  var req = setTimeout(fn, ms);
+  prev = curr;
+  return req;
+}
+
+/**
+ * Cancel.
+ */
+
+var cancel = window.cancelAnimationFrame
+  || window.webkitCancelAnimationFrame
+  || window.mozCancelAnimationFrame
+  || window.oCancelAnimationFrame
+  || window.msCancelAnimationFrame
+  || window.clearTimeout;
+
+exports.cancel = function(id){
+  cancel.call(window, id);
+};
+
+},{}],29:[function(require,module,exports){
+module.exports = exports = require('./lib/sliced');
+
+},{"./lib/sliced":30}],30:[function(require,module,exports){
+
+/**
+ * An Array.prototype.slice.call(arguments) alternative
+ *
+ * @param {Object} args something with a length
+ * @param {Number} slice
+ * @param {Number} sliceEnd
+ * @api public
+ */
+
+module.exports = function (args, slice, sliceEnd) {
+  var ret = [];
+  var len = args.length;
+
+  if (0 === len) return ret;
+
+  var start = slice < 0
+    ? Math.max(0, slice + len)
+    : slice || 0;
+
+  if (sliceEnd !== undefined) {
+    len = sliceEnd < 0
+      ? sliceEnd + len
+      : sliceEnd
+  }
+
+  while (len-- > start) {
+    ret[len - start] = args[len];
+  }
+
+  return ret;
+}
+
+
+},{}],31:[function(require,module,exports){
+"use strict"
+
+var pool = require("typedarray-pool")
+var ops = require("ndarray-ops")
+var ndarray = require("ndarray")
+var webglew = require("webglew")
+
+var SUPPORTED_TYPES = [
+  "uint8",
+  "uint8_clamped",
+  "uint16",
+  "uint32",
+  "int8",
+  "int16",
+  "int32",
+  "float32" ]
+
+function GLBuffer(gl, type, handle, length, usage) {
+  this.gl = gl
+  this.type = type
+  this.handle = handle
+  this.length = length
+  this.usage = usage
+}
+
+var proto = GLBuffer.prototype
+
+proto.bind = function() {
+  this.gl.bindBuffer(this.type, this.handle)
+}
+
+proto.dispose = function() {
+  this.gl.deleteBuffer(this.handle)
+}
+
+function updateTypeArray(gl, type, len, usage, data, offset) {
+  var dataLen = data.length * data.BYTES_PER_ELEMENT 
+  if(offset < 0) {
+    gl.bufferData(type, data, usage)
+    return dataLen
+  }
+  if(dataLen + offset > len) {
+    throw new Error("gl-buffer: If resizing buffer, must not specify offset")
+  }
+  gl.bufferSubData(type, offset, data)
+  return len
+}
+
+function makeScratchTypeArray(array, dtype) {
+  var res = pool.malloc(array.length, dtype)
+  var n = array.length
+  for(var i=0; i<n; ++i) {
+    res[i] = array[i]
+  }
+  return res
+}
+
+function isPacked(shape, stride) {
+  var n = 1
+  for(var i=stride.length-1; i>=0; --i) {
+    if(stride[i] !== n) {
+      return false
+    }
+    n *= shape[i]
+  }
+  return true
+}
+
+proto.update = function(array, offset) {
+  if(typeof offset !== "number") {
+    offset = -1
+  }
+  this.bind()
+  if(typeof array === "object" && typeof array.shape !== "undefined") { //ndarray
+    var dtype = array.dtype
+    if(SUPPORTED_TYPES.indexOf(dtype) < 0) {
+      dtype = "float32"
+    }
+    if(this.type === this.gl.ELEMENT_ARRAY_BUFFER) {
+      var wgl = webglew(this.gl)
+      var ext = wgl.OES_element_index_uint
+      if(ext && dtype !== "uint16") {
+        dtype = "uint32"
+      } else {
+        dtype = "uint16"
+      }
+    }
+    if(dtype === array.dtype && isPacked(array.shape, array.stride)) {
+      if(array.offset === 0 && array.data.length === array.shape[0]) {
+        this.length = updateTypeArray(this.gl, this.type, this.length, this.usage, array.data, offset)
+      } else {
+        this.length = updateTypeArray(this.gl, this.type, this.length, this.usage, array.data.subarray(array.offset, array.shape[0]), offset)
+      }
+    } else {
+      var tmp = pool.malloc(array.size, dtype)
+      var ndt = ndarray(tmp, array.shape)
+      ops.assign(ndt, array)
+      if(offset < 0) {
+        this.length = updateTypeArray(this.gl, this.type, this.length, this.usage, tmp, offset)  
+      } else {
+        this.length = updateTypeArray(this.gl, this.type, this.length, this.usage, tmp.subarray(0, array.size), offset)  
+      }
+      pool.free(tmp)
+    }
+  } else if(Array.isArray(array)) { //Vanilla array
+    var t
+    if(this.type === this.gl.ELEMENT_ARRAY_BUFFER) {
+      t = makeScratchTypeArray(array, "uint16")
+    } else {
+      t = makeScratchTypeArray(array, "float32")
+    }
+    if(offset < 0) {
+      this.length = updateTypeArray(this.gl, this.type, this.length, this.usage, t, offset)
+    } else {
+      this.length = updateTypeArray(this.gl, this.type, this.length, this.usage, t.subarray(0, array.length), offset)
+    }
+    pool.free(t)
+  } else if(typeof array === "object" && typeof array.length === "number") { //Typed array
+    this.length = updateTypeArray(this.gl, this.type, this.length, this.usage, array, offset)
+  } else if(typeof array === "number" || array === undefined) { //Number/default
+    if(offset >= 0) {
+      throw new Error("gl-buffer: Cannot specify offset when resizing buffer")
+    }
+    array = array | 0
+    if(array <= 0) {
+      array = 1
+    }
+    this.gl.bufferData(this.type, array|0, this.usage)
+    this.length = array
+  } else { //Error, case should not happen
+    throw new Error("gl-buffer: Invalid data type")
+  }
+}
+
+function createBuffer(gl, data, type, usage) {
+  webglew(gl)
+  type = type || gl.ARRAY_BUFFER
+  usage = usage || gl.DYNAMIC_DRAW
+  if(type !== gl.ARRAY_BUFFER && type !== gl.ELEMENT_ARRAY_BUFFER) {
+    throw new Error("gl-buffer: Invalid type for webgl buffer, must be either gl.ARRAY_BUFFER or gl.ELEMENT_ARRAY_BUFFER")
+  }
+  if(usage !== gl.DYNAMIC_DRAW && usage !== gl.STATIC_DRAW && usage !== gl.STREAM_DRAW) {
+    throw new Error("gl-buffer: Invalid usage for buffer, must be either gl.DYNAMIC_DRAW, gl.STATIC_DRAW or gl.STREAM_DRAW")
+  }
+  var handle = gl.createBuffer()
+  var result = new GLBuffer(gl, type, handle, 0, usage)
+  result.update(data)
+  return result
+}
+
+module.exports = createBuffer
+},{"ndarray":37,"ndarray-ops":32,"typedarray-pool":41,"webglew":43}],32:[function(require,module,exports){
+arguments[4][9][0].apply(exports,arguments)
+},{"cwise-compiler":33}],33:[function(require,module,exports){
+arguments[4][10][0].apply(exports,arguments)
+},{"./lib/thunk.js":35}],34:[function(require,module,exports){
+arguments[4][11][0].apply(exports,arguments)
+},{"uniq":36}],35:[function(require,module,exports){
+arguments[4][12][0].apply(exports,arguments)
+},{"./compile.js":34}],36:[function(require,module,exports){
+module.exports=require(13)
+},{}],37:[function(require,module,exports){
+arguments[4][14][0].apply(exports,arguments)
+},{"buffer":189,"iota-array":38}],38:[function(require,module,exports){
+module.exports=require(15)
+},{}],39:[function(require,module,exports){
+module.exports=require(16)
+},{}],40:[function(require,module,exports){
+module.exports=require(17)
+},{}],41:[function(require,module,exports){
+(function (global,Buffer){
+var bits = require("bit-twiddle")
+var dup = require("dup")
+if(!global.__TYPEDARRAY_POOL) {
+  global.__TYPEDARRAY_POOL = {
+      UINT8   : dup([32, 0])
+    , UINT16  : dup([32, 0])
+    , UINT32  : dup([32, 0])
+    , INT8    : dup([32, 0])
+    , INT16   : dup([32, 0])
+    , INT32   : dup([32, 0])
+    , FLOAT   : dup([32, 0])
+    , DOUBLE  : dup([32, 0])
+    , DATA    : dup([32, 0])
+    , UINT8C  : dup([32, 0])
+    , BUFFER  : dup([32, 0])
+  }
+}
+var hasUint8C = (typeof Uint8ClampedArray) !== "undefined"
+var POOL = global.__TYPEDARRAY_POOL
+if(!POOL.UINT8C) {
+  POOL.UINT8C = dup([32, 0])
+}
+if(!POOL.BUFFER) {
+  POOL.BUFFER = dup([32, 0])
+}
+var UINT8   = POOL.UINT8
+  , UINT16  = POOL.UINT16
+  , UINT32  = POOL.UINT32
+  , INT8    = POOL.INT8
+  , INT16   = POOL.INT16
+  , INT32   = POOL.INT32
+  , FLOAT   = POOL.FLOAT
+  , DOUBLE  = POOL.DOUBLE
+  , DATA    = POOL.DATA
+  , UINT8C  = POOL.UINT8C
+  , BUFFER  = POOL.BUFFER
+
+exports.free = function free(array) {
+  var n = array.length|0
+    , log_n = bits.log2(n)
+  if(Buffer.isBuffer(array)) {
+    BUFFER[log_n].push(array)
+  } else {
+    switch(Object.prototype.toString.call(array)) {
+      case "[object Uint8Array]":
+        UINT8[log_n].push(array)
+      break
+      case "[object Uint16Array]":
+        UINT16[log_n].push(array)
+      break
+      case "[object Uint32Array]":
+        UINT32[log_n].push(array)
+      break
+      case "[object Int8Array]":
+        INT8[log_n].push(array)
+      break
+      case "[object Int16Array]":
+        INT16[log_n].push(array)
+      break
+      case "[object Int32Array]":
+        INT32[log_n].push(array)
+      break
+      case "[object Uint8ClampedArray]":
+        UINT8C[log_n].push(array)
+      break
+      case "[object Float32Array]":
+        FLOAT[log_n].push(array)
+      break
+      case "[object Float64Array]":
+        DOUBLE[log_n].push(array)
+      break
+      case "[object ArrayBuffer]":
+        DATA[log_n].push(array)
+      break
+      default:
+        throw new Error("typedarray-pool: Unspecified array type")
+    }
+  }
+}
+
+exports.freeUint8 = function freeUint8(array) {
+  UINT8[bits.log2(array.length)].push(array)
+}
+
+exports.freeUint16 = function freeUint16(array) {
+  UINT16[bits.log2(array.length)].push(array)
+}
+
+exports.freeUint32 = function freeUint32(array) {
+  UINT32[bits.log2(array.length)].push(array)
+}
+
+exports.freeInt8 = function freeInt8(array) {
+  INT8[bits.log2(array.length)].push(array)
+}
+
+exports.freeInt16 = function freeInt16(array) {
+  INT16[bits.log2(array.length)].push(array)
+}
+
+exports.freeInt32 = function freeInt32(array) {
+  INT32[bits.log2(array.length)].push(array)
+}
+
+exports.freeFloat32 = exports.freeFloat = function freeFloat(array) {
+  FLOAT[bits.log2(array.length)].push(array)
+}
+
+exports.freeFloat64 = exports.freeDouble = function freeDouble(array) {
+  DOUBLE[bits.log2(array.length)].push(array)
+}
+
+exports.freeArrayBuffer = function freeArrayBuffer(array) {
+  DATA[bits.log2(array.length)].push(array)
+}
+
+if(hasUint8C) {
+  exports.freeUint8Clamped = function freeUint8Clamped(array) {
+    UINT8C[bits.log2(array.length)].push(array)
+  }
+} else {
+  exports.freeUint8Clamped = exports.freeUint8
+}
+
+exports.freeBuffer = function freeBuffer(array) {
+  BUFFER[bits.log2(array.length)].push(array)
+}
+
+exports.malloc = function malloc(n, dtype) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  if(dtype === undefined || dtype === "arraybuffer") {
+    var d = DATA[log_n]
+    if(d.length > 0) {
+      var r = d[d.length-1]
+      d.pop()
+      return r
+    }
+    return new ArrayBuffer(n)
+  } else {
+    switch(dtype) {
+      case "uint8":
+        var u8 = UINT8[log_n]
+        if(u8.length > 0) {
+          return u8.pop()
+        }
+        return new Uint8Array(n)
+      break
+
+      case "uint16":
+        var u16 = UINT16[log_n]
+        if(u16.length > 0) {
+          return u16.pop()
+        }
+        return new Uint16Array(n)
+      break
+
+      case "uint32":
+        var u32 = UINT32[log_n]
+        if(u32.length > 0) {
+          return u32.pop()
+        }
+        return new Uint32Array(n)
+      break
+
+      case "int8":
+        var i8 = INT8[log_n]
+        if(i8.length > 0) {
+          return i8.pop()
+        }
+        return new Int8Array(n)
+      break
+
+      case "int16":
+        var i16 = INT16[log_n]
+        if(i16.length > 0) {
+          return i16.pop()
+        }
+        return new Int16Array(n)
+      break
+
+      case "int32":
+        var i32 = INT32[log_n]
+        if(i32.length > 0) {
+          return i32.pop()
+        }
+        return new Int32Array(n)
+      break
+
+      case "float":
+      case "float32":
+        var f = FLOAT[log_n]
+        if(f.length > 0) {
+          return f.pop()
+        }
+        return new Float32Array(n)
+      break
+
+      case "double":
+      case "float64":
+        var dd = DOUBLE[log_n]
+        if(dd.length > 0) {
+          return dd.pop()
+        }
+        return new Float64Array(n)
+      break
+
+      case "uint8_clamped":
+        if(hasUint8C) {
+          var u8c = UINT8C[log_n]
+          if(u8c.length > 0) {
+            return u8c.pop()
+          }
+          return new Uint8ClampedArray(n)
+        } else {
+          var u8 = UINT8[log_n]
+          if(u8.length > 0) {
+            return u8.pop()
+          }
+          return new Uint8Array(n)
+        }
+      break
+
+      case "buffer":
+        var buf = BUFFER[log_n]
+        if(buf.length > 0) {
+          return buf.pop()
+        }
+        return new Buffer(n)
+      break
+
+      default:
+        return null
+    }
+  }
+  return null
+}
+
+exports.mallocUint8 = function mallocUint8(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = UINT8[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Uint8Array(n)
+}
+
+exports.mallocUint16 = function mallocUint16(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = UINT16[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Uint16Array(n)
+}
+
+exports.mallocUint32 = function mallocUint32(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = UINT32[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Uint32Array(n)
+}
+
+exports.mallocInt8 = function mallocInt8(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = INT8[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Int8Array(n)
+}
+
+exports.mallocInt16 = function mallocInt16(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = INT16[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Int16Array(n)
+}
+
+exports.mallocInt32 = function mallocInt32(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = INT32[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Int32Array(n)
+}
+
+exports.mallocFloat32 = exports.mallocFloat = function mallocFloat(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = FLOAT[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Float32Array(n)
+}
+
+exports.mallocFloat64 = exports.mallocDouble = function mallocDouble(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = DOUBLE[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Float64Array(n)
+}
+
+exports.mallocArrayBuffer = function mallocArrayBuffer(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = DATA[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new ArrayBuffer(n)
+}
+
+if(hasUint8C) {
+  exports.mallocUint8Clamped = function mallocUint8Clamped(n) {
+    n = bits.nextPow2(n)
+    var log_n = bits.log2(n)
+    var cache = UINT8C[log_n]
+    if(cache.length > 0) {
+      return cache.pop()
+    }
+    return new Uint8ClampedArray(n)
+  }
+} else {
+  exports.mallocUint8Clamped = exports.mallocUint8
+}
+
+exports.mallocBuffer = function mallocBuffer(n) {
+  n = bits.nextPow2(n)
+  var log_n = bits.log2(n)
+  var cache = BUFFER[log_n]
+  if(cache.length > 0) {
+    return cache.pop()
+  }
+  return new Buffer(n)
+}
+
+exports.clearCache = function clearCache() {
+  for(var i=0; i<32; ++i) {
+    UINT8[i].length = 0
+    UINT16[i].length = 0
+    UINT32[i].length = 0
+    INT8[i].length = 0
+    INT16[i].length = 0
+    INT32[i].length = 0
+    FLOAT[i].length = 0
+    DOUBLE[i].length = 0
+    DATA[i].length = 0
+    UINT8C[i].length = 0
+    BUFFER[i].length = 0
+  }
+}
+}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
+},{"bit-twiddle":39,"buffer":189,"dup":40}],42:[function(require,module,exports){
+/* (The MIT License)
+ *
+ * Copyright (c) 2012 Brandon Benvie <http://bbenvie.com>
+ *
+ * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
+ * associated documentation files (the 'Software'), to deal in the Software without restriction,
+ * including without limitation the rights to use, copy, modify, merge, publish, distribute,
+ * sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
+ * furnished to do so, subject to the following conditions:
+ *
+ * The above copyright notice and this permission notice shall be included with all copies or
+ * substantial portions of the Software.
+ *
+ * THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
+ * BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+ * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY  CLAIM,
+ * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+ * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+ */
+
+// Original WeakMap implementation by Gozala @ https://gist.github.com/1269991
+// Updated and bugfixed by Raynos @ https://gist.github.com/1638059
+// Expanded by Benvie @ https://github.com/Benvie/harmony-collections
+
+void function(global, undefined_, undefined){
+  var getProps = Object.getOwnPropertyNames,
+      defProp  = Object.defineProperty,
+      toSource = Function.prototype.toString,
+      create   = Object.create,
+      hasOwn   = Object.prototype.hasOwnProperty,
+      funcName = /^\n?function\s?(\w*)?_?\(/;
+
+
+  function define(object, key, value){
+    if (typeof key === 'function') {
+      value = key;
+      key = nameOf(value).replace(/_$/, '');
+    }
+    return defProp(object, key, { configurable: true, writable: true, value: value });
+  }
+
+  function nameOf(func){
+    return typeof func !== 'function'
+          ? '' : 'name' in func
+          ? func.name : toSource.call(func).match(funcName)[1];
+  }
+
+  // ############
+  // ### Data ###
+  // ############
+
+  var Data = (function(){
+    var dataDesc = { value: { writable: true, value: undefined } },
+        datalock = 'return function(k){if(k===s)return l}',
+        uids     = create(null),
+
+        createUID = function(){
+          var key = Math.random().toString(36).slice(2);
+          return key in uids ? createUID() : uids[key] = key;
+        },
+
+        globalID = createUID(),
+
+        storage = function(obj){
+          if (hasOwn.call(obj, globalID))
+            return obj[globalID];
+
+          if (!Object.isExtensible(obj))
+            throw new TypeError("Object must be extensible");
+
+          var store = create(null);
+          defProp(obj, globalID, { value: store });
+          return store;
+        };
+
+    // common per-object storage area made visible by patching getOwnPropertyNames'
+    define(Object, function getOwnPropertyNames(obj){
+      var props = getProps(obj);
+      if (hasOwn.call(obj, globalID))
+        props.splice(props.indexOf(globalID), 1);
+      return props;
+    });
+
+    function Data(){
+      var puid = createUID(),
+          secret = {};
+
+      this.unlock = function(obj){
+        var store = storage(obj);
+        if (hasOwn.call(store, puid))
+          return store[puid](secret);
+
+        var data = create(null, dataDesc);
+        defProp(store, puid, {
+          value: new Function('s', 'l', datalock)(secret, data)
+        });
+        return data;
+      }
+    }
+
+    define(Data.prototype, function get(o){ return this.unlock(o).value });
+    define(Data.prototype, function set(o, v){ this.unlock(o).value = v });
+
+    return Data;
+  }());
+
+
+  var WM = (function(data){
+    var validate = function(key){
+      if (key == null || typeof key !== 'object' && typeof key !== 'function')
+        throw new TypeError("Invalid WeakMap key");
+    }
+
+    var wrap = function(collection, value){
+      var store = data.unlock(collection);
+      if (store.value)
+        throw new TypeError("Object is already a WeakMap");
+      store.value = value;
+    }
+
+    var unwrap = function(collection){
+      var storage = data.unlock(collection).value;
+      if (!storage)
+        throw new TypeError("WeakMap is not generic");
+      return storage;
+    }
+
+    var initialize = function(weakmap, iterable){
+      if (iterable !== null && typeof iterable === 'object' && typeof iterable.forEach === 'function') {
+        iterable.forEach(function(item, i){
+          if (item instanceof Array && item.length === 2)
+            set.call(weakmap, iterable[i][0], iterable[i][1]);
+        });
+      }
+    }
+
+
+    function WeakMap(iterable){
+      if (this === global || this == null || this === WeakMap.prototype)
+        return new WeakMap(iterable);
+
+      wrap(this, new Data);
+      initialize(this, iterable);
+    }
+
+    function get(key){
+      validate(key);
+      var value = unwrap(this).get(key);
+      return value === undefined_ ? undefined : value;
+    }
+
+    function set(key, value){
+      validate(key);
+      // store a token for explicit undefined so that "has" works correctly
+      unwrap(this).set(key, value === undefined ? undefined_ : value);
+    }
+
+    function has(key){
+      validate(key);
+      return unwrap(this).get(key) !== undefined;
+    }
+
+    function delete_(key){
+      validate(key);
+      var data = unwrap(this),
+          had = data.get(key) !== undefined;
+      data.set(key, undefined);
+      return had;
+    }
+
+    function toString(){
+      unwrap(this);
+      return '[object WeakMap]';
+    }
+
+    try {
+      var src = ('return '+delete_).replace('e_', '\\u0065'),
+          del = new Function('unwrap', 'validate', src)(unwrap, validate);
+    } catch (e) {
+      var del = delete_;
+    }
+
+    var src = (''+Object).split('Object');
+    var stringifier = function toString(){
+      return src[0] + nameOf(this) + src[1];
+    };
+
+    define(stringifier, stringifier);
+
+    var prep = { __proto__: [] } instanceof Array
+      ? function(f){ f.__proto__ = stringifier }
+      : function(f){ define(f, stringifier) };
+
+    prep(WeakMap);
+
+    [toString, get, set, has, del].forEach(function(method){
+      define(WeakMap.prototype, method);
+      prep(method);
+    });
+
+    return WeakMap;
+  }(new Data));
+
+  var defaultCreator = Object.create
+    ? function(){ return Object.create(null) }
+    : function(){ return {} };
+
+  function createStorage(creator){
+    var weakmap = new WM;
+    creator || (creator = defaultCreator);
+
+    function storage(object, value){
+      if (value || arguments.length === 2) {
+        weakmap.set(object, value);
+      } else {
+        value = weakmap.get(object);
+        if (value === undefined) {
+          value = creator(object);
+          weakmap.set(object, value);
+        }
+      }
+      return value;
+    }
+
+    return storage;
+  }
+
+
+  if (typeof module !== 'undefined') {
+    module.exports = WM;
+  } else if (typeof exports !== 'undefined') {
+    exports.WeakMap = WM;
+  } else if (!('WeakMap' in global)) {
+    global.WeakMap = WM;
+  }
+
+  WM.createStorage = createStorage;
+  if (global.WeakMap)
+    global.WeakMap.createStorage = createStorage;
+}((0, eval)('this'));
+
+},{}],43:[function(require,module,exports){
+"use strict";
+
+var weakMap = typeof WeakMap === "undefined" ? require("weakmap") : WeakMap
+
+var WebGLEWStruct = new weakMap()
+
+function baseName(ext_name) {
+  return ext_name.replace(/^[A-Z]+_/, "")
+}
+
+function initWebGLEW(gl) {
+  var struct = WebGLEWStruct.get(gl)
+  if(struct) {
+    return struct
+  }
+  var extensions = {}
+  var supported = gl.getSupportedExtensions()
+  for(var i=0; i<supported.length; ++i) {
+    var extName = supported[i]
+    var ext = gl.getExtension(supported[i])
+    if(!ext) {
+      continue
+    }
+    while(true) {
+      extensions[extName] = ext
+      var base = baseName(extName)
+      if(base === extName) {
+        break
+      }
+      extName = base
+    }
+  }
+  WebGLEWStruct.set(gl, extensions)
+  return extensions
+}
+module.exports = initWebGLEW
+},{"weakmap":42}],44:[function(require,module,exports){
+module.exports = defaults
+
+function defaults(opts) {
+  return {
+      color: array(opts.color, [0, 0, 0, 1])
+    , depth: number(opts.depth, 1)
+    , stencil: number(opts.stencil, false)
+  }
+}
+
+function number(n, def) {
+  return n === false
+    ? false
+    : typeof n === 'undefined'
+    ? def
+    : n + 0
+}
+
+function array(a, def) {
+  return a === false
+    ? false
+    : Array.isArray(a)
+    ? a || def
+    : def
+}
+
+},{}],45:[function(require,module,exports){
+var defaults = require('./defaults')
+
+module.exports = clear
+
+function clear(opts) {
+  opts = defaults(opts || {})
+
+  var stencil = opts.stencil
+  var color = opts.color
+  var depth = opts.depth
+
+  return function clear(gl) {
+    var flags = 0
+
+    if (color !== false) {
+      gl.clearColor(color[0], color[1], color[2], color[3])
+      flags |= gl.COLOR_BUFFER_BIT
+    }
+    if (depth !== false) {
+      gl.clearDepth(depth)
+      flags |= gl.DEPTH_BUFFER_BIT
+    }
+    if (stencil !== false) {
+      gl.clearStencil(stencil)
+      flags |= gl.STENCIL_BUFFER_BIT
+    }
+
+    gl.clear(flags)
+
+    return gl
+  }
+}
+
+},{"./defaults":44}],46:[function(require,module,exports){
+var raf = require('raf-component')
+
+module.exports = createContext
+
+function createContext(canvas, opts, render) {
+  if (typeof opts === 'function') {
+    render = opts
+    opts = {}
+  } else {
+    opts = opts || {}
+  }
+
+  var gl = (
+    canvas.getContext('webgl', opts) ||
+    canvas.getContext('webgl-experimental', opts)
+  )
+
+  if (!gl) {
+    throw new Error('Unable to initialize WebGL')
+  }
+
+  if (render) raf(tick)
+
+  return gl
+
+  function tick() {
+    render(gl)
+    raf(tick)
+  }
+}
+
+},{"raf-component":47}],47:[function(require,module,exports){
+module.exports=require(28)
+},{}],48:[function(require,module,exports){
+'use strict'
+
+var webglew = require('webglew')
+var createTexture = require('gl-texture2d')
+
+module.exports = createFBO
+
+var colorAttachmentArrays = null
+var FRAMEBUFFER_UNSUPPORTED
+var FRAMEBUFFER_INCOMPLETE_ATTACHMENT
+var FRAMEBUFFER_INCOMPLETE_DIMENSIONS
+var FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT
+
+function saveFBOState(gl) {
+  var fbo = gl.getParameter(gl.FRAMEBUFFER_BINDING)
+  var rbo = gl.getParameter(gl.RENDERBUFFER_BINDING)
+  var tex = gl.getParameter(gl.TEXTURE_BINDING_2D)
+  return [fbo, rbo, tex]
+}
+
+function restoreFBOState(gl, data) {
+  gl.bindFramebuffer(gl.FRAMEBUFFER, data[0])
+  gl.bindRenderbuffer(gl.RENDERBUFFER, data[1])
+  gl.bindTexture(gl.TEXTURE_2D, data[2])
+}
+
+function lazyInitColorAttachments(gl, ext) {
+  var maxColorAttachments = gl.getParameter(ext.MAX_COLOR_ATTACHMENTS_WEBGL)
+  colorAttachmentArrays = new Array(maxColorAttachments + 1)
+  for(var i=0; i<=maxColorAttachments; ++i) {
+    var x = new Array(maxColorAttachments)
+    for(var j=0; j<i; ++j) {
+      x[j] = gl.COLOR_ATTACHMENT0 + j
+    }
+    for(var j=i; j<maxColorAttachments; ++j) {
+      x[j] = gl.NONE
+    }
+    colorAttachmentArrays[i] = x
+  }
+}
+
+//Throw an appropriate error
+function throwFBOError(status) {
+  switch(status){
+    case FRAMEBUFFER_UNSUPPORTED:
+      throw new Error('gl-fbo: Framebuffer unsupported')
+    case FRAMEBUFFER_INCOMPLETE_ATTACHMENT:
+      throw new Error('gl-fbo: Framebuffer incomplete attachment')
+    case FRAMEBUFFER_INCOMPLETE_DIMENSIONS:
+      throw new Error('gl-fbo: Framebuffer incomplete dimensions')
+    case FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT:
+      throw new Error('gl-fbo: Framebuffer incomplete missing attachment')
+    default:
+      throw new Error('gl-fbo: Framebuffer failed for unspecified reason')
+  }
+}
+
+//Initialize a texture object
+function initTexture(gl, width, height, type, format, attachment) {
+  if(!type) {
+    return null
+  }
+  var result = createTexture(gl, width, height, format, type)
+  result.magFilter = gl.NEAREST
+  result.minFilter = gl.NEAREST
+  result.mipSamples = 1
+  result.bind()
+  gl.framebufferTexture2D(gl.FRAMEBUFFER, attachment, gl.TEXTURE_2D, result.handle, 0)
+  return result
+}
+
+//Initialize a render buffer object
+function initRenderBuffer(gl, width, height, component, attachment) {
+  var result = gl.createRenderbuffer()
+  gl.bindRenderbuffer(gl.RENDERBUFFER, result)
+  gl.renderbufferStorage(gl.RENDERBUFFER, component, width, height)
+  gl.framebufferRenderbuffer(gl.FRAMEBUFFER, attachment, gl.RENDERBUFFER, result)
+  return result
+}
+
+//Rebuild the frame buffer
+function rebuildFBO(fbo) {
+
+  //Save FBO state
+  var state = saveFBOState(fbo.gl)
+
+  var gl = fbo.gl
+  var handle = fbo.handle = gl.createFramebuffer()
+  var width = fbo._shape[0]
+  var height = fbo._shape[1]
+  var numColors = fbo.color.length
+  var ext = fbo._ext
+  var useStencil = fbo._useStencil
+  var useDepth = fbo._useDepth
+  var colorType = fbo._colorType
+  var extensions = webglew(gl)
+
+  //Bind the fbo
+  gl.bindFramebuffer(gl.FRAMEBUFFER, handle)
+  
+  //Allocate color buffers
+  for(var i=0; i<numColors; ++i) {
+    fbo.color[i] = initTexture(gl, width, height, colorType, gl.RGBA, gl.COLOR_ATTACHMENT0 + i)
+  }
+  if(numColors === 0) {
+    fbo._color_rb = initRenderBuffer(gl, width, height, gl.RGBA4, gl.COLOR_ATTACHMENT0)
+    if(ext) {
+      ext.drawBuffersWEBGL(colorAttachmentArrays[0])
+    }
+  } else if(numColors > 1) {
+    ext.drawBuffersWEBGL(colorAttachmentArrays[numColor])
+  }
+
+  //Allocate depth/stencil buffers
+  if(extensions.WEBGL_depth_texture) {
+    if(useStencil) {
+      fbo.depth = initTexture(gl, width, height,
+                          extensions.WEBGL_depth_texture.UNSIGNED_INT_24_8_WEBGL,
+                          gl.DEPTH_STENCIL,
+                          gl.DEPTH_STENCIL_ATTACHMENT)
+    } else if(useDepth) {
+      fbo.depth = initTexture(gl, width, height,
+                          gl.UNSIGNED_SHORT,
+                          gl.DEPTH_COMPONENT,
+                          gl.DEPTH_ATTACHMENT)
+    }
+  } else {
+    if(useDepth && useStencil) {
+      fbo._depth_rb = initRenderBuffer(gl, width, height, gl.DEPTH_STENCIL, gl.DEPTH_STENCIL_ATTACHMENT)
+    } else if(useDepth) {
+      fbo._depth_rb = initRenderBuffer(gl, width, height, gl.DEPTH_COMPONENT16, gl.DEPTH_ATTACHMENT)
+    } else if(useStencil) {
+      fbo._depth_rb = initRenderBuffer(gl, width, height, gl.STENCIL_INDEX, gl.STENCIL_ATTACHMENT)
+    }
+  }
+
+  //Check frame buffer state
+  var status = gl.checkFramebufferStatus(gl.FRAMEBUFFER)
+  if(status !== gl.FRAMEBUFFER_COMPLETE) {
+
+    //Release all partially allocated resources
+    fbo._destroyed = true
+
+    //Release all resources
+    gl.bindFramebuffer(gl.FRAMEBUFFER, null)
+    gl.deleteFramebuffer(fbo.handle)
+    fbo.handle = null
+    if(fbo.depth) {
+      fbo.depth.dispose()
+      fbo.depth = null
+    }
+    if(fbo._depth_rb) {
+      gl.deleteRenderbuffer(fbo._depth_rb)
+      fbo._depth_rb = null
+    }
+    for(var i=0; i<fbo.color.length; ++i) {
+      fbo.color[i].dispose()
+      fbo.color[i] = null
+    }
+    if(fbo._color_rb) {
+      gl.deleteRenderbuffer(fbo._color_rb)
+      fbo._color_rb = null
+    }
+
+    restoreFBOState(gl, state)
+
+    //Throw the frame buffer error
+    throwFBOError(status)
+  }
+
+  //Everything ok, let's get on with life
+  restoreFBOState(gl, state)
+}
+
+function Framebuffer(gl, width, height, colorType, numColors, useDepth, useStencil, ext) {
+  var extensions = webglew(gl)
+
+  //Handle and set properties
+  this.gl = gl
+  this._shape = [width|0, height|0]
+  this._destroyed = false
+  this._ext = ext
+
+  //Allocate buffers
+  this.color = new Array(numColors)
+  for(var i=0; i<numColors; ++i) {
+    this.color[i] = null
+  }
+  this._color_rb = null
+  this.depth = null
+  this._depth_rb = null
+
+  //Save depth and stencil flags
+  this._colorType = colorType
+  this._useDepth = useDepth
+  this._useStencil = useStencil
+  
+  //Shape vector for resizing
+  var parent = this
+  var shapeVector = [width|0, height|0]
+  Object.defineProperties(shapeVector, {
+    0: {
+      get: function() {
+        return parent._shape[0]
+      },
+      set: function(w) {
+        return parent.width = w
+      }
+    },
+    1: {
+      get: function() {
+        return parent._shape[1]
+      },
+      set: function(h) {
+        return parent.height = h
+      }
+    }
+  })
+  this._shapeVector = shapeVector
+
+  //Initialize all attachments
+  rebuildFBO(this)
+}
+
+var proto = Framebuffer.prototype
+
+function reshapeFBO(fbo, w, h) {
+  //If fbo is invalid, just skip this
+  if(fbo._destroyed) {
+    throw new Error('gl-fbo: Can\'t resize destroyed FBO')
+  }
+
+  //Don't resize if no change in shape
+  if( (fbo._shape[0] === w) &&
+      (fbo._shape[1] === h) ) {
+    return
+  }
+
+  var gl = fbo.gl
+  
+  //Check parameter ranges
+  var maxFBOSize = gl.getParameter(gl.MAX_RENDERBUFFER_SIZE)
+  if( w < 0 || w > maxFBOSize || 
+      h < 0 || h > maxFBOSize) {
+    throw new Error('gl-fbo: Can\'t resize FBO, invalid dimensions')
+  }
+
+  //Update shape
+  fbo._shape[0] = w
+  fbo._shape[1] = h
+
+  //Save framebuffer state
+  var state = saveFBOState(gl)
+
+  //Resize framebuffer attachments
+  for(var i=0; i<fbo.color.length; ++i) {
+    fbo.color[i].shape = fbo._shape
+  }
+  if(fbo._color_rb) {
+    gl.bindRenderbuffer(gl.RENDERBUFFER, fbo._color_rb)
+    gl.renderbufferStorage(gl.RENDERBUFFER, gl.RGBA4, fbo._shape[0], fbo._shape[1])
+  }
+  if(fbo.depth) {
+    fbo.depth.shape = fbo._shape
+  }
+  if(fbo._depth_rb) {
+    gl.bindRenderbuffer(gl.RENDERBUFFER, fbo._depth_rb)
+    if(fbo._useDepth && fbo._useStencil) {
+      gl.renderbufferStorage(gl.RENDERBUFFER, gl.DEPTH_STENCIL, fbo._shape[0], fbo._shape[1])
+    } else if(fbo._useDepth) {
+      gl.renderbufferStorage(gl.RENDERBUFFER, gl.DEPTH_COMPONENT16, fbo._shape[0], fbo._shape[1])
+    } else if(fbo._useStencil) {
+      gl.renderbufferStorage(gl.RENDERBUFFER, gl.STENCIL_INDEX, fbo._shape[0], fbo._shape[1])
+    }
+  }
+
+  //Check FBO status after resize, if something broke then die in a fire
+  gl.bindFramebuffer(gl.FRAMEBUFFER, fbo.handle)
+  var status = gl.checkFramebufferStatus(gl.FRAMEBUFFER)
+  if(status !== gl.FRAMEBUFFER_COMPLETE) {
+    fbo.dispose()
+    restoreFBOState(gl, state)
+    throwFBOError(status)
+  }
+  
+  //Restore framebuffer state
+  restoreFBOState(gl, state)
+}
+
+Object.defineProperties(proto, {
+  'shape': {
+    get: function() {
+      if(this._destroyed) {
+        return [0,0]
+      }
+      return this._shapeVector
+    },
+    set: function(x) {
+      if(!Array.isArray(x)) {
+        x = [x|0, x|0]
+      }
+      if(x.length !== 2) {
+        throw new Error('gl-fbo: Shape vector must be length 2')
+      }
+
+      var w = x[0]|0
+      var h = x[1]|0
+      reshapeFBO(this, w, h)
+
+      return [w, h]
+    },
+    enumerable: false
+  },
+  'width': {
+    get: function() {
+      if(this._destroyed) {
+        return 0
+      }
+      return this._shape[0]
+    },
+    set: function(w) {
+      w = w|0
+      reshapeFBO(this, w, this._shape[1])
+      return w
+    },
+    enumerable: false
+  },
+  'height': {
+    get: function() {
+      if(this._destroyed) {
+        return 0
+      }
+      return this._shape[1]
+    },
+    set: function(h) {
+      h = h|0
+      reshapeFBO(this, this._shape[0], h)
+      return h
+    },
+    enumerable: false
+  }
+})
+
+proto.bind = function() {
+  if(this._destroyed) {
+    return
+  }
+  var gl = this.gl
+  gl.bindFramebuffer(gl.FRAMEBUFFER, this.handle)
+  gl.viewport(0, 0, this._shape[0], this._shape[1])
+}
+
+proto.dispose = function() {
+  if(this._destroyed) {
+    return
+  }
+  this._destroyed = true
+  var gl = this.gl
+  gl.deleteFramebuffer(this.handle)
+  this.handle = null
+  if(this.depth) {
+    this.depth.dispose()
+    this.depth = null
+  }
+  if(this._depth_rb) {
+    gl.deleteRenderbuffer(this._depth_rb)
+    this._depth_rb = null
+  }
+  for(var i=0; i<this.color.length; ++i) {
+    this.color[i].dispose()
+    this.color[i] = null
+  }
+  if(this._color_rb) {
+    gl.deleteRenderbuffer(this._color_rb)
+    this._color_rb = null
+  }
+}
+
+function createFBO(gl, width, height, options) {
+
+  //Update frame buffer error code values
+  if(!FRAMEBUFFER_UNSUPPORTED) {
+    FRAMEBUFFER_UNSUPPORTED = gl.FRAMEBUFFER_UNSUPPORTED
+    FRAMEBUFFER_INCOMPLETE_ATTACHMENT = gl.FRAMEBUFFER_INCOMPLETE_ATTACHMENT
+    FRAMEBUFFER_INCOMPLETE_DIMENSIONS = gl.FRAMEBUFFER_INCOMPLETE_DIMENSIONS
+    FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT = gl.FRAMEBUFFER_INCOMPLETE_MISSING_ATTACHMENT
+  }
+
+  var extensions = webglew(gl)
+  
+  //Lazily initialize color attachment arrays
+  if(!colorAttachmentArrays && extensions.WEBGL_draw_buffers) {
+    lazyInitColorAttachments(gl, extensions.WEBGL_draw_buffers)
+  }
+
+  //Special case: Can accept an array as argument
+  if(Array.isArray(width)) {
+    options = height
+    height = width[1]|0
+    width = width[0]|0
+  }
+  
+  if(typeof width !== 'number') {
+    throw new Error('gl-fbo: Missing shape parameter')
+  }
+
+  //Validate width/height properties
+  var maxFBOSize = gl.getParameter(gl.MAX_RENDERBUFFER_SIZE)
+  if(width < 0 || width > maxFBOSize || height < 0 || height > maxFBOSize) {
+    throw new Error('gl-fbo: Parameters are too large for FBO')
+  }
+
+  //Handle each option type
+  options = options || {}
+
+  //Figure out number of color buffers to use
+  var numColors = 1
+  if('color' in options) {
+    numColors = Math.max(options.color|0, 0)
+    if(numColors < 0) {
+      throw new Error('gl-fbo: Must specify a nonnegative number of colors')
+    }
+    if(numColors > 1) {
+      //Check if multiple render targets supported
+      var mrtext = extensions.WEBGL_draw_buffers
+      if(!mrtext) {
+        throw new Error('gl-fbo: Multiple draw buffer extension not supported')
+      } else if(numColors > gl.getParameter(mrtext.MAX_COLOR_ATTACHMENTS_WEBGL)) {
+        throw new Error('gl-fbo: Context does not support ' + numColors + ' draw buffers')
+      }
+    }
+  }
+
+  //Determine whether to use floating point textures
+  var colorType = gl.UNSIGNED_BYTE
+  if(options.float && numColors > 0) {
+    if(!extensions.OES_texture_float) {
+      throw new Error('gl-fbo: Context does not support floating point textures')
+    }
+    colorType = gl.FLOAT
+  } else if(options.preferFloat && numColors > 0) {
+    if(extensions.OES_texture_float) {
+      colorType = gl.FLOAT
+    }
+  }
+
+  //Check if we should use depth buffer
+  var useDepth = true
+  if('depth' in options) {
+    useDepth = !!options.depth
+  }
+
+  //Check if we should use a stencil buffer
+  var useStencil = false
+  if('stencil' in options) {
+    useStencil = !!options.stencil
+  }
+
+  return new Framebuffer(
+    gl, 
+    width, 
+    height, 
+    colorType, 
+    numColors, 
+    useDepth, 
+    useStencil, 
+    extensions.WEBGL_draw_buffers)
+}
+},{"gl-texture2d":59,"webglew":61}],49:[function(require,module,exports){
+arguments[4][9][0].apply(exports,arguments)
+},{"cwise-compiler":50}],50:[function(require,module,exports){
+arguments[4][10][0].apply(exports,arguments)
+},{"./lib/thunk.js":52}],51:[function(require,module,exports){
+arguments[4][11][0].apply(exports,arguments)
+},{"uniq":53}],52:[function(require,module,exports){
+arguments[4][12][0].apply(exports,arguments)
+},{"./compile.js":51}],53:[function(require,module,exports){
+module.exports=require(13)
+},{}],54:[function(require,module,exports){
+arguments[4][14][0].apply(exports,arguments)
+},{"buffer":189,"iota-array":55}],55:[function(require,module,exports){
+module.exports=require(15)
+},{}],56:[function(require,module,exports){
+module.exports=require(16)
+},{}],57:[function(require,module,exports){
+module.exports=require(17)
+},{}],58:[function(require,module,exports){
+module.exports=require(41)
+},{"bit-twiddle":56,"buffer":189,"dup":57}],59:[function(require,module,exports){
+'use strict'
+
+var ndarray = require('ndarray')
+var ops     = require('ndarray-ops')
+var pool    = require('typedarray-pool')
+var webglew = require('webglew')
+
+module.exports = createTexture2D
+
+var linearTypes = null
+var filterTypes = null
+var wrapTypes   = null
+
+function lazyInitLinearTypes(gl) {
+  linearTypes = [
+    gl.LINEAR,
+    gl.NEAREST_MIPMAP_LINEAR,
+    gl.LINEAR_MIPMAP_NEAREST,
+    gl.LINEAR_MIPMAP_NEAREST
+  ]
+  filterTypes = [
+    gl.NEAREST,
+    gl.LINEAR,
+    gl.NEAREST_MIPMAP_NEAREST,
+    gl.NEAREST_MIPMAP_LINEAR,
+    gl.LINEAR_MIPMAP_NEAREST,
+    gl.LINEAR_MIPMAP_LINEAR
+  ]
+  wrapTypes = [
+    gl.REPEAT,
+    gl.CLAMP_TO_EDGE,
+    gl.MIRRORED_REPEAT
+  ]
+}
+
+var convertFloatToUint8 = function(out, inp) {
+  ops.muls(out, inp, 255.0)
+}
+
+function reshapeTexture(tex, w, h) {
+  var gl = tex.gl
+  var maxSize = gl.getParameter(gl.MAX_TEXTURE_SIZE)
+  if(w < 0 || w > maxSize || h < 0 || h > maxSize) {
+    throw new Error("gl-texture2d: Invalid texture size")
+  }
+  tex._shape = [w, h]
+  tex.bind()
+  gl.texImage2D(gl.TEXTURE_2D, 0, tex.format, w, h, 0, tex.format, tex.type, null)
+  tex._mipLevels = [0]
+  return tex
+}
+
+function Texture2D(gl, handle, width, height, format, type) {
+  this.gl = gl
+  this.handle = handle
+  this.format = format
+  this.type = type
+  this._shape = [width, height]
+  this._mipLevels = [0]
+  this._magFilter = gl.NEAREST
+  this._minFilter = gl.NEAREST
+  this._wrapS = gl.CLAMP_TO_EDGE
+  this._wrapT = gl.CLAMP_TO_EDGE
+  this._anisoSamples = 1
+
+  var parent = this
+  var wrapVector = [this._wrapS, this._wrapT]
+  Object.defineProperties(wrapVector, {
+    "0": {
+      get: function() {
+        return parent._wrapS
+      },
+      set: function(v) {
+        return parent.wrapS = v
+      }
+    },
+    "1": {
+      get: function() {
+        return parent._wrapT
+      },
+      set: function(v) {
+        return parent.wrapT = v
+      }
+    }
+  })
+  this._wrapVector = wrapVector
+
+  var shapeVector = [this._shape[0], this._shape[1]]
+  Object.defineProperties(shapeVector, {
+    "0": {
+      get: function() {
+        return parent._shape[0]
+      },
+      set: function(v) {
+        return parent.width = v
+      }
+    },
+    "1" : {
+      get: function() {
+        return parent._shape[1]
+      },
+      set: function(v) {
+        return parent.height = v
+      }
+    }
+  })
+  this._shapeVector = shapeVector
+}
+
+var proto = Texture2D.prototype
+
+Object.defineProperties(proto, {
+  "minFilter": {
+    get: function() {
+      return this._minFilter
+    },
+    set: function(v) {
+      this.bind()
+      var gl = this.gl
+      if(this.type === gl.FLOAT && linearTypes.indexOf(v) >= 0) {
+        if(!webglew(gl).OES_texture_float_linear) {
+          v = gl.NEAREST
+        }
+      }
+      if(filterTypes.indexOf(v) < 0) {
+        throw new Error("gl-texture2d: Unknown filter mode " + v)
+      }
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, v)
+      return this._minFilter = v
+    }
+  },
+  "magFilter": {
+    get: function() {
+      return this._magFilter
+    },
+    set: function(v) {
+      this.bind()
+      var gl = this.gl
+      if(this.type === gl.FLOAT && linearTypes.indexOf(v) >= 0) {
+        if(!webglew(gl).OES_texture_float_linear) {
+          v = gl.NEAREST
+        }
+      }
+      if(filterTypes.indexOf(v) < 0) {
+        throw new Error("gl-texture2d: Unknown filter mode " + v)
+      }
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, v)
+      return this._magFilter = v
+    }
+  },
+  "mipSamples": {
+    get: function() {
+      return this._anisoSamples
+    },
+    set: function(i) {
+      var psamples = this._anisoSamples
+      this._anisoSamples = Math.max(i, 1)|0
+      if(psamples !== this._anisoSamples) {
+        var ext = webglew(this.gl).EXT_texture_filter_anisotropic
+        if(ext) {
+          this.gl.texParameterf(this.gl.TEXTURE_2D, ext.TEXTURE_MAX_ANISOTROPY_EXT, this._anisoSamples)
+        }
+      }
+      return this._anisoSamples
+    }
+  },
+  "wrapS": {
+    get: function() {
+      return this._wrapS
+    },
+    set: function(v) {
+      this.bind()
+      if(wrapTypes.indexOf(v) < 0) {
+        throw new Error("gl-texture2d: Unknown wrap mode " + v)
+      }
+      this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_WRAP_S, v)
+      return this._wrapS = v
+    }
+  },
+  "wrapT": {
+    get: function() {
+      return this._wrapT
+    },
+    set: function(v) {
+      this.bind()
+      if(wrapTypes.indexOf(v) < 0) {
+        throw new Error("gl-texture2d: Unknown wrap mode " + v)
+      }
+      this.gl.texParameteri(this.gl.TEXTURE_2D, this.gl.TEXTURE_WRAP_T, v)
+      return this._wrapT = v
+    }
+  },
+  "wrap": {
+    get: function() {
+      return this._wrapVector
+    },
+    set: function(v) {
+      if(!Array.isArray(v)) {
+        v = [v,v]
+      }
+      if(v.length !== 2) {
+        throw new Error("gl-texture2d: Must specify wrap mode for rows and columns")
+      }
+      for(var i=0; i<2; ++i) {
+        if(wrapTypes.indexOf(v[i]) < 0) {
+          throw new Error("gl-texture2d: Unknown wrap mode " + v)
+        }
+      }
+      this._wrapS = v[0]
+      this._wrapT = v[1]
+
+      var gl = this.gl
+      this.bind()
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, this._wrapS)
+      gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, this._wrapT)
+
+      return v
+    }
+  },
+  "shape": {
+    get: function() {
+      return this._shapeVector
+    }, 
+    set: function(x) {
+      if(!Array.isArray(x)) {
+        x = [x|0,x|0]
+      } else {
+        if(x.length !== 2) {
+          throw new Error("gl-texture2d: Invalid texture shape")
+        }
+      }
+      reshapeTexture(this, x[0]|0, x[1]|0)
+      return [x[0]|0, x[1]|0]
+    }
+  },
+  "width": {
+    get: function() {
+      return this._shape[0]
+    },
+    set: function(w) {
+      w = w|0
+      reshapeTexture(this, w, this._shape[1])
+      return w
+    }
+  },
+  "height": {
+    get: function() {
+      return this._shape[1]
+    },
+    set: function(h) {
+      h = h|0
+      reshapeTexture(this, this._shape[0], h)
+      return h
+    }
+  }
+})
+
+proto.bind = function(unit) {
+  var gl = this.gl
+  if(unit !== undefined) {
+    gl.activeTexture(gl.TEXTURE0 + (unit|0))
+  }
+  gl.bindTexture(gl.TEXTURE_2D, this.handle)
+  if(unit !== undefined) {
+    return unit
+  }
+  return gl.getParameter(gl.ACTIVE_TEXTURE) - gl.TEXTURE0
+}
+
+proto.dispose = function() {
+  this.gl.deleteTexture(this.handle)
+}
+
+proto.generateMipmap = function() {
+  this.bind()
+  this.gl.generateMipmap(this.gl.TEXTURE_2D)
+  
+  //Update mip levels
+  var l = Math.min(this._shape[0], this._shape[1])
+  for(var i=0; l>0; ++i, l>>>=1) {
+    if(this._mipLevels.indexOf(i) < 0) {
+      this._mipLevels.push(i)
+    }
+  }
+}
+
+proto.setPixels = function(data, x_off, y_off, mip_level) {
+  var gl = this.gl
+  this.bind()
+  if(Array.isArray(x_off)) {
+    mip_level = y_off
+    y_off = x_off[1]|0
+    x_off = x_off[0]|0
+  } else {
+    x_off = x_off || 0
+    y_off = y_off || 0
+  }
+  mip_level = mip_level || 0
+  if(data instanceof HTMLCanvasElement ||
+     data instanceof ImageData ||
+     data instanceof HTMLImageElement ||
+     data instanceof HTMLVideoElement) {
+    var needsMip = this._mipLevels.indexOf(mip_level) < 0
+    if(needsMip) {
+      gl.texImage2D(gl.TEXTURE_2D, 0, this.format, this.format, this.type, data)
+      this._mipLevels.push(mip_level)
+    } else {
+      gl.texSubImage2D(gl.TEXTURE_2D, mip_level, x_off, y_off, this.format, this.type, data)
+    }
+  } else if(data.shape && data.stride && data.data) {
+    if(data.shape.length < 2 ||
+       x_off + data.shape[1] > this._shape[1]>>>mip_level ||
+       y_off + data.shape[0] > this._shape[0]>>>mip_level ||
+       x_off < 0 ||
+       y_off < 0) {
+      throw new Error("gl-texture2d: Texture dimensions are out of bounds")
+    }
+    texSubImageArray(gl, x_off, y_off, mip_level, this.format, this.type, this._mipLevels, data)
+  } else {
+    throw new Error("gl-texture2d: Unsupported data type")
+  }
+}
+
+
+function isPacked(shape, stride) {
+  if(shape.length === 3) {
+    return  (stride[2] === 1) && 
+            (stride[1] === shape[0]*shape[2]) &&
+            (stride[0] === shape[2])
+  }
+  return  (stride[0] === 1) && 
+          (stride[1] === shape[0])
+}
+
+function texSubImageArray(gl, x_off, y_off, mip_level, cformat, ctype, mipLevels, array) {
+  var dtype = array.dtype
+  var shape = array.shape.slice()
+  if(shape.length < 2 || shape.length > 3) {
+    throw new Error("gl-texture2d: Invalid ndarray, must be 2d or 3d")
+  }
+  var type = 0, format = 0
+  var packed = isPacked(shape, array.stride.slice())
+  if(dtype === "float32") {
+    type = gl.FLOAT
+  } else if(dtype === "float64") {
+    type = gl.FLOAT
+    packed = false
+    dtype = "float32"
+  } else if(dtype === "uint8") {
+    type = gl.UNSIGNED_BYTE
+  } else {
+    type = gl.UNSIGNED_BYTE
+    packed = false
+    dtype = "uint8"
+  }
+  var channels = 1
+  if(shape.length === 2) {
+    format = gl.LUMINANCE
+    shape = [shape[0], shape[1], 1]
+    array = ndarray(array.data, shape, [array.stride[0], array.stride[1], 1], array.offset)
+  } else if(shape.length === 3) {
+    if(shape[2] === 1) {
+      format = gl.ALPHA
+    } else if(shape[2] === 2) {
+      format = gl.LUMINANCE_ALPHA
+    } else if(shape[2] === 3) {
+      format = gl.RGB
+    } else if(shape[2] === 4) {
+      format = gl.RGBA
+    } else {
+      throw new Error("gl-texture2d: Invalid shape for pixel coords")
+    }
+    channels = shape[2]
+  } else {
+    throw new Error("gl-texture2d: Invalid shape for texture")
+  }
+  //For 1-channel textures allow conversion between formats
+  if((format  === gl.LUMINANCE || format  === gl.ALPHA) &&
+     (cformat === gl.LUMINANCE || cformat === gl.ALPHA)) {
+    format = cformat
+  }
+  if(format !== cformat) {
+    throw new Error("gl-texture2d: Incompatible texture format for setPixels")
+  }
+  var size = array.size
+  var needsMip = mipLevels.indexOf(mip_level) < 0
+  if(needsMip) {
+    mipLevels.push(mip_level)
+  }
+  if(type === ctype && packed) {
+    //Array data types are compatible, can directly copy into texture
+    if(array.offset === 0 && array.data.length === size) {
+      if(needsMip) {
+        gl.texImage2D(gl.TEXTURE_2D, mip_level, cformat, shape[0], shape[1], 0, cformat, ctype, array.data)
+      } else {
+        gl.texSubImage2D(gl.TEXTURE_2D, mip_level, x_off, y_off, shape[0], shape[1], cformat, ctype, array.data)
+      }
+    } else {
+      if(needsMip) {
+        gl.texImage2D(gl.TEXTURE_2D, mip_level, cformat, shape[0], shape[1], 0, cformat, ctype, array.data.subarray(array.offset, array.offset+size))
+      } else {
+        gl.texSubImage2D(gl.TEXTURE_2D, mip_level, x_off, y_off, shape[0], shape[1], cformat, ctype, array.data.subarray(array.offset, array.offset+size))
+      }
+    }
+  } else {
+    //Need to do type conversion to pack data into buffer
+    var pack_buffer
+    if(ctype === gl.FLOAT) {
+      pack_buffer = pool.mallocFloat32(size)
+    } else {
+      pack_buffer = pool.mallocUint8(size)
+    }
+    var pack_view = ndarray(pack_buffer, shape, [shape[2], shape[2]*shape[0], 1])
+    if(type === gl.FLOAT && ctype === gl.UNSIGNED_BYTE) {
+      convertFloatToUint8(pack_view, array)
+    } else {
+      ops.assign(pack_view, array)
+    }
+    if(needsMip) {
+      gl.texImage2D(gl.TEXTURE_2D, mip_level, cformat, shape[0], shape[1], 0, cformat, ctype, pack_buffer.subarray(0, size))
+    } else {
+      gl.texSubImage2D(gl.TEXTURE_2D, mip_level, x_off, y_off, shape[0], shape[1], cformat, ctype, pack_buffer.subarray(0, size))
+    }
+    if(ctype === gl.FLOAT) {
+      pool.freeFloat32(pack_buffer)
+    } else {
+      pool.freeUint8(pack_buffer)
+    }
+  }
+}
+
+function initTexture(gl) {
+  var tex = gl.createTexture()
+  gl.bindTexture(gl.TEXTURE_2D, tex)
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MIN_FILTER, gl.NEAREST)
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_MAG_FILTER, gl.NEAREST)
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_S, gl.CLAMP_TO_EDGE)
+  gl.texParameteri(gl.TEXTURE_2D, gl.TEXTURE_WRAP_T, gl.CLAMP_TO_EDGE)
+  return tex
+}
+
+function createTextureShape(gl, width, height, format, type) {
+  var maxTextureSize = gl.getParameter(gl.MAX_TEXTURE_SIZE)
+  if(width < 0 || width > maxTextureSize || height < 0 || height  > maxTextureSize) {
+    throw new Error("gl-texture2d: Invalid texture shape")
+  }
+  var tex = initTexture(gl)
+  gl.texImage2D(gl.TEXTURE_2D, 0, format, width, height, 0, format, type, null)
+  return new Texture2D(gl, tex, width, height, format, type)
+}
+
+function createTextureDOM(gl, element, format, type) {
+  var tex = initTexture(gl)
+  gl.texImage2D(gl.TEXTURE_2D, 0, format, format, type, element)
+  return new Texture2D(gl, tex, element.width|0, element.height|0, format, type)
+}
+
+//Creates a texture from an ndarray
+function createTextureArray(gl, array) {
+  var dtype = array.dtype
+  var shape = array.shape.slice()
+  var maxSize = gl.getParameter(gl.MAX_TEXTURE_SIZE)
+  if(shape[0] < 0 || shape[0] > maxSize || shape[1] < 0 || shape[1] > maxSize) {
+    throw new Error("gl-texture2d: Invalid texture size")
+  }
+  var packed = isPacked(shape, array.stride.slice())
+  var type = 0
+  if(dtype === "float32") {
+    type = gl.FLOAT
+  } else if(dtype === "float64") {
+    type = gl.FLOAT
+    packed = false
+    dtype = "float32"
+  } else if(dtype === "uint8") {
+    type = gl.UNSIGNED_BYTE
+  } else {
+    type = gl.UNSIGNED_BYTE
+    packed = false
+    dtype = "uint8"
+  }
+  var format = 0
+  if(shape.length === 2) {
+    format = gl.LUMINANCE
+    shape = [shape[0], shape[1], 1]
+    array = ndarray(array.data, shape, [array.stride[0], array.stride[1], 1], array.offset)
+  } else if(shape.length === 3) {
+    if(shape[2] === 1) {
+      format = gl.ALPHA
+    } else if(shape[2] === 2) {
+      format = gl.LUMINANCE_ALPHA
+    } else if(shape[2] === 3) {
+      format = gl.RGB
+    } else if(shape[2] === 4) {
+      format = gl.RGBA
+    } else {
+      throw new Error("Invalid shape for pixel coords")
+    }
+  } else {
+    throw new Error("Invalid shape for texture")
+  }
+  if(type === gl.FLOAT && !webglew(gl).texture_float) {
+    type = gl.UNSIGNED_BYTE
+    packed = false
+  }
+  var buffer, buf_store
+  var size = array.size
+  if(!packed) {
+    var stride = [shape[2], shape[2]*shape[0], 1]
+    buf_store = pool.malloc(size, dtype)
+    var buf_array = ndarray(buf_store, shape, stride, 0)
+    if((dtype === "float32" || dtype === "float64") && type === gl.UNSIGNED_BYTE) {
+      convertFloatToUint8(buf_array, array)
+    } else {
+      ops.assign(buf_array, array)
+    }
+    buffer = buf_store.subarray(0, size)
+  } else if (array.offset === 0 && array.data.length === size) {
+    buffer = array.data
+  } else {
+    buffer = array.data.subarray(array.offset, array.offset + size)
+  }
+  var tex = initTexture(gl)
+  gl.texImage2D(gl.TEXTURE_2D, 0, format, shape[0], shape[1], 0, format, type, buffer)
+  if(!packed) {
+    pool.free(buf_store)
+  }
+  return new Texture2D(gl, tex, shape[1], shape[0], format, type)
+}
+
+function createTexture2D(gl) {
+  if(arguments.length <= 1) {
+    throw new Error("Missing arguments for texture2d constructor")
+  }
+  if(!linearTypes) {
+    lazyInitLinearTypes(gl)
+  }
+  if(typeof arguments[1] === "number") {
+    return createTextureShape(gl, arguments[1], arguments[2], arguments[3]||gl.RGBA, arguments[4]||gl.UNSIGNED_BYTE)
+  }
+  if(Array.isArray(arguments[1])) {
+    return createTextureShape(gl, arguments[1][0]|0, arguments[1][1]|0, arguments[2]||gl.RGBA, arguments[4]||gl.UNSIGNED_BYTE)
+  }
+  if(typeof arguments[1] === "object") {
+    var obj = arguments[1]
+    if(obj instanceof HTMLCanvasElement ||
+       obj instanceof HTMLImageElement ||
+       obj instanceof HTMLVideoElement ||
+       obj instanceof ImageData) {
+      return createTextureDOM(gl, obj, arguments[2]||gl.RGBA, arguments[3]||gl.UNSIGNED_BYTE)
+    } else if(obj.shape && obj.data && obj.stride) {
+      return createTextureArray(gl, obj)
+    }
+  }
+  throw new Error("Invalid arguments for texture2d constructor")
+}
+},{"ndarray":54,"ndarray-ops":49,"typedarray-pool":58,"webglew":61}],60:[function(require,module,exports){
+module.exports=require(42)
+},{}],61:[function(require,module,exports){
+module.exports=require(43)
+},{"weakmap":60}],62:[function(require,module,exports){
+arguments[4][9][0].apply(exports,arguments)
+},{"cwise-compiler":63}],63:[function(require,module,exports){
+arguments[4][10][0].apply(exports,arguments)
+},{"./lib/thunk.js":65}],64:[function(require,module,exports){
+arguments[4][11][0].apply(exports,arguments)
+},{"uniq":66}],65:[function(require,module,exports){
+arguments[4][12][0].apply(exports,arguments)
+},{"./compile.js":64}],66:[function(require,module,exports){
+module.exports=require(13)
+},{}],67:[function(require,module,exports){
+module.exports=require(16)
+},{}],68:[function(require,module,exports){
+module.exports=require(17)
+},{}],69:[function(require,module,exports){
+module.exports=require(41)
+},{"bit-twiddle":67,"buffer":189,"dup":68}],70:[function(require,module,exports){
+module.exports=require(42)
+},{}],71:[function(require,module,exports){
+module.exports=require(43)
+},{"weakmap":70}],72:[function(require,module,exports){
+arguments[4][59][0].apply(exports,arguments)
+},{"ndarray":86,"ndarray-ops":62,"typedarray-pool":69,"webglew":71}],73:[function(require,module,exports){
+"use strict"
+
+function doBind(gl, elements, attributes) {
+  if(elements) {
+    elements.bind()
+  } else {
+    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, null)
+  }
+  var nattribs = gl.getParameter(gl.MAX_VERTEX_ATTRIBS)|0
+  if(attributes) {
+    if(attributes.length > nattribs) {
+      throw new Error("gl-vao: Too many vertex attributes")
+    }
+    for(var i=0; i<attributes.length; ++i) {
+      var attrib = attributes[i]
+      if(attrib.buffer) {
+        var buffer = attrib.buffer
+        var size = attrib.size || 4
+        var type = attrib.type || gl.FLOAT
+        var normalized = !!attrib.normalized
+        var stride = attrib.stride || 0
+        var offset = attrib.offset || 0
+        buffer.bind()
+        gl.enableVertexAttribArray(i)
+        gl.vertexAttribPointer(i, size, type, normalized, stride, offset)
+      } else {
+        if(typeof attrib === "number") {
+          gl.vertexAttrib1f(i, attrib)
+        } else if(attrib.length === 1) {
+          gl.vertexAttrib1f(i, attrib[0])
+        } else if(attrib.length === 2) {
+          gl.vertexAttrib2f(i, attrib[0], attrib[1])
+        } else if(attrib.length === 3) {
+          gl.vertexAttrib3f(i, attrib[0], attrib[1], attrib[2])
+        } else if(attrib.length === 4) {
+          gl.vertexAttrib4f(i, attrib[0], attrib[1], attrib[2], attrib[3])
+        } else {
+          throw new Error("gl-vao: Invalid vertex attribute")
+        }
+        gl.disableVertexAttribArray(i)
+      }
+    }
+    for(; i<nattribs; ++i) {
+      gl.disableVertexAttribArray(i)
+    }
+  } else {
+    gl.bindBuffer(gl.ARRAY_BUFFER, null)
+    for(var i=0; i<nattribs; ++i) {
+      gl.disableVertexAttribArray(i)
+    }
+  }
+}
+
+module.exports = doBind
+},{}],74:[function(require,module,exports){
+"use strict"
+
+var bindAttribs = require("./do-bind.js")
+
+function VAOEmulated(gl) {
+  this.gl = gl
+  this._elements = null
+  this._attributes = null
+  this._elementsType = gl.UNSIGNED_SHORT
+}
+
+VAOEmulated.prototype.bind = function() {
+  bindAttribs(this.gl, this._elements, this._attributes)
+}
+
+VAOEmulated.prototype.update = function(attributes, elements, elementsType) {
+  this._elements = elements
+  this._attributes = attributes
+  this._elementsType = elementsType || this.gl.UNSIGNED_SHORT
+}
+
+VAOEmulated.prototype.dispose = function() { }
+VAOEmulated.prototype.unbind = function() { }
+
+VAOEmulated.prototype.draw = function(mode, count, offset) {
+  offset = offset || 0
+  var gl = this.gl
+  if(this._elements) {
+    gl.drawElements(mode, count, this._elementsType, offset)
+  } else {
+    gl.drawArrays(mode, offset, count)
+  }
+}
+
+function createVAOEmulated(gl) {
+  return new VAOEmulated(gl)
+}
+
+module.exports = createVAOEmulated
+},{"./do-bind.js":73}],75:[function(require,module,exports){
+"use strict"
+
+var bindAttribs = require("./do-bind.js")
+
+function VertexAttribute(location, dimension, a, b, c, d) {
+  this.location = location
+  this.dimension = dimension
+  this.a = a
+  this.b = b
+  this.c = c
+  this.d = d
+}
+
+VertexAttribute.prototype.bind = function(gl) {
+  switch(this.dimension) {
+    case 1:
+      gl.vertexAttrib1f(this.location, this.a)
+    break
+    case 2:
+      gl.vertexAttrib2f(this.location, this.a, this.b)
+    break
+    case 3:
+      gl.vertexAttrib3f(this.location, this.a, this.b, this.c)
+    break
+    case 4:
+      gl.vertexAttrib4f(this.location, this.a, this.b, this.c, this.d)
+    break
+  }
+}
+
+function VAONative(gl, ext, handle) {
+  this.gl = gl
+  this._ext = ext
+  this.handle = handle
+  this._attribs = []
+  this._useElements = false
+  this._elementsType = gl.UNSIGNED_SHORT
+}
+
+VAONative.prototype.bind = function() {
+  this._ext.bindVertexArrayOES(this.handle)
+  for(var i=0; i<this._attribs.length; ++i) {
+    this._attribs[i].bind(this.gl)
+  }
+}
+
+VAONative.prototype.unbind = function() {
+  this._ext.bindVertexArrayOES(null)
+}
+
+VAONative.prototype.dispose = function() {
+  this._ext.deleteVertexArrayOES(this.handle)
+}
+
+VAONative.prototype.update = function(attributes, elements, elementsType) {
+  this.bind()
+  bindAttribs(this.gl, elements, attributes)
+  this.unbind()
+  this._attribs.length = 0
+  if(attributes)
+  for(var i=0; i<attributes.length; ++i) {
+    var a = attributes[i]
+    if(typeof a === "number") {
+      this._attribs.push(new VertexAttribute(i, 1, a))
+    } else if(Array.isArray(a)) {
+      this._attribs.push(new VertexAttribute(i, a.length, a[0], a[1], a[2], a[3]))
+    }
+  }
+  this._useElements = !!elements
+  this._elementsType = elementsType || this.gl.UNSIGNED_SHORT
+}
+
+VAONative.prototype.draw = function(mode, count, offset) {
+  offset = offset || 0
+  var gl = this.gl
+  if(this._useElements) {
+    gl.drawElements(mode, count, this._elementsType, offset)
+  } else {
+    gl.drawArrays(mode, offset, count)
+  }
+}
+
+function createVAONative(gl, ext) {
+  return new VAONative(gl, ext, ext.createVertexArrayOES())
+}
+
+module.exports = createVAONative
+},{"./do-bind.js":73}],76:[function(require,module,exports){
+module.exports=require(42)
+},{}],77:[function(require,module,exports){
+module.exports=require(43)
+},{"weakmap":76}],78:[function(require,module,exports){
+"use strict"
+
+var webglew = require("webglew")
+var createVAONative = require("./lib/vao-native.js")
+var createVAOEmulated = require("./lib/vao-emulated.js")
+
+function createVAO(gl, attributes, elements, elementsType) {
+  var ext = webglew(gl).OES_vertex_array_object
+  var vao
+  if(ext) {
+    vao = createVAONative(gl, ext)
+  } else {
+    vao = createVAOEmulated(gl)
+  }
+  vao.update(attributes, elements, elementsType)
+  return vao
+}
+
+module.exports = createVAO
+},{"./lib/vao-emulated.js":74,"./lib/vao-native.js":75,"webglew":77}],79:[function(require,module,exports){
+module.exports = programify
+
+var shader = require('gl-shader-core')
+
+function programify(vertex, fragment, uniforms, attributes) {
+  return function(gl) {
+    return shader(gl, vertex, fragment, uniforms, attributes)
+  }
+}
+
+},{"gl-shader-core":85}],80:[function(require,module,exports){
+module.exports = noop
+
+function noop() {
+  throw new Error(
+      'You should bundle your code ' +
+      'using `glslify` as a transform.'
+  )
+}
+
+},{}],81:[function(require,module,exports){
+"use strict"
+
+module.exports = createAttributeWrapper
+
+//Shader attribute class
+function ShaderAttribute(gl, program, location, dimension, name, constFunc, relink) {
+  this._gl = gl
+  this._program = program
+  this._location = location
+  this._dimension = dimension
+  this._name = name
+  this._constFunc = constFunc
+  this._relink = relink
+}
+
+var proto = ShaderAttribute.prototype
+
+proto.pointer = function setAttribPointer(type, normalized, stride, offset) {
+  var gl = this._gl
+  gl.vertexAttribPointer(this._location, this._dimension, type||gl.FLOAT, normalized?gl.TRUE:gl.FALSE, stride||0, offset||0)
+  this._gl.enableVertexAttribArray(this._location)
+}
+
+Object.defineProperty(proto, "location", {
+  get: function() {
+    return this._location
+  }
+  , set: function(v) {
+    if(v !== this._location) {
+      this._location = v
+      this._gl.bindAttribLocation(this._program, v, this._name)
+      this._gl.linkProgram(this._program)
+      this._relink()
+    }
+  }
+})
+
+
+//Adds a vector attribute to obj
+function addVectorAttribute(gl, program, location, dimension, obj, name, doLink) {
+  var constFuncArgs = [ "gl", "v" ]
+  var varNames = []
+  for(var i=0; i<dimension; ++i) {
+    constFuncArgs.push("x"+i)
+    varNames.push("x"+i)
+  }
+  constFuncArgs.push([
+    "if(x0.length===undefined){return gl.vertexAttrib", dimension, "f(v,", varNames.join(","), ")}else{return gl.vertexAttrib", dimension, "fv(v,x0)}"
+  ].join(""))
+  var constFunc = Function.apply(undefined, constFuncArgs)
+  var attr = new ShaderAttribute(gl, program, location, dimension, name, constFunc, doLink)
+  Object.defineProperty(obj, name, {
+    set: function(x) {
+      gl.disableVertexAttribArray(attr._location)
+      constFunc(gl, attr._location, x)
+      return x
+    }
+    , get: function() {
+      return attr
+    }
+    , enumerable: true
+  })
+}
+
+//Create shims for attributes
+function createAttributeWrapper(gl, program, attributes, doLink) {
+  var obj = {}
+  for(var i=0, n=attributes.length; i<n; ++i) {
+    var a = attributes[i]
+    var name = a.name
+    var type = a.type
+    var location = gl.getAttribLocation(program, name)
+    
+    switch(type) {
+      case "bool":
+      case "int":
+      case "float":
+        addVectorAttribute(gl, program, location, 1, obj, name, doLink)
+      break
+      
+      default:
+        if(type.indexOf("vec") >= 0) {
+          var d = type.charCodeAt(type.length-1) - 48
+          if(d < 2 || d > 4) {
+            throw new Error("Invalid data type for attribute " + name + ": " + type)
+          }
+          addVectorAttribute(gl, program, location, d, obj, name, doLink)
+        } else {
+          throw new Error("Unknown data type for attribute " + name + ": " + type)
+        }
+      break
+    }
+  }
+  return obj
+}
+
+},{}],82:[function(require,module,exports){
+"use strict"
+
+var dup = require("dup")
+var coallesceUniforms = require("./reflect.js")
+
+module.exports = createUniformWrapper
+
+//Binds a function and returns a value
+function identity(x) {
+  var c = new Function("y", "return function(){return y}")
+  return c(x)
+}
+
+//Create shims for uniforms
+function createUniformWrapper(gl, program, uniforms, locations) {
+
+  function makeGetter(index) {
+    var proc = new Function("gl", "prog", "locations", 
+      "return function(){return gl.getUniform(prog,locations[" + index + "])}") 
+    return proc(gl, program, locations)
+  }
+
+  function makePropSetter(path, index, type) {
+    switch(type) {
+      case "bool":
+      case "int":
+      case "sampler2D":
+      case "samplerCube":
+        return "gl.uniform1i(locations[" + index + "],obj" + path + ")"
+      case "float":
+        return "gl.uniform1f(locations[" + index + "],obj" + path + ")"
+      default:
+        var vidx = type.indexOf("vec")
+        if(0 <= vidx && vidx <= 1 && type.length === 4 + vidx) {
+          var d = type.charCodeAt(type.length-1) - 48
+          if(d < 2 || d > 4) {
+            throw new Error("Invalid data type")
+          }
+          switch(type.charAt(0)) {
+            case "b":
+            case "i":
+              return "gl.uniform" + d + "iv(locations[" + index + "],obj" + path + ")"
+            case "v":
+              return "gl.uniform" + d + "fv(locations[" + index + "],obj" + path + ")"            
+            default:
+              throw new Error("Unrecognized data type for vector " + name + ": " + type)
+          }
+        } else if(type.indexOf("mat") === 0 && type.length === 4) {
+          var d = type.charCodeAt(type.length-1) - 48
+          if(d < 2 || d > 4) {
+            throw new Error("Invalid uniform dimension type for matrix " + name + ": " + type)
+          }
+          return "gl.uniformMatrix" + d + "fv(locations[" + index + "],false,obj" + path + ")"
+        } else {
+          throw new Error("Unknown uniform data type for " + name + ": " + type)
+        }
+      break
+    }
+  }
+
+  function enumerateIndices(prefix, type) {
+    if(typeof type !== "object") {
+      return [ [prefix, type] ]
+    }
+    var indices = []
+    for(var id in type) {
+      var prop = type[id]
+      var tprefix = prefix
+      if(parseInt(id) + "" === id) {
+        tprefix += "[" + id + "]"
+      } else {
+        tprefix += "." + id
+      }
+      if(typeof prop === "object") {
+        indices.push.apply(indices, enumerateIndices(tprefix, prop))
+      } else {
+        indices.push([tprefix, prop])
+      }
+    }
+    return indices
+  }
+
+  function makeSetter(type) {
+    var code = [ "return function updateProperty(obj){" ]
+    var indices = enumerateIndices("", type)
+    for(var i=0; i<indices.length; ++i) {
+      var item = indices[i]
+      var path = item[0]
+      var idx  = item[1]
+      if(locations[idx]) {
+        code.push(makePropSetter(path, idx, uniforms[idx].type))
+      }
+    }
+    code.push("return obj}")
+    var proc = new Function("gl", "prog", "locations", code.join("\n"))
+    return proc(gl, program, locations)
+  }
+
+  function defaultValue(type) {
+    switch(type) {
+      case "bool":
+        return false
+      case "int":
+      case "sampler2D":
+      case "samplerCube":
+        return 0
+      case "float":
+        return 0.0
+      default:
+        var vidx = type.indexOf("vec")
+        if(0 <= vidx && vidx <= 1 && type.length === 4 + vidx) {
+          var d = type.charCodeAt(type.length-1) - 48
+          if(d < 2 || d > 4) {
+            throw new Error("Invalid data type")
+          }
+          if(type.charAt(0) === "b") {
+            return dup(d, false)
+          }
+          return dup(d)
+        } else if(type.indexOf("mat") === 0 && type.length === 4) {
+          var d = type.charCodeAt(type.length-1) - 48
+          if(d < 2 || d > 4) {
+            throw new Error("Invalid uniform dimension type for matrix " + name + ": " + type)
+          }
+          return dup([d,d])
+        } else {
+          throw new Error("Unknown uniform data type for " + name + ": " + type)
+        }
+      break
+    }
+  }
+
+  function storeProperty(obj, prop, type) {
+    if(typeof type === "object") {
+      var child = processObject(type)
+      Object.defineProperty(obj, prop, {
+        get: identity(child),
+        set: makeSetter(type),
+        enumerable: true,
+        configurable: false
+      })
+    } else {
+      if(locations[type]) {
+        Object.defineProperty(obj, prop, {
+          get: makeGetter(type),
+          set: makeSetter(type),
+          enumerable: true,
+          configurable: false
+        })
+      } else {
+        obj[prop] = defaultValue(uniforms[type].type)
+      }
+    }
+  }
+
+  function processObject(obj) {
+    var result
+    if(Array.isArray(obj)) {
+      result = new Array(obj.length)
+      for(var i=0; i<obj.length; ++i) {
+        storeProperty(result, i, obj[i])
+      }
+    } else {
+      result = {}
+      for(var id in obj) {
+        storeProperty(result, id, obj[id])
+      }
+    }
+    return result
+  }
+
+  //Return data
+  var coallesced = coallesceUniforms(uniforms, true)
+  return {
+    get: identity(processObject(coallesced)),
+    set: makeSetter(coallesced),
+    enumerable: true,
+    configurable: true
+  }
+}
+
+},{"./reflect.js":83,"dup":84}],83:[function(require,module,exports){
+"use strict"
+
+module.exports = makeReflectTypes
+
+//Construct type info for reflection.
+//
+// This iterates over the flattened list of uniform type values and smashes them into a JSON object.
+//
+// The leaves of the resulting object are either indices or type strings representing primitive glslify types
+function makeReflectTypes(uniforms, useIndex) {
+  var obj = {}
+  for(var i=0; i<uniforms.length; ++i) {
+    var n = uniforms[i].name
+    var parts = n.split(".")
+    var o = obj
+    for(var j=0; j<parts.length; ++j) {
+      var x = parts[j].split("[")
+      if(x.length > 1) {
+        if(!(x[0] in o)) {
+          o[x[0]] = []
+        }
+        o = o[x[0]]
+        for(var k=1; k<x.length; ++k) {
+          var y = parseInt(x[k])
+          if(k<x.length-1 || j<parts.length-1) {
+            if(!(y in o)) {
+              if(k < x.length-1) {
+                o[y] = []
+              } else {
+                o[y] = {}
+              }
+            }
+            o = o[y]
+          } else {
+            if(useIndex) {
+              o[y] = i
+            } else {
+              o[y] = uniforms[i].type
+            }
+          }
+        }
+      } else if(j < parts.length-1) {
+        if(!(x[0] in o)) {
+          o[x[0]] = {}
+        }
+        o = o[x[0]]
+      } else {
+        if(useIndex) {
+          o[x[0]] = i
+        } else {
+          o[x[0]] = uniforms[i].type
+        }
+      }
+    }
+  }
+  return obj
+}
+},{}],84:[function(require,module,exports){
+module.exports=require(17)
+},{}],85:[function(require,module,exports){
+"use strict"
+
+var createUniformWrapper = require("./lib/create-uniforms.js")
+var createAttributeWrapper = require("./lib/create-attributes.js")
+var makeReflect = require("./lib/reflect.js")
+
+//Shader object
+function Shader(gl, prog, vertShader, fragShader) {
+  this.gl = gl
+  this.handle = prog
+  this.attributes = null
+  this.uniforms = null
+  this.types = null
+  this.vertexShader = vertShader
+  this.fragmentShader = fragShader
+}
+
+//Binds the shader
+Shader.prototype.bind = function() {
+  this.gl.useProgram(this.handle)
+}
+
+//Destroy shader, release resources
+Shader.prototype.dispose = function() {
+  var gl = this.gl
+  gl.deleteShader(this.vertexShader)
+  gl.deleteShader(this.fragmentShader)
+  gl.deleteProgram(this.handle)
+}
+
+Shader.prototype.updateExports = function(uniforms, attributes) {
+  var locations = new Array(uniforms.length)
+  var program = this.handle
+  var gl = this.gl
+
+  var doLink = relinkUniforms.bind(void 0,
+    gl,
+    program,
+    locations,
+    uniforms
+  )
+  doLink()
+
+  this.types = {
+    uniforms: makeReflect(uniforms),
+    attributes: makeReflect(attributes)
+  }
+
+  this.attributes = createAttributeWrapper(
+    gl,
+    program,
+    attributes,
+    doLink
+  )
+
+  Object.defineProperty(this, "uniforms", createUniformWrapper(
+    gl,
+    program,
+    uniforms,
+    locations
+  ))
+}
+
+//Relinks all uniforms
+function relinkUniforms(gl, program, locations, uniforms) {
+  for(var i=0; i<uniforms.length; ++i) {
+    locations[i] = gl.getUniformLocation(program, uniforms[i].name)
+  }
+}
+
+//Compiles and links a shader program with the given attribute and vertex list
+function createShader(
+    gl
+  , vertSource
+  , fragSource
+  , uniforms
+  , attributes) {
+  
+  //Compile vertex shader
+  var vertShader = gl.createShader(gl.VERTEX_SHADER)
+  gl.shaderSource(vertShader, vertSource)
+  gl.compileShader(vertShader)
+  if(!gl.getShaderParameter(vertShader, gl.COMPILE_STATUS)) {
+    var errLog = gl.getShaderInfoLog(vertShader)
+    console.error("Error compling vertex shader:", errLog)
+    throw new Error("Error compiling vertex shader:" + errLog)
+  }
+  
+  //Compile fragment shader
+  var fragShader = gl.createShader(gl.FRAGMENT_SHADER)
+  gl.shaderSource(fragShader, fragSource)
+  gl.compileShader(fragShader)
+  if(!gl.getShaderParameter(fragShader, gl.COMPILE_STATUS)) {
+    var errLog = gl.getShaderInfoLog(fragShader)
+    console.error("Error compiling fragment shader:", errLog)
+    throw new Error("Error compiling fragment shader:" + errLog)
+  }
+  
+  //Link program
+  var program = gl.createProgram()
+  gl.attachShader(program, fragShader)
+  gl.attachShader(program, vertShader)
+  gl.linkProgram(program)
+  if(!gl.getProgramParameter(program, gl.LINK_STATUS)) {
+    var errLog = gl.getProgramInfoLog(program)
+    console.error("Error linking shader program:", errLog)
+    throw new Error("Error linking shader program:" + errLog)
+  }
+  
+  //Return final linked shader object
+  var shader = new Shader(
+    gl,
+    program,
+    vertShader,
+    fragShader
+  )
+  shader.updateExports(uniforms, attributes)
+
+  return shader
+}
+
+module.exports = createShader
+
+},{"./lib/create-attributes.js":81,"./lib/create-uniforms.js":82,"./lib/reflect.js":83}],86:[function(require,module,exports){
+arguments[4][14][0].apply(exports,arguments)
+},{"buffer":189,"iota-array":87}],87:[function(require,module,exports){
+module.exports=require(15)
+},{}],88:[function(require,module,exports){
+"use strict"
+
+module.exports = unpackPNG
+
+var ndarray = require("ndarray")
+
+function unpackPNG(w, h, c, str) {
+  var canvas = document.createElement("canvas")
+  canvas.width = h
+  canvas.height = w
+  var img = new Image()
+  img.src = "data:image/png;base64," + str
+  var context = canvas.getContext("2d")
+  context.drawImage(img, 0, 0)
+  var pixels = context.getImageData(0, 0, h, w)
+  return ndarray(pixels.data, [h, w, c], [4*w, 4, 1], 0)
+}
+},{"ndarray":86}],89:[function(require,module,exports){
+module.exports=require('ndpack-image')(1,256,4,"iVBORw0KGgoAAAANSUhEUgAAAQAAAAABCAYAAAAxWXB3AAAAAklEQVR4AewaftIAAADsSURBVCXBgXEEIQADsZW5/lv+DERS/dBDF3roQlkXeoj1EOshVnSxItZjoSzWQyzWb2JFF6e2WBGrLVbEaosV2YpYka0sZCti/SZWZMpClIQQ2oROQhRC6BBCUwiNRmhEobM1oqTRmdCIGp1JGlGzvokaoW9Cq9C3Yk1R3xY1QseaQqMzjajR6BCaGp0JjaizRY3QmUaq0ZnQCI02nUSh0aYRoqSzRSGEDiGKYlGsqU0IoRHLtC2EkImFItTEykIRshWhiPUjFKEs1ISyUIQi1kMoMqHoQhGKLlYkPYSiC0UXii70KPRPF3ro+gNf1gb72t6EvgAAAABJRU5ErkJggg==")
+
+},{"ndpack-image":177}],90:[function(require,module,exports){
+var createCamera = require("orbit-camera");
+var createTex2d = require("gl-texture2d");
+var createGeom = require("gl-geometry");
+var createFBO = require("gl-fbo");
+var createShader = require("glslify");
+
+var clear = require("gl-clear")({
+    color: [1, 1, 1, 1]
+});
+
+var mat4 = require("gl-matrix").mat4;
+var quat = require("gl-matrix").quat;
+var triangle = require("a-big-triangle");
+var debounce = require("frame-debounce");
+var unindex = require("unindex-mesh");
+var normals = require("face-normals");
+var combine = require("mesh-combine");
+var fit = require("canvas-fit");
+var qbqb = require("cube-cube");
+var getTime = require("right-now");
+var clone = require("clone");
+var TIMESCALE = 0.5;
+var SIZE = 16;
+var RES = [1 / SIZE, 1 / SIZE];
+
+module.exports = function(canvas) {
+    var gl = require("gl-context")(canvas, render);
+
+    var heightmap = createFBO(gl, [SIZE, SIZE], {
+        float: true
+    });
+
+    var gradient = createTex2d(gl, require("./gradient-map"));
+    var voxels = createMesh();
+    var projection = mat4.create();
+    var viewrot = mat4.create();
+    var view = mat4.create();
+    var model = mat4.create();
+    var camera = createCamera([0, 10, 30], [0, 0, 0], [0, 1, 0]);
+    var shader = require("glslify/adapter.js")("\n#define GLSLIFY 1\n\nprecision mediump float;\nattribute vec3 aPosition;\nattribute vec3 aCentroid;\nattribute vec3 aNormal;\nattribute vec3 aEdge;\nvarying vec4 vNeighbours;\nvarying vec3 vNormal;\nvarying vec2 vEdge;\nuniform sampler2D tHeightmap;\nuniform vec2 uResolution;\nuniform mat4 uProjection;\nuniform mat4 uModel;\nuniform mat4 uView;\nconst float threshold = 1.0 / 0.01;\nvoid main() {\n  vec3 position = aPosition;\n  vec2 coord = aCentroid.xz;\n  float height = texture2D(tHeightmap, aCentroid.xz).r;\n  float nht = texture2D(tHeightmap, coord + uResolution * vec2(+0.0, -1.0)).r;\n  float nhb = texture2D(tHeightmap, coord + uResolution * vec2(+0.0, +1.0)).r;\n  float nhl = texture2D(tHeightmap, coord + uResolution * vec2(-1.0, +0.0)).r;\n  float nhr = texture2D(tHeightmap, coord + uResolution * vec2(+1.0, +0.0)).r;\n  position.y = mix(position.y, height, position.y);\n  gl_Position = (uProjection * uView * uModel * vec4(position, 1.0)) + vec4(0.35, -0.2, 0.0, 0.0);\n  vNormal = aNormal;\n  vEdge = aEdge.xz;\n  vNeighbours = vec4(clamp((nht - height) * threshold, -1.0, 1.0), clamp((nhb - height) * threshold, -1.0, 1.0), clamp((nhl - height) * threshold, -1.0, 1.0), clamp((nhr - height) * threshold, -1.0, 1.0));\n}", "\n#define GLSLIFY 1\n\nprecision mediump float;\nuniform sampler2D tGradient;\nuniform mat4 uViewRotation;\nvarying vec4 vNeighbours;\nvarying vec3 vNormal;\nvarying vec2 vEdge;\n#define EDGE_SHARPNESS 1.8\n\n#define EDGE_SHADOW 0.2\n\n#define BLOCK_COLOR 1.1\n\nvoid main() {\n  vec4 lightDirection = vec4(normalize(vec3(-0.2, 1.2, 0.8)), 1.0);\n  lightDirection = uViewRotation * lightDirection;\n  float nhr = max(0.0, vNeighbours.x);\n  float nhl = max(0.0, vNeighbours.y);\n  float nhb = max(0.0, vNeighbours.z);\n  float nht = max(0.0, vNeighbours.w);\n  float top = abs(vNormal.y);\n  vec2 de = vec2(max(0.0, nht * vEdge.x) - min(0.0, nhb * vEdge.x), max(0.0, nhl * vEdge.y) - min(0.0, nhr * vEdge.y));\n  float d1 = smoothstep(0.0, 1.0, abs(de.x));\n  float d2 = smoothstep(0.0, 1.0, abs(de.y));\n  float d = (pow(d1, EDGE_SHARPNESS) + pow(d2, EDGE_SHARPNESS));\n  vec3 diffuse = vec3(1.0 - min(d, 1.0) * top * EDGE_SHADOW) * BLOCK_COLOR;\n  vec3 ambient = vec3(0.1);\n  float lambert = max(0.0, dot(vNormal, normalize(lightDirection.xyz)));\n  vec3 color = diffuse * lambert + ambient;\n  gl_FragColor.rgb = texture2D(tGradient, vec2(0.0, color.r)).rgb;\n  gl_FragColor.a = 1.0;\n}", [{"name":"tHeightmap","type":"sampler2D"},{"name":"uResolution","type":"vec2"},{"name":"uProjection","type":"mat4"},{"name":"uModel","type":"mat4"},{"name":"uView","type":"mat4"},{"name":"tGradient","type":"sampler2D"},{"name":"uViewRotation","type":"mat4"}], [{"name":"aPosition","type":"vec3"},{"name":"aCentroid","type":"vec3"},{"name":"aNormal","type":"vec3"},{"name":"aEdge","type":"vec3"}])(gl);
+    var heightShader = require("glslify/adapter.js")("\n#define GLSLIFY 1\n\nprecision mediump float;\nattribute vec2 position;\nvoid main() {\n  gl_Position = vec4(position.xy, 1.0, 1.0);\n}", "\n#define GLSLIFY 1\n\nprecision mediump float;\nuniform vec2 uResolution;\nuniform float uTime;\nvoid main() {\n  vec2 coord = (gl_FragCoord.xy * uResolution - 0.5) * 2.0;\n  float height = 0.0;\n  height += sin(uTime * 0.00062 + coord.y * 2.5) * 0.4;\n  height += cos(uTime * 0.00048 + coord.x * 1.8) * 0.6;\n  height += sin(uTime * 0.0048 + coord.x * 7.9) * 0.2;\n  height += cos(uTime * 0.0038 + coord.y * 6.8) * 0.1;\n  height += sin(uTime * 0.0028 + coord.y * 2.8 + 0.5) * 0.3;\n  height -= clamp(1.0 - uTime * 0.0005, 0.0, 1.0) * 2.0;\n  height = max(0.0, height * 0.2);\n  height *= max(0.0, 0.85 - max(0.0, coord.x * coord.x + coord.y * coord.y));\n  gl_FragColor.r = height;\n  gl_FragColor.gba = vec3(1.0);\n}", [{"name":"uResolution","type":"vec2"},{"name":"uTime","type":"float"}], [{"name":"position","type":"vec2"}])(gl);
+    var geom = createGeom(gl).attr("aPosition", voxels.positions).attr("aCentroid", voxels.centroids).attr("aNormal", voxels.normals).attr("aEdge", voxels.edges);
+    camera.distance = 1.5;
+    heightmap.color[0].wrap = gl.CLAMP_TO_EDGE;
+    heightmap.color[0].minFilter = gl.NEAREST;
+    heightmap.color[0].maxFilter = gl.NEAREST;
+    mat4.translate(model, model, [-0.5, 0, -0.5]);
+    window.addEventListener("resize", debounce(fit(canvas)), false);
+
+    function render() {
+        var width = canvas.width;
+        var height = canvas.height;
+
+        if (window.scrollY > height)
+            return;
+
+        var now = getTime() * TIMESCALE;
+        heightmap.bind();
+        gl.viewport(0, 0, SIZE, SIZE);
+        gl.disable(gl.DEPTH_TEST);
+        gl.disable(gl.CULL_FACE);
+        heightShader.bind();
+        heightShader.uniforms.uTime = now;
+        heightShader.uniforms.uResolution = RES;
+        triangle(gl);
+        gl.bindFramebuffer(gl.FRAMEBUFFER, null);
+        gl.viewport(0, 0, width, height);
+        gl.enable(gl.DEPTH_TEST);
+        gl.enable(gl.CULL_FACE);
+        clear(gl);
+        mat4.perspective(projection, Math.PI / 4, width / height, 0.001, 100);
+        quat.identity(camera.rotation);
+        quat.rotateY(camera.rotation, camera.rotation, now * 0.0002);
+        quat.rotateX(camera.rotation, camera.rotation, -0.5);
+        camera.view(view);
+        quat.identity(camera.rotation);
+        quat.rotateY(camera.rotation, camera.rotation, now * 0.0002);
+        geom.bind(shader);
+        shader.uniforms.uResolution = RES;
+        shader.uniforms.uViewRotation = mat4.fromQuat(viewrot, camera.rotation);
+        shader.uniforms.uProjection = projection;
+        shader.uniforms.uModel = model;
+        shader.uniforms.uView = view;
+        shader.uniforms.tHeightmap = heightmap.color[0].bind(0);
+        shader.uniforms.tGradient = gradient.bind(1);
+        geom.draw();
+        geom.unbind();
+    }
+};
+
+function createMesh() {
+    var voxels = qbqb(SIZE, 1, SIZE);
+    var positions = unindex(combine(voxels));
+    var edges = unindex(combine(getEdges(voxels)));
+    var centroids = unindex(combine(getCentroids(voxels)));
+
+    return {
+        positions: positions,
+        centroids: centroids,
+        normals: normals(positions),
+        edges: edges
+    };
+}
+
+function getCentroids(meshes) {
+    return meshes.map(function(mesh) {
+        mesh = clone(mesh);
+
+        for (var i = 0; i < mesh.positions.length; i++) {
+            mesh.positions[i] = mesh.centroid;
+        }
+
+        return mesh;
+    });
+}
+
+function getEdges(meshes) {
+    return meshes.map(function(mesh) {
+        mesh = clone(mesh);
+        var idx = mesh.index;
+
+        for (var i = 0; i < mesh.positions.length; i++) {
+            var pos = mesh.positions[i];
+            mesh.positions[i] = mesh.positions[i].slice();
+            mesh.positions[i][0] = (pos[0] * SIZE - idx[0] - 0.5) * 2;
+            mesh.positions[i][2] = (pos[2] * SIZE - idx[2] - 0.5) * 2;
+            mesh.positions[i][1] = (pos[1] - idx[1] - 0.5) * 2;
+        }
+
+        return mesh;
+    });
+}
+},{"./gradient-map":89,"a-big-triangle":107,"canvas-fit":108,"clone":110,"cube-cube":111,"face-normals":114,"frame-debounce":115,"gl-clear":120,"gl-context":121,"gl-fbo":123,"gl-geometry":126,"gl-matrix":151,"gl-texture2d":164,"glslify":166,"glslify/adapter.js":165,"mesh-combine":172,"orbit-camera":179,"right-now":180,"unindex-mesh":181}],91:[function(require,module,exports){
+arguments[4][8][0].apply(exports,arguments)
+},{"ndarray":97,"ndarray-ops":92,"typedarray-pool":101}],92:[function(require,module,exports){
+arguments[4][9][0].apply(exports,arguments)
+},{"cwise-compiler":93}],93:[function(require,module,exports){
+arguments[4][10][0].apply(exports,arguments)
+},{"./lib/thunk.js":95}],94:[function(require,module,exports){
+arguments[4][11][0].apply(exports,arguments)
+},{"uniq":96}],95:[function(require,module,exports){
+arguments[4][12][0].apply(exports,arguments)
+},{"./compile.js":94}],96:[function(require,module,exports){
+module.exports=require(13)
+},{}],97:[function(require,module,exports){
+arguments[4][14][0].apply(exports,arguments)
+},{"buffer":189,"iota-array":98}],98:[function(require,module,exports){
+module.exports=require(15)
+},{}],99:[function(require,module,exports){
+module.exports=require(16)
+},{}],100:[function(require,module,exports){
+module.exports=require(17)
+},{}],101:[function(require,module,exports){
+module.exports=require(18)
+},{"bit-twiddle":99,"dup":100}],102:[function(require,module,exports){
+module.exports=require(19)
+},{}],103:[function(require,module,exports){
+module.exports=require(20)
+},{"./do-bind.js":102}],104:[function(require,module,exports){
+module.exports=require(21)
+},{"./do-bind.js":102}],105:[function(require,module,exports){
+module.exports=require(22)
+},{}],106:[function(require,module,exports){
+module.exports=require(23)
+},{"./lib/vao-emulated.js":103,"./lib/vao-native.js":104,"webglew":105}],107:[function(require,module,exports){
+module.exports=require(24)
+},{"gl-buffer":91,"gl-vao":106}],108:[function(require,module,exports){
+var size = require('element-size')
+
+module.exports = fit
+
 function fit(canvas) {
   canvas.style.position = canvas.style.position || 'absolute'
   canvas.style.top = 0
@@ -3041,7 +6063,7 @@ function fit(canvas) {
   }
 }
 
-},{"element-size":26}],26:[function(require,module,exports){
+},{"element-size":109}],109:[function(require,module,exports){
 module.exports = getSize
 
 function getSize(element) {
@@ -3073,7 +6095,7 @@ function parse(prop) {
   return parseFloat(prop) || 0
 }
 
-},{}],27:[function(require,module,exports){
+},{}],110:[function(require,module,exports){
 (function (Buffer){
 'use strict';
 
@@ -3206,7 +6228,7 @@ clone.clonePrototype = function(parent) {
 };
 
 }).call(this,require("buffer").Buffer)
-},{"buffer":106}],28:[function(require,module,exports){
+},{"buffer":189}],111:[function(require,module,exports){
 var prism  = require('rectangular-prism')
 var truthy = function() { return true }
 
@@ -3233,7 +6255,7 @@ function cubecube(w, h, d, filter) {
   return cubes
 }
 
-},{"rectangular-prism":30}],29:[function(require,module,exports){
+},{"rectangular-prism":113}],112:[function(require,module,exports){
 module.exports = {
   cells: [
     [1, 0, 2],
@@ -3261,7 +6283,7 @@ module.exports = {
   ]
 }
 
-},{}],30:[function(require,module,exports){
+},{}],113:[function(require,module,exports){
 var prism = require('./cube')
 
 module.exports = createPrism
@@ -3299,7 +6321,7 @@ function clonePrism() {
   }
 }
 
-},{"./cube":29}],31:[function(require,module,exports){
+},{"./cube":112}],114:[function(require,module,exports){
 module.exports = faceNormals
 
 function faceNormals(verts, output) {
@@ -3354,182 +6376,19 @@ function faceNormals(verts, output) {
   return output
 }
 
-},{}],32:[function(require,module,exports){
-(function (process){
-var slice = require('sliced')
-
-if (process.browser) {
-  var raf = require('raf-component')
-} else {
-  var raf = typeof setImmediate !== 'undefined'
-    ? setImmediate
-    : process.nextTick
-}
-
-module.exports = debounce
-
-function debounce(fn, now) {
-  var args = null
-  var ctx = null
-
-  return debounced
-
-  function debounced() {
-    if (args !== null) return
-    args = slice(arguments)
-    ctx = this
-    if (now) fn.apply(ctx, args)
-    raf(next)
-  }
-
-  function next() {
-    if (!now) fn.apply(ctx, args)
-    args = null
-    ctx = null
-  }
-}
-
-}).call(this,require('_process'))
-},{"_process":109,"raf-component":33,"sliced":34}],33:[function(require,module,exports){
-/**
- * Expose `requestAnimationFrame()`.
- */
-
-exports = module.exports = window.requestAnimationFrame
-  || window.webkitRequestAnimationFrame
-  || window.mozRequestAnimationFrame
-  || window.oRequestAnimationFrame
-  || window.msRequestAnimationFrame
-  || fallback;
-
-/**
- * Fallback implementation.
- */
-
-var prev = new Date().getTime();
-function fallback(fn) {
-  var curr = new Date().getTime();
-  var ms = Math.max(0, 16 - (curr - prev));
-  var req = setTimeout(fn, ms);
-  prev = curr;
-  return req;
-}
-
-/**
- * Cancel.
- */
-
-var cancel = window.cancelAnimationFrame
-  || window.webkitCancelAnimationFrame
-  || window.mozCancelAnimationFrame
-  || window.oCancelAnimationFrame
-  || window.msCancelAnimationFrame
-  || window.clearTimeout;
-
-exports.cancel = function(id){
-  cancel.call(window, id);
-};
-
-},{}],34:[function(require,module,exports){
-module.exports = exports = require('./lib/sliced');
-
-},{"./lib/sliced":35}],35:[function(require,module,exports){
-
-/**
- * An Array.prototype.slice.call(arguments) alternative
- *
- * @param {Object} args something with a length
- * @param {Number} slice
- * @param {Number} sliceEnd
- * @api public
- */
-
-module.exports = function (args, slice, sliceEnd) {
-  var ret = [];
-  var len = args.length;
-
-  if (0 === len) return ret;
-
-  var start = slice < 0
-    ? Math.max(0, slice + len)
-    : slice || 0;
-
-  if (sliceEnd !== undefined) {
-    len = sliceEnd < 0
-      ? sliceEnd + len
-      : sliceEnd
-  }
-
-  while (len-- > start) {
-    ret[len - start] = args[len];
-  }
-
-  return ret;
-}
-
-
-},{}],36:[function(require,module,exports){
-module.exports = defaults
-
-function defaults(opts) {
-  return {
-      color: array(opts.color, [0, 0, 0, 1])
-    , depth: number(opts.depth, 1)
-    , stencil: number(opts.stencil, false)
-  }
-}
-
-function number(n, def) {
-  return n === false
-    ? false
-    : typeof n === 'undefined'
-    ? def
-    : n + 0
-}
-
-function array(a, def) {
-  return a === false
-    ? false
-    : Array.isArray(a)
-    ? a || def
-    : def
-}
-
-},{}],37:[function(require,module,exports){
-var defaults = require('./defaults')
-
-module.exports = clear
-
-function clear(opts) {
-  opts = defaults(opts || {})
-
-  var stencil = opts.stencil
-  var color = opts.color
-  var depth = opts.depth
-
-  return function clear(gl) {
-    var flags = 0
-
-    if (color !== false) {
-      gl.clearColor(color[0], color[1], color[2], color[3])
-      flags |= gl.COLOR_BUFFER_BIT
-    }
-    if (depth !== false) {
-      gl.clearDepth(depth)
-      flags |= gl.DEPTH_BUFFER_BIT
-    }
-    if (stencil !== false) {
-      gl.clearStencil(stencil)
-      flags |= gl.STENCIL_BUFFER_BIT
-    }
-
-    gl.clear(flags)
-
-    return gl
-  }
-}
-
-},{"./defaults":36}],38:[function(require,module,exports){
+},{}],115:[function(require,module,exports){
+arguments[4][27][0].apply(exports,arguments)
+},{"_process":192,"raf-component":116,"sliced":117}],116:[function(require,module,exports){
+module.exports=require(28)
+},{}],117:[function(require,module,exports){
+arguments[4][29][0].apply(exports,arguments)
+},{"./lib/sliced":118}],118:[function(require,module,exports){
+module.exports=require(30)
+},{}],119:[function(require,module,exports){
+module.exports=require(44)
+},{}],120:[function(require,module,exports){
+module.exports=require(45)
+},{"./defaults":119}],121:[function(require,module,exports){
 var raf = require('raf-component')
 
 module.exports = createContext
@@ -3544,7 +6403,8 @@ function createContext(canvas, opts, render) {
 
   var gl = (
     canvas.getContext('webgl', opts) ||
-    canvas.getContext('webgl-experimental', opts)
+    canvas.getContext('webgl-experimental', opts) ||
+    canvas.getContext('experimental-webgl', opts)
   )
 
   if (!gl) {
@@ -3561,9 +6421,9 @@ function createContext(canvas, opts, render) {
   }
 }
 
-},{"raf-component":39}],39:[function(require,module,exports){
-module.exports=require(33)
-},{}],40:[function(require,module,exports){
+},{"raf-component":122}],122:[function(require,module,exports){
+module.exports=require(28)
+},{}],123:[function(require,module,exports){
 "use strict";
 
 var webglew = require("webglew")
@@ -3942,286 +6802,11 @@ function createFBO(gl, width, height, options) {
     useStencil, 
     extensions.WEBGL_draw_buffers)
 }
-},{"gl-texture2d":81,"webglew":42}],41:[function(require,module,exports){
-/* (The MIT License)
- *
- * Copyright (c) 2012 Brandon Benvie <http://bbenvie.com>
- *
- * Permission is hereby granted, free of charge, to any person obtaining a copy of this software and
- * associated documentation files (the 'Software'), to deal in the Software without restriction,
- * including without limitation the rights to use, copy, modify, merge, publish, distribute,
- * sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is
- * furnished to do so, subject to the following conditions:
- *
- * The above copyright notice and this permission notice shall be included with all copies or
- * substantial portions of the Software.
- *
- * THE SOFTWARE IS PROVIDED 'AS IS', WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING
- * BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
- * NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY  CLAIM,
- * DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
- * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
- */
-
-// Original WeakMap implementation by Gozala @ https://gist.github.com/1269991
-// Updated and bugfixed by Raynos @ https://gist.github.com/1638059
-// Expanded by Benvie @ https://github.com/Benvie/harmony-collections
-
-void function(global, undefined_, undefined){
-  var getProps = Object.getOwnPropertyNames,
-      defProp  = Object.defineProperty,
-      toSource = Function.prototype.toString,
-      create   = Object.create,
-      hasOwn   = Object.prototype.hasOwnProperty,
-      funcName = /^\n?function\s?(\w*)?_?\(/;
-
-
-  function define(object, key, value){
-    if (typeof key === 'function') {
-      value = key;
-      key = nameOf(value).replace(/_$/, '');
-    }
-    return defProp(object, key, { configurable: true, writable: true, value: value });
-  }
-
-  function nameOf(func){
-    return typeof func !== 'function'
-          ? '' : 'name' in func
-          ? func.name : toSource.call(func).match(funcName)[1];
-  }
-
-  // ############
-  // ### Data ###
-  // ############
-
-  var Data = (function(){
-    var dataDesc = { value: { writable: true, value: undefined } },
-        datalock = 'return function(k){if(k===s)return l}',
-        uids     = create(null),
-
-        createUID = function(){
-          var key = Math.random().toString(36).slice(2);
-          return key in uids ? createUID() : uids[key] = key;
-        },
-
-        globalID = createUID(),
-
-        storage = function(obj){
-          if (hasOwn.call(obj, globalID))
-            return obj[globalID];
-
-          if (!Object.isExtensible(obj))
-            throw new TypeError("Object must be extensible");
-
-          var store = create(null);
-          defProp(obj, globalID, { value: store });
-          return store;
-        };
-
-    // common per-object storage area made visible by patching getOwnPropertyNames'
-    define(Object, function getOwnPropertyNames(obj){
-      var props = getProps(obj);
-      if (hasOwn.call(obj, globalID))
-        props.splice(props.indexOf(globalID), 1);
-      return props;
-    });
-
-    function Data(){
-      var puid = createUID(),
-          secret = {};
-
-      this.unlock = function(obj){
-        var store = storage(obj);
-        if (hasOwn.call(store, puid))
-          return store[puid](secret);
-
-        var data = create(null, dataDesc);
-        defProp(store, puid, {
-          value: new Function('s', 'l', datalock)(secret, data)
-        });
-        return data;
-      }
-    }
-
-    define(Data.prototype, function get(o){ return this.unlock(o).value });
-    define(Data.prototype, function set(o, v){ this.unlock(o).value = v });
-
-    return Data;
-  }());
-
-
-  var WM = (function(data){
-    var validate = function(key){
-      if (key == null || typeof key !== 'object' && typeof key !== 'function')
-        throw new TypeError("Invalid WeakMap key");
-    }
-
-    var wrap = function(collection, value){
-      var store = data.unlock(collection);
-      if (store.value)
-        throw new TypeError("Object is already a WeakMap");
-      store.value = value;
-    }
-
-    var unwrap = function(collection){
-      var storage = data.unlock(collection).value;
-      if (!storage)
-        throw new TypeError("WeakMap is not generic");
-      return storage;
-    }
-
-    var initialize = function(weakmap, iterable){
-      if (iterable !== null && typeof iterable === 'object' && typeof iterable.forEach === 'function') {
-        iterable.forEach(function(item, i){
-          if (item instanceof Array && item.length === 2)
-            set.call(weakmap, iterable[i][0], iterable[i][1]);
-        });
-      }
-    }
-
-
-    function WeakMap(iterable){
-      if (this === global || this == null || this === WeakMap.prototype)
-        return new WeakMap(iterable);
-
-      wrap(this, new Data);
-      initialize(this, iterable);
-    }
-
-    function get(key){
-      validate(key);
-      var value = unwrap(this).get(key);
-      return value === undefined_ ? undefined : value;
-    }
-
-    function set(key, value){
-      validate(key);
-      // store a token for explicit undefined so that "has" works correctly
-      unwrap(this).set(key, value === undefined ? undefined_ : value);
-    }
-
-    function has(key){
-      validate(key);
-      return unwrap(this).get(key) !== undefined;
-    }
-
-    function delete_(key){
-      validate(key);
-      var data = unwrap(this),
-          had = data.get(key) !== undefined;
-      data.set(key, undefined);
-      return had;
-    }
-
-    function toString(){
-      unwrap(this);
-      return '[object WeakMap]';
-    }
-
-    try {
-      var src = ('return '+delete_).replace('e_', '\\u0065'),
-          del = new Function('unwrap', 'validate', src)(unwrap, validate);
-    } catch (e) {
-      var del = delete_;
-    }
-
-    var src = (''+Object).split('Object');
-    var stringifier = function toString(){
-      return src[0] + nameOf(this) + src[1];
-    };
-
-    define(stringifier, stringifier);
-
-    var prep = { __proto__: [] } instanceof Array
-      ? function(f){ f.__proto__ = stringifier }
-      : function(f){ define(f, stringifier) };
-
-    prep(WeakMap);
-
-    [toString, get, set, has, del].forEach(function(method){
-      define(WeakMap.prototype, method);
-      prep(method);
-    });
-
-    return WeakMap;
-  }(new Data));
-
-  var defaultCreator = Object.create
-    ? function(){ return Object.create(null) }
-    : function(){ return {} };
-
-  function createStorage(creator){
-    var weakmap = new WM;
-    creator || (creator = defaultCreator);
-
-    function storage(object, value){
-      if (value || arguments.length === 2) {
-        weakmap.set(object, value);
-      } else {
-        value = weakmap.get(object);
-        if (value === undefined) {
-          value = creator(object);
-          weakmap.set(object, value);
-        }
-      }
-      return value;
-    }
-
-    return storage;
-  }
-
-
-  if (typeof module !== 'undefined') {
-    module.exports = WM;
-  } else if (typeof exports !== 'undefined') {
-    exports.WeakMap = WM;
-  } else if (!('WeakMap' in global)) {
-    global.WeakMap = WM;
-  }
-
-  WM.createStorage = createStorage;
-  if (global.WeakMap)
-    global.WeakMap.createStorage = createStorage;
-}((0, eval)('this'));
-
-},{}],42:[function(require,module,exports){
-"use strict";
-
-var weakMap = typeof WeakMap === "undefined" ? require("weakmap") : WeakMap
-
-var WebGLEWStruct = new weakMap()
-
-function baseName(ext_name) {
-  return ext_name.replace(/^[A-Z]+_/, "")
-}
-
-function initWebGLEW(gl) {
-  var struct = WebGLEWStruct.get(gl)
-  if(struct) {
-    return struct
-  }
-  var extensions = {}
-  var supported = gl.getSupportedExtensions()
-  for(var i=0; i<supported.length; ++i) {
-    var extName = supported[i]
-    var ext = gl.getExtension(supported[i])
-    if(!ext) {
-      continue
-    }
-    while(true) {
-      extensions[extName] = ext
-      var base = baseName(extName)
-      if(base === extName) {
-        break
-      }
-      extName = base
-    }
-  }
-  WebGLEWStruct.set(gl, extensions)
-  return extensions
-}
-module.exports = initWebGLEW
-},{"weakmap":41}],43:[function(require,module,exports){
+},{"gl-texture2d":164,"webglew":125}],124:[function(require,module,exports){
+module.exports=require(42)
+},{}],125:[function(require,module,exports){
+module.exports=require(43)
+},{"weakmap":124}],126:[function(require,module,exports){
 var normalize = require('./normalize')
 var createVAO = require('gl-vao')
 
@@ -4331,7 +6916,7 @@ GLGeometry.prototype.update = function update() {
   )
 }
 
-},{"./normalize":67,"gl-vao":64}],44:[function(require,module,exports){
+},{"./normalize":150,"gl-vao":147}],127:[function(require,module,exports){
 var dtype = require('dtype')
 
 module.exports = pack
@@ -4359,7 +6944,7 @@ function pack(arr, type) {
   return out
 }
 
-},{"dtype":45}],45:[function(require,module,exports){
+},{"dtype":128}],128:[function(require,module,exports){
 module.exports = function(dtype) {
   switch (dtype) {
     case 'int8':
@@ -4382,7 +6967,7 @@ module.exports = function(dtype) {
       return Array
   }
 }
-},{}],46:[function(require,module,exports){
+},{}],129:[function(require,module,exports){
 "use strict"
 
 var pool = require("typedarray-pool")
@@ -4534,454 +7119,33 @@ function createBuffer(gl, data, type, usage) {
 }
 
 module.exports = createBuffer
-},{"ndarray":52,"ndarray-ops":47,"typedarray-pool":56,"webglew":58}],47:[function(require,module,exports){
+},{"ndarray":135,"ndarray-ops":130,"typedarray-pool":139,"webglew":141}],130:[function(require,module,exports){
 arguments[4][9][0].apply(exports,arguments)
-},{"cwise-compiler":48}],48:[function(require,module,exports){
+},{"cwise-compiler":131}],131:[function(require,module,exports){
 arguments[4][10][0].apply(exports,arguments)
-},{"./lib/thunk.js":50}],49:[function(require,module,exports){
+},{"./lib/thunk.js":133}],132:[function(require,module,exports){
 arguments[4][11][0].apply(exports,arguments)
-},{"uniq":51}],50:[function(require,module,exports){
+},{"uniq":134}],133:[function(require,module,exports){
 arguments[4][12][0].apply(exports,arguments)
-},{"./compile.js":49}],51:[function(require,module,exports){
+},{"./compile.js":132}],134:[function(require,module,exports){
 module.exports=require(13)
-},{}],52:[function(require,module,exports){
+},{}],135:[function(require,module,exports){
 arguments[4][14][0].apply(exports,arguments)
-},{"buffer":106,"iota-array":53}],53:[function(require,module,exports){
+},{"buffer":189,"iota-array":136}],136:[function(require,module,exports){
 module.exports=require(15)
-},{}],54:[function(require,module,exports){
+},{}],137:[function(require,module,exports){
 module.exports=require(16)
-},{}],55:[function(require,module,exports){
+},{}],138:[function(require,module,exports){
 module.exports=require(17)
-},{}],56:[function(require,module,exports){
-(function (global,Buffer){
-var bits = require("bit-twiddle")
-var dup = require("dup")
-if(!global.__TYPEDARRAY_POOL) {
-  global.__TYPEDARRAY_POOL = {
-      UINT8   : dup([32, 0])
-    , UINT16  : dup([32, 0])
-    , UINT32  : dup([32, 0])
-    , INT8    : dup([32, 0])
-    , INT16   : dup([32, 0])
-    , INT32   : dup([32, 0])
-    , FLOAT   : dup([32, 0])
-    , DOUBLE  : dup([32, 0])
-    , DATA    : dup([32, 0])
-    , UINT8C  : dup([32, 0])
-    , BUFFER  : dup([32, 0])
-  }
-}
-var hasUint8C = (typeof Uint8ClampedArray) !== "undefined"
-var POOL = global.__TYPEDARRAY_POOL
-if(!POOL.UINT8C) {
-  POOL.UINT8C = dup([32, 0])
-}
-if(!POOL.BUFFER) {
-  POOL.BUFFER = dup([32, 0])
-}
-var UINT8   = POOL.UINT8
-  , UINT16  = POOL.UINT16
-  , UINT32  = POOL.UINT32
-  , INT8    = POOL.INT8
-  , INT16   = POOL.INT16
-  , INT32   = POOL.INT32
-  , FLOAT   = POOL.FLOAT
-  , DOUBLE  = POOL.DOUBLE
-  , DATA    = POOL.DATA
-  , UINT8C  = POOL.UINT8C
-  , BUFFER  = POOL.BUFFER
-
-exports.free = function free(array) {
-  var n = array.length|0
-    , log_n = bits.log2(n)
-  if(Buffer.isBuffer(array)) {
-    BUFFER[log_n].push(array)
-  } else {
-    switch(Object.prototype.toString.call(array)) {
-      case "[object Uint8Array]":
-        UINT8[log_n].push(array)
-      break
-      case "[object Uint16Array]":
-        UINT16[log_n].push(array)
-      break
-      case "[object Uint32Array]":
-        UINT32[log_n].push(array)
-      break
-      case "[object Int8Array]":
-        INT8[log_n].push(array)
-      break
-      case "[object Int16Array]":
-        INT16[log_n].push(array)
-      break
-      case "[object Int32Array]":
-        INT32[log_n].push(array)
-      break
-      case "[object Uint8ClampedArray]":
-        UINT8C[log_n].push(array)
-      break
-      case "[object Float32Array]":
-        FLOAT[log_n].push(array)
-      break
-      case "[object Float64Array]":
-        DOUBLE[log_n].push(array)
-      break
-      case "[object ArrayBuffer]":
-        DATA[log_n].push(array)
-      break
-      default:
-        throw new Error("typedarray-pool: Unspecified array type")
-    }
-  }
-}
-
-exports.freeUint8 = function freeUint8(array) {
-  UINT8[bits.log2(array.length)].push(array)
-}
-
-exports.freeUint16 = function freeUint16(array) {
-  UINT16[bits.log2(array.length)].push(array)
-}
-
-exports.freeUint32 = function freeUint32(array) {
-  UINT32[bits.log2(array.length)].push(array)
-}
-
-exports.freeInt8 = function freeInt8(array) {
-  INT8[bits.log2(array.length)].push(array)
-}
-
-exports.freeInt16 = function freeInt16(array) {
-  INT16[bits.log2(array.length)].push(array)
-}
-
-exports.freeInt32 = function freeInt32(array) {
-  INT32[bits.log2(array.length)].push(array)
-}
-
-exports.freeFloat32 = exports.freeFloat = function freeFloat(array) {
-  FLOAT[bits.log2(array.length)].push(array)
-}
-
-exports.freeFloat64 = exports.freeDouble = function freeDouble(array) {
-  DOUBLE[bits.log2(array.length)].push(array)
-}
-
-exports.freeArrayBuffer = function freeArrayBuffer(array) {
-  DATA[bits.log2(array.length)].push(array)
-}
-
-if(hasUint8C) {
-  exports.freeUint8Clamped = function freeUint8Clamped(array) {
-    UINT8C[bits.log2(array.length)].push(array)
-  }
-} else {
-  exports.freeUint8Clamped = exports.freeUint8
-}
-
-exports.freeBuffer = function freeBuffer(array) {
-  BUFFER[bits.log2(array.length)].push(array)
-}
-
-exports.malloc = function malloc(n, dtype) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  if(dtype === undefined || dtype === "arraybuffer") {
-    var d = DATA[log_n]
-    if(d.length > 0) {
-      var r = d[d.length-1]
-      d.pop()
-      return r
-    }
-    return new ArrayBuffer(n)
-  } else {
-    switch(dtype) {
-      case "uint8":
-        var u8 = UINT8[log_n]
-        if(u8.length > 0) {
-          return u8.pop()
-        }
-        return new Uint8Array(n)
-      break
-
-      case "uint16":
-        var u16 = UINT16[log_n]
-        if(u16.length > 0) {
-          return u16.pop()
-        }
-        return new Uint16Array(n)
-      break
-
-      case "uint32":
-        var u32 = UINT32[log_n]
-        if(u32.length > 0) {
-          return u32.pop()
-        }
-        return new Uint32Array(n)
-      break
-
-      case "int8":
-        var i8 = INT8[log_n]
-        if(i8.length > 0) {
-          return i8.pop()
-        }
-        return new Int8Array(n)
-      break
-
-      case "int16":
-        var i16 = INT16[log_n]
-        if(i16.length > 0) {
-          return i16.pop()
-        }
-        return new Int16Array(n)
-      break
-
-      case "int32":
-        var i32 = INT32[log_n]
-        if(i32.length > 0) {
-          return i32.pop()
-        }
-        return new Int32Array(n)
-      break
-
-      case "float":
-      case "float32":
-        var f = FLOAT[log_n]
-        if(f.length > 0) {
-          return f.pop()
-        }
-        return new Float32Array(n)
-      break
-
-      case "double":
-      case "float64":
-        var dd = DOUBLE[log_n]
-        if(dd.length > 0) {
-          return dd.pop()
-        }
-        return new Float64Array(n)
-      break
-
-      case "uint8_clamped":
-        if(hasUint8C) {
-          var u8c = UINT8C[log_n]
-          if(u8c.length > 0) {
-            return u8c.pop()
-          }
-          return new Uint8ClampedArray(n)
-        } else {
-          var u8 = UINT8[log_n]
-          if(u8.length > 0) {
-            return u8.pop()
-          }
-          return new Uint8Array(n)
-        }
-      break
-
-      case "buffer":
-        var buf = BUFFER[log_n]
-        if(buf.length > 0) {
-          return buf.pop()
-        }
-        return new Buffer(n)
-      break
-
-      default:
-        return null
-    }
-  }
-  return null
-}
-
-exports.mallocUint8 = function mallocUint8(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = UINT8[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Uint8Array(n)
-}
-
-exports.mallocUint16 = function mallocUint16(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = UINT16[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Uint16Array(n)
-}
-
-exports.mallocUint32 = function mallocUint32(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = UINT32[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Uint32Array(n)
-}
-
-exports.mallocInt8 = function mallocInt8(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = INT8[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Int8Array(n)
-}
-
-exports.mallocInt16 = function mallocInt16(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = INT16[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Int16Array(n)
-}
-
-exports.mallocInt32 = function mallocInt32(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = INT32[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Int32Array(n)
-}
-
-exports.mallocFloat32 = exports.mallocFloat = function mallocFloat(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = FLOAT[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Float32Array(n)
-}
-
-exports.mallocFloat64 = exports.mallocDouble = function mallocDouble(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = DOUBLE[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Float64Array(n)
-}
-
-exports.mallocArrayBuffer = function mallocArrayBuffer(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = DATA[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new ArrayBuffer(n)
-}
-
-if(hasUint8C) {
-  exports.mallocUint8Clamped = function mallocUint8Clamped(n) {
-    n = bits.nextPow2(n)
-    var log_n = bits.log2(n)
-    var cache = UINT8C[log_n]
-    if(cache.length > 0) {
-      return cache.pop()
-    }
-    return new Uint8ClampedArray(n)
-  }
-} else {
-  exports.mallocUint8Clamped = exports.mallocUint8
-}
-
-exports.mallocBuffer = function mallocBuffer(n) {
-  n = bits.nextPow2(n)
-  var log_n = bits.log2(n)
-  var cache = BUFFER[log_n]
-  if(cache.length > 0) {
-    return cache.pop()
-  }
-  return new Buffer(n)
-}
-
-exports.clearCache = function clearCache() {
-  for(var i=0; i<32; ++i) {
-    UINT8[i].length = 0
-    UINT16[i].length = 0
-    UINT32[i].length = 0
-    INT8[i].length = 0
-    INT16[i].length = 0
-    INT32[i].length = 0
-    FLOAT[i].length = 0
-    DOUBLE[i].length = 0
-    DATA[i].length = 0
-    UINT8C[i].length = 0
-    BUFFER[i].length = 0
-  }
-}
-}).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {},require("buffer").Buffer)
-},{"bit-twiddle":54,"buffer":106,"dup":55}],57:[function(require,module,exports){
+},{}],139:[function(require,module,exports){
 module.exports=require(41)
-},{}],58:[function(require,module,exports){
+},{"bit-twiddle":137,"buffer":189,"dup":138}],140:[function(require,module,exports){
 module.exports=require(42)
-},{"weakmap":57}],59:[function(require,module,exports){
-"use strict"
-
-function doBind(gl, elements, attributes) {
-  if(elements) {
-    elements.bind()
-  } else {
-    gl.bindBuffer(gl.ELEMENT_ARRAY_BUFFER, null)
-  }
-  var nattribs = gl.getParameter(gl.MAX_VERTEX_ATTRIBS)|0
-  if(attributes) {
-    if(attributes.length > nattribs) {
-      throw new Error("gl-vao: Too many vertex attributes")
-    }
-    for(var i=0; i<attributes.length; ++i) {
-      var attrib = attributes[i]
-      if(attrib.buffer) {
-        var buffer = attrib.buffer
-        var size = attrib.size || 4
-        var type = attrib.type || gl.FLOAT
-        var normalized = !!attrib.normalized
-        var stride = attrib.stride || 0
-        var offset = attrib.offset || 0
-        buffer.bind()
-        gl.enableVertexAttribArray(i)
-        gl.vertexAttribPointer(i, size, type, normalized, stride, offset)
-      } else {
-        if(typeof attrib === "number") {
-          gl.vertexAttrib1f(i, attrib)
-        } else if(attrib.length === 1) {
-          gl.vertexAttrib1f(i, attrib[0])
-        } else if(attrib.length === 2) {
-          gl.vertexAttrib2f(i, attrib[0], attrib[1])
-        } else if(attrib.length === 3) {
-          gl.vertexAttrib3f(i, attrib[0], attrib[1], attrib[2])
-        } else if(attrib.length === 4) {
-          gl.vertexAttrib4f(i, attrib[0], attrib[1], attrib[2], attrib[3])
-        } else {
-          throw new Error("gl-vao: Invalid vertex attribute")
-        }
-        gl.disableVertexAttribArray(i)
-      }
-    }
-    for(; i<nattribs; ++i) {
-      gl.disableVertexAttribArray(i)
-    }
-  } else {
-    gl.bindBuffer(gl.ARRAY_BUFFER, null)
-    for(var i=0; i<nattribs; ++i) {
-      gl.disableVertexAttribArray(i)
-    }
-  }
-}
-
-module.exports = doBind
-},{}],60:[function(require,module,exports){
+},{}],141:[function(require,module,exports){
+module.exports=require(43)
+},{"weakmap":140}],142:[function(require,module,exports){
+module.exports=require(73)
+},{}],143:[function(require,module,exports){
 "use strict"
 
 var bindAttribs = require("./do-bind.js")
@@ -5019,7 +7183,7 @@ function createVAOEmulated(gl) {
 }
 
 module.exports = createVAOEmulated
-},{"./do-bind.js":59}],61:[function(require,module,exports){
+},{"./do-bind.js":142}],144:[function(require,module,exports){
 "use strict"
 
 var bindAttribs = require("./do-bind.js")
@@ -5105,11 +7269,11 @@ function createVAONative(gl, ext) {
 }
 
 module.exports = createVAONative
-},{"./do-bind.js":59}],62:[function(require,module,exports){
-module.exports=require(41)
-},{}],63:[function(require,module,exports){
+},{"./do-bind.js":142}],145:[function(require,module,exports){
 module.exports=require(42)
-},{"weakmap":62}],64:[function(require,module,exports){
+},{}],146:[function(require,module,exports){
+module.exports=require(43)
+},{"weakmap":145}],147:[function(require,module,exports){
 "use strict"
 
 var webglew = require("webglew")
@@ -5129,7 +7293,7 @@ function createVAO(gl, attributes, elements) {
 }
 
 module.exports = createVAO
-},{"./lib/vao-emulated.js":60,"./lib/vao-native.js":61,"webglew":63}],65:[function(require,module,exports){
+},{"./lib/vao-emulated.js":143,"./lib/vao-native.js":144,"webglew":146}],148:[function(require,module,exports){
 module.exports      = isTypedArray
 isTypedArray.strict = isStrictTypedArray
 isTypedArray.loose  = isLooseTypedArray
@@ -5170,7 +7334,7 @@ function isLooseTypedArray(arr) {
   return names[toString.call(arr)]
 }
 
-},{}],66:[function(require,module,exports){
+},{}],149:[function(require,module,exports){
 module.exports = function(arr) {
   if (!arr) return false
   if (!arr.dtype) return false
@@ -5178,7 +7342,7 @@ module.exports = function(arr) {
   return re.test(String(arr.constructor))
 }
 
-},{}],67:[function(require,module,exports){
+},{}],150:[function(require,module,exports){
 var pack         = require('array-pack-2d')
 var ista         = require('is-typedarray')
 var createBuffer = require('gl-buffer')
@@ -5259,7 +7423,7 @@ function convert(a, b) {
   return b
 }
 
-},{"array-pack-2d":44,"dtype":45,"gl-buffer":46,"is-typedarray":65,"isndarray":66}],68:[function(require,module,exports){
+},{"array-pack-2d":127,"dtype":128,"gl-buffer":129,"is-typedarray":148,"isndarray":149}],151:[function(require,module,exports){
 /**
  * @fileoverview gl-matrix - High performance matrix and vector operations
  * @author Brandon Jones
@@ -9132,31 +11296,31 @@ if(typeof(exports) !== 'undefined') {
   })(shim.exports);
 })();
 
-},{}],69:[function(require,module,exports){
+},{}],152:[function(require,module,exports){
 arguments[4][9][0].apply(exports,arguments)
-},{"cwise-compiler":70}],70:[function(require,module,exports){
+},{"cwise-compiler":153}],153:[function(require,module,exports){
 arguments[4][10][0].apply(exports,arguments)
-},{"./lib/thunk.js":72}],71:[function(require,module,exports){
+},{"./lib/thunk.js":155}],154:[function(require,module,exports){
 arguments[4][11][0].apply(exports,arguments)
-},{"uniq":73}],72:[function(require,module,exports){
+},{"uniq":156}],155:[function(require,module,exports){
 arguments[4][12][0].apply(exports,arguments)
-},{"./compile.js":71}],73:[function(require,module,exports){
+},{"./compile.js":154}],156:[function(require,module,exports){
 module.exports=require(13)
-},{}],74:[function(require,module,exports){
+},{}],157:[function(require,module,exports){
 arguments[4][14][0].apply(exports,arguments)
-},{"buffer":106,"iota-array":75}],75:[function(require,module,exports){
+},{"buffer":189,"iota-array":158}],158:[function(require,module,exports){
 module.exports=require(15)
-},{}],76:[function(require,module,exports){
+},{}],159:[function(require,module,exports){
 module.exports=require(16)
-},{}],77:[function(require,module,exports){
+},{}],160:[function(require,module,exports){
 module.exports=require(17)
-},{}],78:[function(require,module,exports){
-module.exports=require(56)
-},{"bit-twiddle":76,"buffer":106,"dup":77}],79:[function(require,module,exports){
+},{}],161:[function(require,module,exports){
 module.exports=require(41)
-},{}],80:[function(require,module,exports){
+},{"bit-twiddle":159,"buffer":189,"dup":160}],162:[function(require,module,exports){
 module.exports=require(42)
-},{"weakmap":79}],81:[function(require,module,exports){
+},{}],163:[function(require,module,exports){
+module.exports=require(43)
+},{"weakmap":162}],164:[function(require,module,exports){
 "use strict"
 
 var ndarray = require("ndarray")
@@ -9651,491 +11815,21 @@ function createTexture2D(gl) {
 }
 module.exports = createTexture2D
 
-},{"ndarray":74,"ndarray-ops":69,"typedarray-pool":78,"webglew":80}],82:[function(require,module,exports){
-module.exports = programify
-
-var shader = require('gl-shader-core')
-
-function programify(vertex, fragment, uniforms, attributes) {
-  return function(gl) {
-    return shader(gl, vertex, fragment, uniforms, attributes)
-  }
-}
-
-},{"gl-shader-core":88}],83:[function(require,module,exports){
-module.exports = noop
-
-function noop() {
-  throw new Error(
-      'You should bundle your code ' +
-      'using `glslify` as a transform.'
-  )
-}
-
-},{}],84:[function(require,module,exports){
-"use strict"
-
-module.exports = createAttributeWrapper
-
-//Shader attribute class
-function ShaderAttribute(gl, program, location, dimension, name, constFunc, relink) {
-  this._gl = gl
-  this._program = program
-  this._location = location
-  this._dimension = dimension
-  this._name = name
-  this._constFunc = constFunc
-  this._relink = relink
-}
-
-var proto = ShaderAttribute.prototype
-
-proto.pointer = function setAttribPointer(type, normalized, stride, offset) {
-  var gl = this._gl
-  gl.vertexAttribPointer(this._location, this._dimension, type||gl.FLOAT, normalized?gl.TRUE:gl.FALSE, stride||0, offset||0)
-  this._gl.enableVertexAttribArray(this._location)
-}
-
-Object.defineProperty(proto, "location", {
-  get: function() {
-    return this._location
-  }
-  , set: function(v) {
-    if(v !== this._location) {
-      this._location = v
-      this._gl.bindAttribLocation(this._program, v, this._name)
-      this._gl.linkProgram(this._program)
-      this._relink()
-    }
-  }
-})
-
-
-//Adds a vector attribute to obj
-function addVectorAttribute(gl, program, location, dimension, obj, name, doLink) {
-  var constFuncArgs = [ "gl", "v" ]
-  var varNames = []
-  for(var i=0; i<dimension; ++i) {
-    constFuncArgs.push("x"+i)
-    varNames.push("x"+i)
-  }
-  constFuncArgs.push([
-    "if(x0.length===undefined){return gl.vertexAttrib", dimension, "f(v,", varNames.join(","), ")}else{return gl.vertexAttrib", dimension, "fv(v,x0)}"
-  ].join(""))
-  var constFunc = Function.apply(undefined, constFuncArgs)
-  var attr = new ShaderAttribute(gl, program, location, dimension, name, constFunc, doLink)
-  Object.defineProperty(obj, name, {
-    set: function(x) {
-      gl.disableVertexAttribArray(attr._location)
-      constFunc(gl, attr._location, x)
-      return x
-    }
-    , get: function() {
-      return attr
-    }
-    , enumerable: true
-  })
-}
-
-//Create shims for attributes
-function createAttributeWrapper(gl, program, attributes, doLink) {
-  var obj = {}
-  for(var i=0, n=attributes.length; i<n; ++i) {
-    var a = attributes[i]
-    var name = a.name
-    var type = a.type
-    var location = gl.getAttribLocation(program, name)
-    
-    switch(type) {
-      case "bool":
-      case "int":
-      case "float":
-        addVectorAttribute(gl, program, location, 1, obj, name, doLink)
-      break
-      
-      default:
-        if(type.indexOf("vec") >= 0) {
-          var d = type.charCodeAt(type.length-1) - 48
-          if(d < 2 || d > 4) {
-            throw new Error("Invalid data type for attribute " + name + ": " + type)
-          }
-          addVectorAttribute(gl, program, location, d, obj, name, doLink)
-        } else {
-          throw new Error("Unknown data type for attribute " + name + ": " + type)
-        }
-      break
-    }
-  }
-  return obj
-}
-
-},{}],85:[function(require,module,exports){
-"use strict"
-
-var dup = require("dup")
-var coallesceUniforms = require("./reflect.js")
-
-module.exports = createUniformWrapper
-
-//Binds a function and returns a value
-function identity(x) {
-  var c = new Function("y", "return function(){return y}")
-  return c(x)
-}
-
-//Create shims for uniforms
-function createUniformWrapper(gl, program, uniforms, locations) {
-
-  function makeGetter(index) {
-    var proc = new Function("gl", "prog", "locations", 
-      "return function(){return gl.getUniform(prog,locations[" + index + "])}") 
-    return proc(gl, program, locations)
-  }
-
-  function makePropSetter(path, index, type) {
-    switch(type) {
-      case "bool":
-      case "int":
-      case "sampler2D":
-      case "samplerCube":
-        return "gl.uniform1i(locations[" + index + "],obj" + path + ")"
-      case "float":
-        return "gl.uniform1f(locations[" + index + "],obj" + path + ")"
-      default:
-        var vidx = type.indexOf("vec")
-        if(0 <= vidx && vidx <= 1 && type.length === 4 + vidx) {
-          var d = type.charCodeAt(type.length-1) - 48
-          if(d < 2 || d > 4) {
-            throw new Error("Invalid data type")
-          }
-          switch(type.charAt(0)) {
-            case "b":
-            case "i":
-              return "gl.uniform" + d + "iv(locations[" + index + "],obj" + path + ")"
-            case "v":
-              return "gl.uniform" + d + "fv(locations[" + index + "],obj" + path + ")"            
-            default:
-              throw new Error("Unrecognized data type for vector " + name + ": " + type)
-          }
-        } else if(type.indexOf("mat") === 0 && type.length === 4) {
-          var d = type.charCodeAt(type.length-1) - 48
-          if(d < 2 || d > 4) {
-            throw new Error("Invalid uniform dimension type for matrix " + name + ": " + type)
-          }
-          return "gl.uniformMatrix" + d + "fv(locations[" + index + "],false,obj" + path + ")"
-        } else {
-          throw new Error("Unknown uniform data type for " + name + ": " + type)
-        }
-      break
-    }
-  }
-
-  function enumerateIndices(prefix, type) {
-    if(typeof type !== "object") {
-      return [ [prefix, type] ]
-    }
-    var indices = []
-    for(var id in type) {
-      var prop = type[id]
-      var tprefix = prefix
-      if(parseInt(id) + "" === id) {
-        tprefix += "[" + id + "]"
-      } else {
-        tprefix += "." + id
-      }
-      if(typeof prop === "object") {
-        indices.push.apply(indices, enumerateIndices(tprefix, prop))
-      } else {
-        indices.push([tprefix, prop])
-      }
-    }
-    return indices
-  }
-
-  function makeSetter(type) {
-    var code = [ "return function updateProperty(obj){" ]
-    var indices = enumerateIndices("", type)
-    for(var i=0; i<indices.length; ++i) {
-      var item = indices[i]
-      var path = item[0]
-      var idx  = item[1]
-      if(locations[idx]) {
-        code.push(makePropSetter(path, idx, uniforms[idx].type))
-      }
-    }
-    code.push("return obj}")
-    var proc = new Function("gl", "prog", "locations", code.join("\n"))
-    return proc(gl, program, locations)
-  }
-
-  function defaultValue(type) {
-    switch(type) {
-      case "bool":
-        return false
-      case "int":
-      case "sampler2D":
-      case "samplerCube":
-        return 0
-      case "float":
-        return 0.0
-      default:
-        var vidx = type.indexOf("vec")
-        if(0 <= vidx && vidx <= 1 && type.length === 4 + vidx) {
-          var d = type.charCodeAt(type.length-1) - 48
-          if(d < 2 || d > 4) {
-            throw new Error("Invalid data type")
-          }
-          if(type.charAt(0) === "b") {
-            return dup(d, false)
-          }
-          return dup(d)
-        } else if(type.indexOf("mat") === 0 && type.length === 4) {
-          var d = type.charCodeAt(type.length-1) - 48
-          if(d < 2 || d > 4) {
-            throw new Error("Invalid uniform dimension type for matrix " + name + ": " + type)
-          }
-          return dup([d,d])
-        } else {
-          throw new Error("Unknown uniform data type for " + name + ": " + type)
-        }
-      break
-    }
-  }
-
-  function storeProperty(obj, prop, type) {
-    if(typeof type === "object") {
-      var child = processObject(type)
-      Object.defineProperty(obj, prop, {
-        get: identity(child),
-        set: makeSetter(type),
-        enumerable: true,
-        configurable: false
-      })
-    } else {
-      if(locations[type]) {
-        Object.defineProperty(obj, prop, {
-          get: makeGetter(type),
-          set: makeSetter(type),
-          enumerable: true,
-          configurable: false
-        })
-      } else {
-        obj[prop] = defaultValue(uniforms[type].type)
-      }
-    }
-  }
-
-  function processObject(obj) {
-    var result
-    if(Array.isArray(obj)) {
-      result = new Array(obj.length)
-      for(var i=0; i<obj.length; ++i) {
-        storeProperty(result, i, obj[i])
-      }
-    } else {
-      result = {}
-      for(var id in obj) {
-        storeProperty(result, id, obj[id])
-      }
-    }
-    return result
-  }
-
-  //Return data
-  var coallesced = coallesceUniforms(uniforms, true)
-  return {
-    get: identity(processObject(coallesced)),
-    set: makeSetter(coallesced),
-    enumerable: true,
-    configurable: true
-  }
-}
-
-},{"./reflect.js":86,"dup":87}],86:[function(require,module,exports){
-"use strict"
-
-module.exports = makeReflectTypes
-
-//Construct type info for reflection.
-//
-// This iterates over the flattened list of uniform type values and smashes them into a JSON object.
-//
-// The leaves of the resulting object are either indices or type strings representing primitive glslify types
-function makeReflectTypes(uniforms, useIndex) {
-  var obj = {}
-  for(var i=0; i<uniforms.length; ++i) {
-    var n = uniforms[i].name
-    var parts = n.split(".")
-    var o = obj
-    for(var j=0; j<parts.length; ++j) {
-      var x = parts[j].split("[")
-      if(x.length > 1) {
-        if(!(x[0] in o)) {
-          o[x[0]] = []
-        }
-        o = o[x[0]]
-        for(var k=1; k<x.length; ++k) {
-          var y = parseInt(x[k])
-          if(k<x.length-1 || j<parts.length-1) {
-            if(!(y in o)) {
-              if(k < x.length-1) {
-                o[y] = []
-              } else {
-                o[y] = {}
-              }
-            }
-            o = o[y]
-          } else {
-            if(useIndex) {
-              o[y] = i
-            } else {
-              o[y] = uniforms[i].type
-            }
-          }
-        }
-      } else if(j < parts.length-1) {
-        if(!(x[0] in o)) {
-          o[x[0]] = {}
-        }
-        o = o[x[0]]
-      } else {
-        if(useIndex) {
-          o[x[0]] = i
-        } else {
-          o[x[0]] = uniforms[i].type
-        }
-      }
-    }
-  }
-  return obj
-}
-},{}],87:[function(require,module,exports){
+},{"ndarray":157,"ndarray-ops":152,"typedarray-pool":161,"webglew":163}],165:[function(require,module,exports){
+arguments[4][79][0].apply(exports,arguments)
+},{"gl-shader-core":171}],166:[function(require,module,exports){
+module.exports=require(80)
+},{}],167:[function(require,module,exports){
+module.exports=require(81)
+},{}],168:[function(require,module,exports){
+arguments[4][82][0].apply(exports,arguments)
+},{"./reflect.js":169,"dup":170}],169:[function(require,module,exports){
+module.exports=require(83)
+},{}],170:[function(require,module,exports){
 module.exports=require(17)
-},{}],88:[function(require,module,exports){
-"use strict"
-
-var createUniformWrapper = require("./lib/create-uniforms.js")
-var createAttributeWrapper = require("./lib/create-attributes.js")
-var makeReflect = require("./lib/reflect.js")
-
-//Shader object
-function Shader(gl, prog, vertShader, fragShader) {
-  this.gl = gl
-  this.handle = prog
-  this.attributes = null
-  this.uniforms = null
-  this.types = null
-  this.vertexShader = vertShader
-  this.fragmentShader = fragShader
-}
-
-//Binds the shader
-Shader.prototype.bind = function() {
-  this.gl.useProgram(this.handle)
-}
-
-//Destroy shader, release resources
-Shader.prototype.dispose = function() {
-  var gl = this.gl
-  gl.deleteShader(this.vertexShader)
-  gl.deleteShader(this.fragmentShader)
-  gl.deleteProgram(this.handle)
-}
-
-Shader.prototype.updateExports = function(uniforms, attributes) {
-  var locations = new Array(uniforms.length)
-  var program = this.handle
-  var gl = this.gl
-
-  var doLink = relinkUniforms.bind(void 0,
-    gl,
-    program,
-    locations,
-    uniforms
-  )
-  doLink()
-
-  this.types = {
-    uniforms: makeReflect(uniforms),
-    attributes: makeReflect(attributes)
-  }
-
-  this.attributes = createAttributeWrapper(
-    gl,
-    program,
-    attributes,
-    doLink
-  )
-
-  Object.defineProperty(this, "uniforms", createUniformWrapper(
-    gl,
-    program,
-    uniforms,
-    locations
-  ))
-}
-
-//Relinks all uniforms
-function relinkUniforms(gl, program, locations, uniforms) {
-  for(var i=0; i<uniforms.length; ++i) {
-    locations[i] = gl.getUniformLocation(program, uniforms[i].name)
-  }
-}
-
-//Compiles and links a shader program with the given attribute and vertex list
-function createShader(
-    gl
-  , vertSource
-  , fragSource
-  , uniforms
-  , attributes) {
-  
-  //Compile vertex shader
-  var vertShader = gl.createShader(gl.VERTEX_SHADER)
-  gl.shaderSource(vertShader, vertSource)
-  gl.compileShader(vertShader)
-  if(!gl.getShaderParameter(vertShader, gl.COMPILE_STATUS)) {
-    var errLog = gl.getShaderInfoLog(vertShader)
-    console.error("Error compling vertex shader:", errLog)
-    throw new Error("Error compiling vertex shader:" + errLog)
-  }
-  
-  //Compile fragment shader
-  var fragShader = gl.createShader(gl.FRAGMENT_SHADER)
-  gl.shaderSource(fragShader, fragSource)
-  gl.compileShader(fragShader)
-  if(!gl.getShaderParameter(fragShader, gl.COMPILE_STATUS)) {
-    var errLog = gl.getShaderInfoLog(fragShader)
-    console.error("Error compiling fragment shader:", errLog)
-    throw new Error("Error compiling fragment shader:" + errLog)
-  }
-  
-  //Link program
-  var program = gl.createProgram()
-  gl.attachShader(program, fragShader)
-  gl.attachShader(program, vertShader)
-  gl.linkProgram(program)
-  if(!gl.getProgramParameter(program, gl.LINK_STATUS)) {
-    var errLog = gl.getProgramInfoLog(program)
-    console.error("Error linking shader program:", errLog)
-    throw new Error("Error linking shader program:" + errLog)
-  }
-  
-  //Return final linked shader object
-  var shader = new Shader(
-    gl,
-    program,
-    vertShader,
-    fragShader
-  )
-  shader.updateExports(uniforms, attributes)
-
-  return shader
-}
-
-module.exports = createShader
-
-},{"./lib/create-attributes.js":84,"./lib/create-uniforms.js":85,"./lib/reflect.js":86}],89:[function(require,module,exports){
+},{}],171:[function(require,module,exports){
+module.exports=require(85)
+},{"./lib/create-attributes.js":167,"./lib/create-uniforms.js":168,"./lib/reflect.js":169}],172:[function(require,module,exports){
 var slice = require('sliced')
 
 module.exports = combine
@@ -10172,33 +11866,17 @@ function combine(meshes) {
   }
 }
 
-},{"sliced":90}],90:[function(require,module,exports){
-arguments[4][34][0].apply(exports,arguments)
-},{"./lib/sliced":91}],91:[function(require,module,exports){
-module.exports=require(35)
-},{}],92:[function(require,module,exports){
+},{"sliced":173}],173:[function(require,module,exports){
+arguments[4][29][0].apply(exports,arguments)
+},{"./lib/sliced":174}],174:[function(require,module,exports){
+module.exports=require(30)
+},{}],175:[function(require,module,exports){
 arguments[4][14][0].apply(exports,arguments)
-},{"buffer":106,"iota-array":93}],93:[function(require,module,exports){
+},{"buffer":189,"iota-array":176}],176:[function(require,module,exports){
 module.exports=require(15)
-},{}],94:[function(require,module,exports){
-"use strict"
-
-module.exports = unpackPNG
-
-var ndarray = require("ndarray")
-
-function unpackPNG(w, h, c, str) {
-  var canvas = document.createElement("canvas")
-  canvas.width = h
-  canvas.height = w
-  var img = new Image()
-  img.src = "data:image/png;base64," + str
-  var context = canvas.getContext("2d")
-  context.drawImage(img, 0, 0)
-  var pixels = context.getImageData(0, 0, h, w)
-  return ndarray(pixels.data, [h, w, c], [4*w, 4, 1], 0)
-}
-},{"ndarray":92}],95:[function(require,module,exports){
+},{}],177:[function(require,module,exports){
+module.exports=require(88)
+},{"ndarray":175}],178:[function(require,module,exports){
 /**
  * @fileoverview gl-matrix - High performance matrix and vector operations
  * @author Brandon Jones
@@ -14448,7 +16126,7 @@ if(typeof(exports) !== 'undefined') {
   })(shim.exports);
 })(this);
 
-},{}],96:[function(require,module,exports){
+},{}],179:[function(require,module,exports){
 "use strict"
 
 var glm = require("gl-matrix")
@@ -14543,7 +16221,7 @@ function createOrbitCamera(eye, target, up) {
 
 module.exports = createOrbitCamera
 
-},{"gl-matrix":95}],97:[function(require,module,exports){
+},{"gl-matrix":178}],180:[function(require,module,exports){
 (function (global){
 module.exports =
   global.performance &&
@@ -14554,7 +16232,7 @@ module.exports =
   }
 
 }).call(this,typeof global !== "undefined" ? global : typeof self !== "undefined" ? self : typeof window !== "undefined" ? window : {})
-},{}],98:[function(require,module,exports){
+},{}],181:[function(require,module,exports){
 module.exports = unindex
 
 function unindex(positions, cells, out) {
@@ -14580,7 +16258,7 @@ function unindex(positions, cells, out) {
   return out
 }
 
-},{}],99:[function(require,module,exports){
+},{}],182:[function(require,module,exports){
 
 /**
  * Expose `parse`.
@@ -14675,7 +16353,7 @@ function parse(html, doc) {
   return fragment;
 }
 
-},{}],100:[function(require,module,exports){
+},{}],183:[function(require,module,exports){
 module.exports = findup
 
 function findup(child, check) {
@@ -14705,11 +16383,11 @@ function byExact(el) {
   }
 }
 
-},{}],101:[function(require,module,exports){
-arguments[4][32][0].apply(exports,arguments)
-},{"_process":109,"raf-component":102,"sliced":104}],102:[function(require,module,exports){
-module.exports=require(33)
-},{}],103:[function(require,module,exports){
+},{}],184:[function(require,module,exports){
+arguments[4][27][0].apply(exports,arguments)
+},{"_process":192,"raf-component":185,"sliced":187}],185:[function(require,module,exports){
+module.exports=require(28)
+},{}],186:[function(require,module,exports){
 
 /**
  * Expose `render()`.`
@@ -14861,11 +16539,11 @@ function escape(html) {
     .replace(/>/g, '&gt;');
 }
 
-},{}],104:[function(require,module,exports){
-arguments[4][34][0].apply(exports,arguments)
-},{"./lib/sliced":105}],105:[function(require,module,exports){
-module.exports=require(35)
-},{}],106:[function(require,module,exports){
+},{}],187:[function(require,module,exports){
+arguments[4][29][0].apply(exports,arguments)
+},{"./lib/sliced":188}],188:[function(require,module,exports){
+module.exports=require(30)
+},{}],189:[function(require,module,exports){
 /*!
  * The buffer module from node.js, for the browser.
  *
@@ -16036,7 +17714,7 @@ function assert (test, message) {
   if (!test) throw new Error(message || 'Failed assertion')
 }
 
-},{"base64-js":107,"ieee754":108}],107:[function(require,module,exports){
+},{"base64-js":190,"ieee754":191}],190:[function(require,module,exports){
 var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 
 ;(function (exports) {
@@ -16158,7 +17836,7 @@ var lookup = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/';
 	exports.fromByteArray = uint8ToBase64
 }(typeof exports === 'undefined' ? (this.base64js = {}) : exports))
 
-},{}],108:[function(require,module,exports){
+},{}],191:[function(require,module,exports){
 exports.read = function(buffer, offset, isLE, mLen, nBytes) {
   var e, m,
       eLen = nBytes * 8 - mLen - 1,
@@ -16244,7 +17922,7 @@ exports.write = function(buffer, value, offset, isLE, mLen, nBytes) {
   buffer[offset + i - d] |= s * 128;
 };
 
-},{}],109:[function(require,module,exports){
+},{}],192:[function(require,module,exports){
 // shim for using process in browser
 
 var process = module.exports = {};

@@ -29,7 +29,7 @@
   "scripts": {
     "prestart": "npm run links && node data/regenerate",
     "start": "beefy index.js:bundle.js --open",
-    "postinstall": "npm run links && scoped-bulk stackgl npm install",
+    "postinstall": "npm run links && scoped-bulk stackgl npm install && npm dedupe",
     "bundle": "npm run prestart && browserify index.js -o bundle.js",
     "links": "district stackgl splash-grid splash-flock"
   },
