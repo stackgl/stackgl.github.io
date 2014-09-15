@@ -40,9 +40,9 @@ the hood.
 
 ![voxel-mipmap-demo](http://imgur.com/9eUBmfB.png)
 
-## [raymarch](https://github.com/mikolalysenko/raymarch/)
+## [gif-3d](http://mikolalysenko.github.io/gif-3d/)
 
-![raymarch](http://imgur.com/NpvsXIH.png)
+![gif-3d](http://imgur.com/gItopw0.jpg)
 
 ## [moire #1](http://hughsk.io/moire-1)
 

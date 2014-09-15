@@ -12,6 +12,7 @@ solid #ccc;margin:1em 0;padding:0}input,select{vertical-align:middle}
 body, html {
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
   background: #fff;
   line-height: 1.5em;
   font-family: 'Ubuntu Mono', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -57,7 +58,8 @@ h1 .lighter {
   margin-bottom: 0.3em;
 }
 
-#intro aside {
+#intro aside,
+#community-content aside {
   max-width: 400px;
   color: #4A4F5E;
   font-size: 0.9em;
@@ -176,4 +178,13 @@ h1 .lighter {
 
 .thumb-filter > li:last-child:after {
   content: '';
+}
+
+#community-content ul {
+  margin-left: 1em;
+}
+
+#community-content ul,
+#community-content p {
+  margin-bottom: 1em;
 }
