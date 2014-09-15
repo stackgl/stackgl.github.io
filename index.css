@@ -91,6 +91,11 @@ h1 .lighter {
   z-index: 1;
 }
 
+#grid {
+  background-image: url(bg.jpg);
+  background-size: cover;
+}
+
 /**
  * Section Layout
  */

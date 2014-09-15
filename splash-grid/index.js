@@ -60,7 +60,7 @@ module.exports = function(canvas) {
   mat4.translate(model, model, [-0.5, 0, -0.5])
 
   window.addEventListener('resize'
-    , debounce(fit(canvas))
+    , debounce(fit(canvas, window))
     , false
   )
 

@@ -30,7 +30,7 @@
     "prestart": "npm run links && node data/regenerate",
     "start": "beefy index.js:bundle.js --open",
     "postinstall": "npm run links && scoped-bulk stackgl npm install && npm dedupe",
-    "bundle": "npm run prestart && browserify index.js -o bundle.js",
+    "bundle": "npm run prestart && browserify index.js | uglifyjs -cm > bundle.js",
     "links": "district stackgl splash-grid splash-flock"
   },
   "repository": {
@@ -48,6 +48,7 @@
   },
   "homepage": "https://github.com/gl-modules/gl-modules.github.io",
   "devDependencies": {
-    "beefy": "^2.0.3"
+    "beefy": "^2.0.3",
+    "uglify-js": "^2.4.15"
   }
 }

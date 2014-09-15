@@ -22,7 +22,7 @@
   },
   "dependencies": {
     "a-big-triangle": "0.0.0",
-    "canvas-fit": "^1.0.0",
+    "canvas-fit": "^1.2.0",
     "canvas-orbit-camera": "0.0.0",
     "clone": "^0.1.17",
     "cube-cube": "^1.0.0",

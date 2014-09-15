@@ -8,8 +8,13 @@ var grid  = document.getElementById('grid').querySelector('canvas')
 var flock = document.getElementById('community').querySelector('canvas')
 
 require('./lib/fill')(document.querySelectorAll('[data-fill]'))
-require('@stackgl/splash-grid')(grid)
-require('@stackgl/splash-flock')(flock)
+
+try {
+  require('@stackgl/splash-grid')(grid)
+  require('@stackgl/splash-flock')(flock)
+} catch(e) {
+  console.error(e.message)
+}
 
 var thumb = minstache.compile(fs.readFileSync(
   __dirname + '/lib/thumb.html'
