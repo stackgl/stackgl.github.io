@@ -20,7 +20,7 @@ require('./lib/fill')(document.querySelectorAll('[data-fill]'))
 if (window.chrome) {
   try {
     require('@stackgl/splash-grid')(grid)
-    require('@stackgl/splash-flock')(flock)
+    // require('@stackgl/splash-flock')(flock)
   } catch(e) {
     console.error(e.message)
   }
