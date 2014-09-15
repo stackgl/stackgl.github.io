@@ -18,7 +18,13 @@ To add a new package:
 ### gl-buffer
 ![gl-buffer](http://imgur.com/JFZGJBx.png)
 
-## Tools
+## WebGL API
+
+### gl-state
+### gl-clear
+### gl-fbo-matching
+
+## Tools/Development
 
 ### glslify
 ![glslify](http://imgur.com/ThMYeUx.png)
@@ -26,13 +32,19 @@ To add a new package:
 ![glslify-live](http://imgur.com/9mmysos.png)
 ### glslify-optimize
 ![glslify-optimize](http://imgur.com/pF9tmNg.png)
+### glslify-api
+### glslify-resolve-remote
+### glsl-testify
+### glsl-editor
 
 ## Math
 
+### ndarray
 ### gl-mat2
 ### gl-mat3
 ### gl-mat4
 ### gl-matrix
+### cubic-hermite
 
 ## Camera Controls
 
@@ -49,6 +61,7 @@ To add a new package:
 
 ### gl-now
 ### gl-context
+### webgl-context
 
 ## Input
 
@@ -57,6 +70,7 @@ To add a new package:
 ### mouse-speed
 ### scroll-speed
 ### canvas-fit
+### canvas-autoscale
 ### vkey
 
 ## Shader Components
@@ -79,6 +93,15 @@ To add a new package:
 ### glsl-fog
 ![glsl-fog](http://imgur.com/8l0otem.png)
 
+### glsl-easings
+### glsl-fxaa
+### glsl-lut
+### glsl-range
+### glsl-square-frame
+### glsl-hsv2rgb
+### glsl-read-float
+### matcap
+
 ## Shader Transforms
 
 ### glslify-hex
@@ -90,13 +113,20 @@ To add a new package:
 
 ### gl-compare
 ![gl-compare](http://imgur.com/z8BkmZl.jpg)
+### gl-surface-plot
+### canvas-pixels
+### gl-line-plot
+### gl-scatter-plot
+### gl-axes
 
 ## Internals
 
+### webglew
 ### glsl-parser
 ### glsl-tokenizer
 ### glsl-deparser
 ### glsl-extract
+### glsl-resolve
 ### glslify-stream
 ### gl-shader-core
 
@@ -114,3 +144,37 @@ To add a new package:
 ### teapot
 ### stanford-dragon
 ![stanford-dragon](http://imgur.com/XWYMq6J.png)
+
+### get-pixels
+### save-pixels
+### ndpack-image
+### font-atlas
+
+## Interoperability
+
+### three-glslify
+
+## Geometry
+
+### simplicial-complex
+### gl-wireframe
+### gl-geometry
+### normals
+### greedy-mesher
+### voxelize
+### isosurface
+### icosphere
+### rectangular-prism
+### face-normals
+### mesh-reindex
+### mesh-combine
+### unindex-mesh
+### vectorize-text
+### from-3d-to-2d
+### surface-vectors
+### orthogami
+### plane-to-polygon
+### find-basis-3d
+### box-frustum
+### delaunay-triangulate
+### svg-3d-simplicial-complex
