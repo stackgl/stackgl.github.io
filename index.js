@@ -17,13 +17,11 @@ var flock = document.getElementById('community').querySelector('canvas')
 
 require('./lib/fill')(document.querySelectorAll('[data-fill]'))
 
-if (window.chrome) {
-  try {
-    require('@stackgl/splash-grid')(grid)
-    // require('@stackgl/splash-flock')(flock)
-  } catch(e) {
-    console.error(e.message)
-  }
+try {
+  require('@stackgl/splash-grid')(grid)
+  // require('@stackgl/splash-flock')(flock)
+} catch(e) {
+  console.error(e.message)
 }
 
 var thumb = minstache.compile(fs.readFileSync(

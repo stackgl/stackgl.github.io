@@ -36,7 +36,7 @@
     "gl-texture2d": "^1.2.0",
     "glslify": "^1.6.0",
     "mesh-combine": "^1.0.0",
-    "ndpack-image": "git://github.com/hughsk/ndpack-image#fix-orientation",
+    "ndpack-image": "^1.0.4",
     "orbit-camera": "^1.0.0",
     "right-now": "^1.0.0",
     "unindex-mesh": "^1.0.1"
