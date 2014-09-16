@@ -1,5 +1,3 @@
-# Examples
-
 To add a new example:
 
 * Create a new level-two heading (`##`) in this file.

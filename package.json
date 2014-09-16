@@ -14,9 +14,12 @@
     "markdown-tree": "0.0.0",
     "marked": "^0.3.2",
     "minstache": "^1.2.0",
+    "replacestream": "^0.2.0",
+    "request": "^2.42.0",
     "scoped-bulk": "^1.0.0",
     "sliced": "0.0.5",
-    "unhtml": "^0.1.0"
+    "unhtml": "^0.1.0",
+    "wrap-stream": "^2.0.0"
   },
   "browserify": {
     "transform": [

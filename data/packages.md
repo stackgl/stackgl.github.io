@@ -1,5 +1,3 @@
-# Packages
-
 To add a new package:
 
 * Choose a category to put it in.
