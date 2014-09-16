@@ -16,7 +16,7 @@ var wiki = 'https://github.com/stackgl/stackgl.github.io/wiki/'
 
   request(uri + '.md')
     .pipe(replace('\r', ''))
-    .pipe(wrap('', '\n'))
+    .pipe(wrap('# ' + Slug + '\n\n', '\n'))
     .pipe(fs.createWriteStream(dst))
     .once('close', function() {
       console.log('* updated ' + slug)
