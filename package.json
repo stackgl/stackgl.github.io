@@ -26,9 +26,6 @@
       "brfs"
     ]
   },
-  "bundledDependencies": [
-    "splash-grid"
-  ],
   "scripts": {
     "prestart": "npm run links && node data/regenerate",
     "start": "beefy index.js:bundle.js --open",
