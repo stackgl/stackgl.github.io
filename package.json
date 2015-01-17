@@ -33,7 +33,7 @@
     "start": "beefy index.js:bundle.js --open",
     "postinstall": "npm run links && scoped-bulk stackgl npm install && npm dedupe && npm run sync",
     "bundle": "npm run prestart && browserify index.js | uglifyjs -c > bundle.js",
-    "links": "district stackgl splash-grid splash-flock",
+    "links": "district stackgl splash-grid",
     "sync": "node data/sync",
     "disc": "browserify index.js --full-paths | uglifyjs -c | discify --open"
   },

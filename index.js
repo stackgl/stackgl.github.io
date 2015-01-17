@@ -6,7 +6,6 @@ var slice     = require('sliced')
 var fs        = require('fs')
 
 var grid  = document.getElementById('grid').querySelector('canvas')
-var flock = document.getElementById('community').querySelector('canvas')
 
 require('./lib/fill')(document.querySelectorAll('[data-fill]'))
 
@@ -22,17 +21,6 @@ var thumb = minstache.compile(fs.readFileSync(
 , 'utf8'))
 
 var examples = require('./build/examples.json').map(function(meta) {
-  return thumb(meta)
-}).join('\n')
-
-var packages = require('./build/packages.json')
-
-packages = Object.keys(packages).reduce(function(pkgs, group) {
-  return pkgs.concat(packages[group].map(function(pkg) {
-    pkg.group = group
-    return pkg
-  }))
-}, []).map(function(meta) {
   return thumb(meta)
 }).join('\n')
 
