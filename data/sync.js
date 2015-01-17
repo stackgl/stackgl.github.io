@@ -7,9 +7,7 @@ var fs      = require('fs')
 
 var wiki = 'https://github.com/stackgl/stackgl.github.io/wiki/'
 
-;['examples'
-, 'packages'
-].forEach(function(slug) {
+;['examples'].forEach(function(slug) {
   var Slug = slug.slice(0, 1).toUpperCase() + slug.slice(1)
   var uri = url.resolve(wiki, Slug)
   var dst = path.join(__dirname, slug + '.md')
