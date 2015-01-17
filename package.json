@@ -30,7 +30,7 @@
   },
   "scripts": {
     "prestart": "npm run links && node data/regenerate",
-    "start": "beefy index.js:bundle.js --open",
+    "start": "wzrd index.js:bundle.js",
     "postinstall": "npm run links && scoped-bulk stackgl npm install && npm dedupe && npm run sync",
     "bundle": "npm run prestart && browserify index.js | uglifyjs -c > bundle.js",
     "links": "district stackgl splash-grid",
@@ -44,7 +44,8 @@
   "contributors": [
     "Hugh Kennedy <hughskennedy@gmail.com>",
     "Mikola Lysenko <mikolalysenko@gmail.com>",
-    "Chris Dickinson <chris@neversaw.us>"
+    "Chris Dickinson <chris@neversaw.us>",
+    "Matt DesLauriers <dave.des@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -52,7 +53,8 @@
   },
   "homepage": "https://github.com/gl-modules/gl-modules.github.io",
   "devDependencies": {
-    "beefy": "^2.0.3",
-    "uglify-js": "^2.4.15"
+    "browserify": "^8.1.1",
+    "uglify-js": "^2.4.16",
+    "wzrd": "^1.2.1"
   }
 }
