@@ -1,4 +1,5 @@
 var filter    = require('./lib/filter')
+var cl        = require('class-list')
 var minstache = require('minstache')
 var domify    = require('domify')
 var slice     = require('sliced')
@@ -11,9 +12,9 @@ require('./lib/fill')(document.querySelectorAll('[data-fill]'))
 
 try {
   require('@stackgl/splash-grid')(grid)
-  // require('@stackgl/splash-flock')(flock)
 } catch(e) {
   console.error(e.message)
+  cl(document.body).add('no-webgl')
 }
 
 var thumb = minstache.compile(fs.readFileSync(

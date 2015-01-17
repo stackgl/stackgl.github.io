@@ -93,7 +93,7 @@ h1 .lighter {
   z-index: 1;
 }
 
-#grid {
+.no-webgl #grid {
   background-image: url(bg.jpg);
   background-size: cover;
 }
