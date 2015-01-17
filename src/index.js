@@ -15,7 +15,9 @@ var examples = require('../build/examples.json').map(function(meta) {
   return thumb(meta)
 }).join('\n')
 
+console.log(examples)
+
 document
   .getElementById('examples')
-  .querySelector('ul.thumb-list')
+  .querySelector('ul.thumbs')
   .appendChild(domify(examples))

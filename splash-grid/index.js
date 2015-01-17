@@ -22,6 +22,8 @@ var SIZE      = 16
 var RES       = [1 / SIZE, 1 / SIZE]
 
 module.exports = function(canvas) {
+  canvas.style.position = 'fixed'
+
   var gl         = require('gl-context')(canvas, render)
   var heightmap  = createFBO(gl, [SIZE, SIZE], { float: true })
   var gradient   = createTex2d(gl, require('./gradient-map'))
@@ -67,7 +69,6 @@ module.exports = function(canvas) {
   function render() {
     var width  = canvas.width
     var height = canvas.height
-    if (window.scrollY > height) return
 
     var now    = getTime() * TIMESCALE
 
