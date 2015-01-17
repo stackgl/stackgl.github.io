@@ -188,3 +188,7 @@ h1 .lighter {
 #community-content p {
   margin-bottom: 1em;
 }
+
+[data-fill] {
+  height: 100vh;
+}
