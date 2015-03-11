@@ -79,11 +79,6 @@ h2 {
   background: rgba(255,255,255,0.8);
 }
 
-section.intro {
-  min-height: 400px;
-  min-height: 50vh;
-}
-
 .title {
   margin-bottom: 0.3em;
 }
