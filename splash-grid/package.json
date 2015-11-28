@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "beefy index.js --open",
+    "start": "budo demo.js --open",
     "pack": "ndpack-image gradient-map.png > gradient-map.js"
   },
   "browserify": {
@@ -18,7 +18,7 @@
   },
   "license": "MIT",
   "devDependencies": {
-    "beefy": "^2.0.3"
+    "budo": "^6.1.0"
   },
   "dependencies": {
     "a-big-triangle": "0.0.0",
@@ -33,8 +33,9 @@
     "gl-fbo": "^1.1.3",
     "gl-geometry": "0.0.0",
     "gl-matrix": "^2.1.0",
+    "gl-shader": "^4.0.6",
     "gl-texture2d": "^1.2.0",
-    "glslify": "^1.6.0",
+    "glslify": "^3.1.0",
     "mesh-combine": "^1.0.0",
     "ndpack-image": "^1.0.4",
     "orbit-camera": "^1.0.0",

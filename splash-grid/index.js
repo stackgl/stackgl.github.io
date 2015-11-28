@@ -1,8 +1,9 @@
 var createCamera = require('orbit-camera')
 var createTex2d  = require('gl-texture2d')
 var createGeom   = require('gl-geometry')
+var createShader = require('gl-shader')
+var glslify      = require('glslify')
 var createFBO    = require('gl-fbo')
-var createShader = require('glslify')
 
 var clear    = require('gl-clear')({ color: [1, 1, 1, 1] })
 var mat4     = require('gl-matrix').mat4
@@ -38,15 +39,15 @@ module.exports = function(canvas) {
     , [0, 1, 0]
   )
 
-  var shader = createShader({
-      frag: './shaders/voxel.frag'
-    , vert: './shaders/voxel.vert'
-  })(gl)
+  var shader = createShader(gl
+    , glslify('./shaders/voxel.vert')
+    , glslify('./shaders/voxel.frag')
+  )
 
-  var heightShader = createShader({
-      frag: './shaders/heightmap.frag'
-    , vert: './shaders/heightmap.vert'
-  })(gl)
+  var heightShader = createShader(gl
+    , glslify('./shaders/heightmap.vert')
+    , glslify('./shaders/heightmap.frag')
+  )
 
   var geom = createGeom(gl)
     .attr('aPosition', voxels.positions)
