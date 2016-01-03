@@ -1,4 +1,5 @@
 node_modules
 build/*.json
+!build/contributors.json
 data/*.md
 npm-debug.log

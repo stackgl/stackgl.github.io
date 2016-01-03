@@ -10,7 +10,7 @@ clean:
 disc:
 	browserify src/index.js src/splash.js --full-paths | uglifyjs -c | discify --open
 
-start: relink build/examples.json
+start: relink build/examples.json build/contributors.json
 	wzrd src/index.js:build/bundle.min.js \
 	     src/splash.js:build/splash.min.js
 
@@ -24,7 +24,7 @@ postinstall: relink
 build/:
 	mkdir build
 
-build/bundle.min.js: build/ build/examples.json
+build/bundle.min.js: build/ build/examples.json build/contributors.json
 	browserify src/index.js | uglifyjs -c > build/bundle.min.js
 
 build/splash.min.js: build/ build/examples.json
@@ -32,6 +32,9 @@ build/splash.min.js: build/ build/examples.json
 
 build/examples.json: build/ data/examples.md
 	node data/regenerate
+
+build/contributors.json: build/
+	node data/contributors
 
 data/examples.md: build/
 	node data/sync

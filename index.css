@@ -280,3 +280,33 @@ h2 {
 [data-fill] {
   height: 100vh;
 }
+
+#contributor-list {
+  list-style-type: none;
+  line-height: 40px;
+  margin: 0;
+  margin-left: -4px;
+  margin-top: 1rem;
+}
+
+#contributor-list li,
+#contributor-list li > a {
+  display: block;
+  float: left;
+  line-height: 40px;
+  height: 40px;
+}
+
+#contributor-list li {
+  padding: 4px;
+}
+
+#contributor-list li > a {
+  border-bottom: 0;
+  border-radius: 40px;
+  background-size: 40px 40px;
+  background-size: cover;
+  background-position: 50% 50%;
+  width: 40px;
+  height: 40px;
+}

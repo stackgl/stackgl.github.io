@@ -32,7 +32,7 @@
     "start": "make start",
     "clean": "make clean",
     "postinstall": "make postinstall",
-    "prepublish": "make build/bundle.min.js build/splash.min.js"
+    "prepublish": "make build/bundle.min.js build/splash.min.js build/contributors.json"
   },
   "repository": {
     "type": "git",
