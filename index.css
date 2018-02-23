@@ -67,7 +67,8 @@ h2 {
   position: relative;
   z-index: 2;
   padding: 2rem;
-  max-width: 400px;
+  max-width: 720px;
+  margin: auto;
 }
 
 #main section {
