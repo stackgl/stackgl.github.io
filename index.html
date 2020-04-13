@@ -8,52 +8,116 @@
   <link href='http://fonts.googleapis.com/css?family=Roboto:400,100,300|Ubuntu+Mono' rel='stylesheet' type='text/css'>
 </head>
 <body>
-  <div id="main" role="main">
-    <section data-fill id="splash">
-      <div id="intro">
-        <h1>#stack<span class="lighter">gl</span></h1>
+  <main id="main" role="main">
+    <h1 class="title">#stack<span class="lighter">gl</span></h1>
+    <nav class="topnav">
+      <ul><!--
+      --><li><a href="#examples">examples</a> / </li><!--
+      --><li><a href="#learning">learning</a> / </li><!--
+      --><li><a href="#community">community</a> / </li><!--
+      --><li><a href="http://stack.gl/packages/">docs</a></li><!--
+    --></ul>
+    </nav>
 
-        <header>
-          <ul><!--
-          --><li><a href="#examples">examples</a> / </li><!--
-          --><li><a href="#packages">packages</a> / </li><!--
-          --><li><a href="#community">community</a></li><!--
-        --></ul>
-        </header>
-
-        <aside>
-          stackgl is an open software ecosystem for WebGL, built on top of
-          <a href="http://browserify.org">browserify</a> and
-          <a href="http://npmjs.org">npm</a>. Inspired by the
-          <a href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix philosophy</a>,
-          stackgl modules &quot;<em>do one thing, and do it well</em>&quot;. It is
-          easy to use parts of stackgl à la carte, and because it is written from the
-          bottom up, you can always drill down a layer. Unlike many 3D engines,
-          stackgl emphasizes writing shader code, and provides powerful tools like
-          <a href="https://github.com/stackgl/glslify">glslify</a> which bring the
-          modularity and power of npm to GLSL!
-        </aside>
-
-      </div>
-
-      <canvas></canvas>
+    <section class="intro">
+      stackgl is an open software ecosystem for WebGL, built on top of
+      <a target="_blank" href="http://browserify.org">browserify</a> and
+      <a target="_blank" href="http://npmjs.org">npm</a>. Inspired by the
+      <a target="_blank" href="https://en.wikipedia.org/wiki/Unix_philosophy">Unix philosophy</a>,
+      stackgl modules &quot;<em>do one thing, and do it well</em>&quot;. It is
+      easy to use parts of stackgl à la carte, and because it is written from the
+      bottom up, you can always drill down a layer. Unlike many 3D engines,
+      stackgl emphasizes writing shader code, and provides powerful tools like
+      <a target="_blank" href="https://github.com/stackgl/glslify">glslify</a> which bring the
+      modularity and productivity of npm to GLSL!
     </section>
 
-    <section id="examples" class="section cf">
+    <section id="examples" class="examples">
       <h2>examples &amp; demos</h2>
-      <ul class="thumb-list"></ul>
+      <ul class="thumbs thumbs-trio"></ul>
     </section>
 
-    <section id="packages" class="section cf">
-      <h2>packages</h2>
-      <ul class="thumb-filter"></ul>
-      <ul class="thumb-list"></ul>
+    <section id="learning" class="learning">
+      <h2>learning</h2>
+      <ul class="thumbs thumbs-pair">
+        <li>
+          <a href="http://github.com/stackgl/shader-school" target="_blank">
+            <div class="image" style="background-image: url(http://imgur.com/hegi9dZ.png)"></div>
+            <h3>Shader School</h3>
+          </a>
+        </li>
+        <li>
+          <a href="http://github.com/stackgl/webgl-workshop" target="_blank">
+            <div class="image" style="background-image: url(http://i.imgur.com/vBJ7d6o.jpg)"></div>
+            <h3>WebGL Workshop</h3>
+          </a>
+        </li>
+      </ul>
+
+      <p>
+        Before getting started with stackgl, you'll want to get familiar with
+        the basics of WebGL and GLSL. One place to start would be by trying out
+        one of our graphics-themed <a href="http://nodeschool.io">NodeSchool</a>
+        workshops. <strong>Shader School</strong> and
+        <strong>WebGL Workshop</strong> are interactive and may be taken in any
+        order.
+      </p>
+
+      <p>
+        Some other good learning resources include
+        <a target="_blank" href="http://learningwebgl.com">Learning WebGL</a>,
+        <a target="_blank" href="http://www.webglacademy.com/">WebGL Academy</a>,
+        <a target="_blank" href="http://shadertoy.com">Shadertoy</a>, and
+        <a target="_blank" href="http://glslsandbox.com/">GLSL Sandbox</a>.
+
+        If you're particularly interested in shaders, you might want to check out
+        <a target="_blank" href="http://thebookofshaders.com">The Book of Shaders</a>,
+        <a target="_blank" href="http://aerotwist.com/tutorials/an-introduction-to-shaders-part-1/">An Introduction to Shaders</a> or
+        <a target="_blank" href="http://notes.underscorediscovery.com/shaders-a-primer/">Primer: Shaders</a>.
+      </p>
+      <p>
+        Some more advanced resources include <a target="_blank" href="http://www.amazon.com/WebGL-Insights-Patrick-Cozzi/dp/1498716075">WebGL Insights</a>
+        and <a target="_blank" href="https://www.youtube.com/watch?v=s8nFqwOho-s">How to Create Content with Signed Distance Functions</a>.
+      </p>
     </section>
 
-    <section id="community" class="section cf">
+    <section id="community" class="community">
       <h2>community</h2>
+      <p>
+        Not sure where to start? Here's some links that should help you
+        learn more and/or get involved yourself. Feel free to get in touch
+        if you have any questions!
+      </p>
+      <ul>
+        <li>Freenode IRC: <a href="http://webchat.freenode.net/?channels=stackgl">#stackgl</a></li>
+        <li>GitHub: <a href="http://github.com/stackgl">github.com/stackgl</a></li>
+        <li>Contributing: <a href="https://github.com/stackgl/contributing">github.com/stackgl/contributing</a></li>
+        <li>Shader School: <a href="http://github.com/stackgl/shader-school">github.com/stackgl/shader-school</a></li>
+        <li>WebGL Workshop: <a href="http://github.com/stackgl/webgl-workshop">github.com/stackgl/webgl-workshop</a></li>
+      </ul>
+      <p>
+        If you're interested in writing some packages of your own but short on
+        ideas, we have a wishlist of sorts in
+        <a target="_blank" href="http://github.com/stackgl/contributing/issues">stackgl/contributing's issue queue</a>.
+      </p>
+      <p>
+        stackgl is only possible thanks to the excellent work of dozens of contributors: thank you!
+      </p>
+      <ul class="cf" id="contributor-list"></ul>
     </section>
-  </div>
-  <script charset="utf-8" src="bundle.js"></script>
+  </main>
+  <canvas id="grid"></canvas>
+  <script charset="utf-8">
+    ;(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-54792490-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script charset="utf-8" src="/build/bundle.min.js" defer="defer" async="async"></script>
+  <script charset="utf-8" src="/build/splash.min.js" defer="defer" async="async"></script>
+  <script src="//cdn.webglstats.com/stat.js" defer="defer" async="async"></script>
 </body>
 </html>

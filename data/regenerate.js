@@ -16,7 +16,7 @@ var examples = tree(
    var tokens = example.tokens.slice()
    tokens.links = {}
 
-   var thumb = null
+   var thumb = 'default.jpg'
    var $     = cheerio.load(
      marked.Parser.parse(tokens)
    )
@@ -52,50 +52,4 @@ var examples = tree(
 
 fs.writeFileSync(__dirname + '/../build/examples.json'
   , JSON.stringify(examples, null, 2)
-)
-
-console.error()
-console.error('extracting packages')
-
-var packages = tree(
-  fs.readFileSync(path.join(__dirname, 'packages.md'), 'utf8')
-).children[0]
- .children
- .reduce(function(list, category) {
-    category.text = unhtml(category.text)
-
-    list[category.text] = category.children.map(function(pkg, i) {
-      pkg.tokens.links = {}
-
-      var name = unhtml(pkg.text)
-      var html = marked.Parser.parse(pkg.tokens)
-      var thumb
-
-      var $ = cheerio.load(html)
-
-      $('img').each(function(i, img) {
-        var $img = $(img)
-        thumb = $img.attr('src')
-        $img.parent().remove()
-      })
-
-      var desc = $.html()
-
-      console.error('*', category.text, '/', name)
-
-      return {
-          name: name
-        , desc: desc
-        , link: 'http://ghub.io/' + name
-        , thumb: thumb || ''
-        , featured: false
-        , i: i
-      }
-    })
-
-   return list
- }, {})
-
-fs.writeFileSync(__dirname + '/../build/packages.json'
-  , JSON.stringify(packages, null, 2)
 )

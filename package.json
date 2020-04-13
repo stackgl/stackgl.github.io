@@ -5,33 +5,39 @@
   "main": "index.js",
   "private": true,
   "dependencies": {
+    "@choojs/findup": "^0.2.1",
     "brfs": "^1.1.2",
     "cheerio": "^0.17.0",
-    "district": "^1.0.1",
+    "class-list": "^0.1.1",
+    "disc": "^1.3.1",
+    "district": "^1.2.1",
     "domify": "^1.3.0",
     "findup-element": "0.0.0",
     "frame-debounce": "0.0.0",
     "markdown-tree": "0.0.0",
     "marked": "^0.3.2",
     "minstache": "^1.2.0",
+    "replacestream": "^0.2.0",
+    "request": "^2.42.0",
     "scoped-bulk": "^1.0.0",
     "sliced": "0.0.5",
-    "unhtml": "^0.1.0"
+    "unhtml": "^0.1.0",
+    "wrap-stream": "^2.0.0"
+  },
+  "engines": {
+    "npm": "=6.14.4",
+    "node": "=8.11.4"
   },
   "browserify": {
     "transform": [
       "brfs"
     ]
   },
-  "bundledDependencies": [
-    "splash-grid"
-  ],
   "scripts": {
-    "prestart": "npm run links && node data/regenerate",
-    "start": "beefy index.js:bundle.js --open",
-    "postinstall": "npm run links && scoped-bulk stackgl npm install",
-    "bundle": "npm run prestart && browserify index.js -o bundle.js",
-    "links": "district stackgl splash-grid splash-flock"
+    "start": "make start",
+    "clean": "make clean",
+    "postinstall": "make postinstall",
+    "prepublish": "make build/bundle.min.js build/splash.min.js build/contributors.json"
   },
   "repository": {
     "type": "git",
@@ -40,7 +46,8 @@
   "contributors": [
     "Hugh Kennedy <hughskennedy@gmail.com>",
     "Mikola Lysenko <mikolalysenko@gmail.com>",
-    "Chris Dickinson <chris@neversaw.us>"
+    "Chris Dickinson <chris@neversaw.us>",
+    "Matt DesLauriers <dave.des@gmail.com>"
   ],
   "license": "MIT",
   "bugs": {
@@ -48,6 +55,8 @@
   },
   "homepage": "https://github.com/gl-modules/gl-modules.github.io",
   "devDependencies": {
-    "beefy": "^2.0.3"
+    "browserify": "^8.1.1",
+    "uglify-js": "^2.4.16",
+    "wzrd": "^1.2.1"
   }
 }
