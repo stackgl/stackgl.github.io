@@ -15,7 +15,7 @@
     "findup-element": "0.0.0",
     "frame-debounce": "0.0.0",
     "markdown-tree": "0.0.0",
-    "marked": "^0.3.2",
+    "marked": "^4.0.10",
     "minstache": "^1.2.0",
     "replacestream": "^0.2.0",
     "request": "^2.42.0",
